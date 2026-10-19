@@ -2,51 +2,58 @@
  {
   "out": "trava-porta-bebe-macaneta-alavanca-01-capa.jpg",
   "layout": "capa",
-  "img": "_fontes/v2-01-capa.png",
-  "alt": "Trava porta bebê para maçaneta de alavanca branca instalada em maçaneta preta, em fundo branco"
+  "img": "_fontes/v3-01-capa.png",
+  "alt": "Trava porta bebê branca com botão de chave instalada em maçaneta de alavanca preta, em fundo branco"
  },
  {
   "out": "trava-porta-bebe-macaneta-alavanca-02-em-uso.jpg",
   "layout": "hero",
-  "img": "_fontes/v2-02-uso.png",
-  "t1": "Trava para",
-  "t2": "maçaneta de alavanca",
-  "sub": "Fica sobre a alavanca e a porta\ncontinua fechada",
+  "img": "_fontes/v3-02-hero.png",
+  "t1": "Trava porta bebê",
+  "t2": "para maçaneta",
+  "sub": "Fica sobre a alavanca e a\nporta continua fechada",
   "icon": "door",
   "shield": true,
-  "alt": "Trava de porta para criança instalada sobre a alavanca da maçaneta em porta branca de casa"
+  "alt": "Trava de porta para criança instalada sobre a alavanca preta de uma porta branca em casa iluminada"
  },
  {
   "out": "trava-porta-bebe-macaneta-alavanca-03-problema.jpg",
-  "layout": "card",
-  "img": "_fontes/loja-bebe-alcancando.png",
+  "layout": "split",
+  "img": "_fontes/v3-03-problema.png",
   "crop": [
+   250,
    0,
-   120,
-   1024,
-   900
+   770,
+   1024
   ],
   "t1": "Ele já alcança",
   "t2": "a maçaneta?",
-  "sub": "Com a trava, a porta continua fechada",
-  "alt": "Bebê tentando alcançar a maçaneta de alavanca com a trava porta bebê instalada na porta"
+  "sub": "Abaixa a alavanca e abre a porta do banheiro sozinho",
+  "icon": "baby",
+  "alt": "Criança pequena na ponta dos pés alcançando a maçaneta de alavanca da porta, situação que a trava evita"
  },
  {
   "out": "trava-porta-bebe-macaneta-alavanca-04-beneficio.jpg",
-  "layout": "hero",
-  "img": "_fontes/v2-04-beneficio.png",
+  "layout": "overlay",
+  "img": "_fontes/v3-04-overlay.png",
   "t1": "A porta fica",
   "t2": "fechada",
-  "sub": "Seu filho não abre sozinho e a\ncasa fica mais tranquila",
-  "icon": "lock",
+  "sub": "Seu filho não abre sozinho",
   "shield": true,
-  "alt": "Porta fechada com trava porta criança na maçaneta de alavanca e brinquedos de madeira no chão"
+  "alt": "Porta fechada com trava porta criança na maçaneta de alavanca e blocos de madeira no chão do corredor",
+  "crop": [
+   40,
+   80,
+   984,
+   1024
+  ]
  },
  {
   "out": "trava-porta-bebe-macaneta-alavanca-05-como-funciona.jpg",
   "layout": "lista",
   "style": "num",
-  "img": "_fontes/loja-estudio-duas-vistas.png",
+  "side": "right",
+  "img": "_fontes/v3-01-capa.png",
   "white": true,
   "t1": "Como",
   "t2": "funciona",
@@ -57,7 +64,7 @@
    },
    {
     "t": "Gire o braço",
-    "d": "0°, 90° ou 180°, até ficar sobre a alavanca"
+    "d": "Até ficar sobre a alavanca"
    },
    {
     "t": "Para abrir",
@@ -68,49 +75,71 @@
  },
  {
   "out": "trava-porta-bebe-macaneta-alavanca-06-diferenciais.jpg",
-  "layout": "lista",
+  "layout": "detalhe",
   "style": "num",
-  "img": "_fontes/v2-06-botao.png",
+  "img": "_fontes/v3-estudio-34.png",
+  "white": true,
   "t1": "O que faz a",
   "t2": "diferença",
-  "markers": [
+  "photo_box": [
+   40,
+   225,
+   944,
+   510
+  ],
+  "legend_top": 790,
+  "zooms": [
    {
     "n": 1,
-    "x": 0.22,
-    "y": 0.3
+    "x": 0.2,
+    "y": 0.32,
+    "at": [
+     0.14,
+     0.3
+    ],
+    "zoom": 2.2
    },
    {
     "n": 2,
-    "x": 0.64,
-    "y": 0.34
+    "x": 0.45,
+    "y": 0.19,
+    "at": [
+     0.84,
+     0.33
+    ],
+    "zoom": 2.0
    },
    {
     "n": 3,
-    "x": 0.5,
-    "y": 0.86
+    "x": 0.21,
+    "y": 0.73,
+    "at": [
+     0.14,
+     0.62
+    ],
+    "zoom": 2.2
    }
   ],
   "items": [
    {
     "t": "Botão com chave",
-    "d": "Só o adulto destrava: aperte e abaixe a maçaneta"
+    "d": "Só o adulto destrava a porta"
    },
    {
-    "t": "Braço que trava a alavanca",
-    "d": "Gira 0°, 90° e 180° para se ajustar à porta"
+    "t": "Braço giratório",
+    "d": "Gira 0°, 90° e 180° para se ajustar"
    },
    {
-    "t": "Adesivo acrílico, sem furos",
-    "d": "Cola na porta sem furadeira, em minutos"
+    "t": "Placa adesiva",
+    "d": "Cola na porta sem furadeira"
    }
   ],
-  "alt": "Detalhe da trava de porta com botão de chave para destravar, braço giratório e placa adesiva sem furos",
-  "img_pos": "top"
+  "alt": "Detalhes da trava porta bebê em zoom: botão com ícone de chave, braço giratório com nervuras e placa adesiva"
  },
  {
   "out": "trava-porta-bebe-macaneta-alavanca-07-duvidas.jpg",
   "layout": "lista",
-  "img": "_fontes/loja-estudio-duas-vistas.png",
+  "img": "_fontes/v3-duas-vistas.png",
   "white": true,
   "t1": "Serve na",
   "t2": "minha porta?",
@@ -118,7 +147,7 @@
    {
     "icon": "door",
     "t": "Maçaneta de alavanca",
-    "d": "Preta ou inox, a que abaixa para abrir. Não serve em maçaneta redonda"
+    "d": "Preta ou inox. Não serve em maçaneta redonda"
    },
    {
     "icon": "ruler",
@@ -131,21 +160,21 @@
     "d": "Na cor branca, discreta na porta"
    }
   ],
-  "alt": "Medidas e compatibilidade da trava porta infantil: maçaneta de alavanca, 8,5 x 4,4 x 8 cm, plástico ABS branco"
+  "alt": "Trava porta infantil de frente e de lado: serve em maçaneta de alavanca, mede 8,5 x 4,4 x 8 cm, plástico ABS"
  },
  {
   "out": "trava-porta-bebe-macaneta-alavanca-08-onde-usar.jpg",
   "layout": "card",
-  "img": "_fontes/loja-alavanca-inox.png",
+  "img": "_fontes/v3-08-cena.png",
   "crop": [
    0,
-   0,
+   120,
    1024,
    900
   ],
   "t1": "Use em",
   "t2": "vários cômodos",
-  "sub": "Em alavanca preta ou inox, nos cômodos que o pequeno não deve abrir",
+  "sub": "Nos cômodos que o pequeno não deve abrir",
   "chips": [
    "Banheiro",
    "Lavanderia",
@@ -156,32 +185,37 @@
    "laundry",
    "bed"
   ],
-  "alt": "Trava para porta de quarto, banheiro e lavanderia instalada em maçaneta de alavanca inox"
+  "alt": "Trava para porta de banheiro instalada na maçaneta de alavanca, com o banheiro claro ao fundo"
  },
  {
   "out": "trava-porta-bebe-macaneta-alavanca-09-resumo.jpg",
-  "layout": "lista",
-  "img": "_fontes/v2-01-capa.png",
+  "layout": "passos",
+  "img": "_fontes/v3-estudio-34.png",
+  "white": true,
   "t1": "Por que",
-  "t2": "escolher esta trava",
+  "t2": "escolher",
   "items": [
    {
-    "icon": "check",
-    "t": "Mantém a porta fechada"
+    "icon": "lock",
+    "t": "Porta fechada",
+    "d": "Ele não abre sozinho"
    },
    {
-    "icon": "check",
-    "t": "Botão com chave: só o adulto abre"
+    "icon": "key",
+    "t": "Botão com chave",
+    "d": "Só o adulto destrava"
    },
    {
-    "icon": "check",
-    "t": "Cola sem furos"
+    "icon": "nodrill",
+    "t": "Sem furos",
+    "d": "Cola com adesivo"
    },
    {
-    "icon": "check",
-    "t": "Braço ajustável 0°, 90° e 180°"
+    "icon": "rotate",
+    "t": "Ajustável",
+    "d": "Gira 0°, 90° e 180°"
    }
   ],
-  "alt": "Resumo da trava porta bebê: mantém a porta fechada, botão com chave, cola sem furos e braço ajustável"
+  "alt": "Resumo da trava porta bebê branca: mantém a porta fechada, botão com chave, sem furos e braço ajustável"
  }
 ]

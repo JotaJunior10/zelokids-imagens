@@ -1,0 +1,194 @@
+[
+ {
+  "out": "aspirador-nasal-para-bebe-manual-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/g-azul.png",
+  "alt": "Aspirador nasal para bebê manual azul em formato de coruja, com dois tubos flexíveis e ponteira de silicone, em fundo branco"
+ },
+ {
+  "out": "aspirador-nasal-para-bebe-manual-02-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/p-02-hero.png",
+  "t1": "Aspirador nasal",
+  "t2": "para bebê",
+  "sub": "Manual: sem motor, bateria\nou tomada",
+  "icon": "baby",
+  "shield": true,
+  "alt": "Mãe sorrindo usando o aspirador nasal manual no narizinho do bebê, deitado em manta rosa no quarto"
+ },
+ {
+  "out": "aspirador-nasal-para-bebe-manual-03-problema.jpg",
+  "layout": "card",
+  "img": "_fontes/g-03-problema.png",
+  "crop": [
+   0,
+   250,
+   1024,
+   950
+  ],
+  "t1": "Narizinho entupido",
+  "t2": "e ele não assoa?",
+  "sub": "Bebê ainda não sabe assoar o nariz sozinho",
+  "alt": "Bebê deitado no berço com o nariz entupido e a mão da mãe no peito, antes de usar o sugador nasal"
+ },
+ {
+  "out": "aspirador-nasal-para-bebe-manual-04-beneficio.jpg",
+  "layout": "card",
+  "img": "_fontes/g-04-uso.png",
+  "crop": [
+   0,
+   330,
+   1024,
+   1024
+  ],
+  "t1": "Sucção suave",
+  "t2": "e silenciosa",
+  "sub": "Sem barulho de motor para assustar o bebê",
+  "shield": true,
+  "alt": "Close da ponteira de silicone do aspirador nasal bebê no narizinho, com a mãe aspirando pelo tubo"
+ },
+ {
+  "out": "aspirador-nasal-para-bebe-manual-05-como-funciona.jpg",
+  "layout": "lista",
+  "style": "num",
+  "img": "_fontes/g-azul.png",
+  "white": true,
+  "t1": "Como",
+  "t2": "usar",
+  "items": [
+   {
+    "t": "Posicione a ponteira",
+    "d": "Silicone macio na entrada do narizinho"
+   },
+   {
+    "t": "Aspire pelo bocal",
+    "d": "Sucção suave feita por você, sem motor"
+   },
+   {
+    "t": "Desmonte e lave",
+    "d": "O reservatório abre para limpar após o uso"
+   }
+  ],
+  "alt": "Como usar o aspirador nasal manual: posicionar a ponteira, aspirar pelo bocal e desmontar para lavar"
+ },
+ {
+  "out": "aspirador-nasal-para-bebe-manual-06-diferenciais.jpg",
+  "layout": "lista",
+  "style": "num",
+  "img": "_fontes/g-laranja.png",
+  "white": true,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "markers": [
+   {
+    "n": 1,
+    "x": 0.12,
+    "y": 0.92
+   },
+   {
+    "n": 2,
+    "x": 0.02,
+    "y": 0.18
+   },
+   {
+    "n": 3,
+    "x": 1.0,
+    "y": 0.5
+   }
+  ],
+  "items": [
+   {
+    "t": "Ponteira de silicone",
+    "d": "Macia e flexível para o nariz sensível"
+   },
+   {
+    "t": "Bocal de aspiração",
+    "d": "Os pais aspiram sem contato com o muco"
+   },
+   {
+    "t": "Reservatório",
+    "d": "Sistema anti-retorno evita a volta da secreção"
+   }
+  ],
+  "alt": "Detalhes do aspirador nasal infantil: ponteira de silicone, bocal de aspiração e reservatório anti-retorno",
+  "img_pos": "top"
+ },
+ {
+  "out": "aspirador-nasal-para-bebe-manual-07-duvidas.jpg",
+  "layout": "lista",
+  "img": "_fontes/g-rosa.png",
+  "white": true,
+  "t1": "Para qual",
+  "t2": "idade serve?",
+  "items": [
+   {
+    "icon": "baby",
+    "t": "De 0 a 1 ano",
+    "d": "Fase em que o bebê ainda não assoa o nariz"
+   },
+   {
+    "icon": "ruler",
+    "t": "21 cm de altura",
+    "d": "Reservatório de 3,2 x 4,5 cm"
+   },
+   {
+    "icon": "material",
+    "t": "Silicone macio",
+    "d": "Ponteira e tubos flexíveis"
+   }
+  ],
+  "alt": "Aspirador nasal rosa para bebê de 0 a 1 ano: 21 cm de altura, reservatório de 3,2 x 4,5 cm, silicone macio"
+ },
+ {
+  "out": "aspirador-nasal-para-bebe-manual-08-onde-usar.jpg",
+  "layout": "card",
+  "img": "_fontes/g-08-cena.png",
+  "crop": [
+   0,
+   150,
+   1024,
+   880
+  ],
+  "t1": "Leve para",
+  "t2": "onde for",
+  "sub": "Sem eletricidade: funciona em casa e em viagens",
+  "chips": [
+   "Em casa",
+   "Na bolsa",
+   "Em viagens"
+  ],
+  "chip_icons": [
+   "door",
+   "heartless_star",
+   "check"
+  ],
+  "alt": "Aspirador nasal manual laranja de coruja sobre a cômoda do quarto do bebê, ao lado da bolsa de maternidade"
+ },
+ {
+  "out": "aspirador-nasal-para-bebe-manual-09-resumo.jpg",
+  "layout": "lista",
+  "img": "_fontes/e-desmontado.png",
+  "white": false,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "check",
+    "t": "Manual e silencioso"
+   },
+   {
+    "icon": "check",
+    "t": "Sem motor, bateria ou tomada"
+   },
+   {
+    "icon": "check",
+    "t": "Sistema anti-retorno"
+   },
+   {
+    "icon": "check",
+    "t": "Desmontável e fácil de limpar"
+   }
+  ],
+  "alt": "Aspirador nasal para bebê desmontado: reservatório aberto, tubos e ponteira de silicone, fácil de limpar"
+ }
+]

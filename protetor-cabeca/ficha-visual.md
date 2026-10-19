@@ -35,3 +35,14 @@
 - v-08-cena (ref loja 01 recortada): aprovado → 08.
 - v-02-uso e v-02-uso-b (ref loja 05): REPROVADOS — a IA virou o produto (malha para fora) e trocou a criança.
 - v-06-detalhe (ref loja 06): REPROVADO — redesenhou as alças. Usada a foto da loja com fundo limpo (detalhe-branco.png).
+
+## Refação v2 (19/10/2026, noite) — padrão do aspirador
+- Pedido do dono: refazer no padrão v2 (cenas geradas do zero, lupas na 06, um layout por imagem).
+- Cenas novas no pro 2K com `--ref` = capa de estúdio 2K (p-01-capa-ex) e `--example` = foto real da criança de costas (e-loja-06) só para mostrar como se veste:
+  - v2-02-hero-b → 02 (hero, corpo inteiro, parede lisa em cima) ✔
+  - v2-02-hero → 04 (overlay; produto grande em cima, título embaixo) ✔ (reprovada como hero: produto no terço de cima)
+  - v2-03-problema → 03 (split, de pé apoiado no sofá) ✔
+  - v2-08-cena → 08 (card, sentado com blocos) ✔
+  - v2-04-overlay → não usada (criança pequena, primeiro plano desfocado)
+- Fotos reaproveitadas da rodada anterior (já melhoradas no pro 2K): capa p-01-capa-ex (01, 07), e-loja-06 (05, criança de costas com as alças) e e-loja-05 (06 com lupas e 09). A vista de costas gerada (p-06-detalhe) foi descartada: o Gemini tirou a tira de peito.
+- Custo desta rodada: 5 gerações pro 2K (4 iniciais podem ter sido cobradas duas vezes — a primeira tentativa em segundo plano foi interrompida).

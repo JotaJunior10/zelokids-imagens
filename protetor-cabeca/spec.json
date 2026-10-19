@@ -2,56 +2,53 @@
  {
   "out": "protetor-de-cabeca-para-bebe-01-capa.jpg",
   "layout": "capa",
-  "img": "_fontes/capa-branca.png",
+  "img": "_fontes/estudio-frente.png",
   "alt": "Protetor de cabeça para bebê modelo leão, almofada antiqueda com juba laranja e alças elásticas, em fundo branco"
  },
  {
   "out": "protetor-de-cabeca-para-bebe-02-em-uso.jpg",
   "layout": "hero",
-  "img": "_fontes/pro-02-uso.png",
+  "img": "_fontes/cena-02-andando.png",
   "t1": "Protetor de cabeça",
   "t2": "para bebê",
   "sub": "Almofada atrás da cabeça\nnos primeiros passos",
   "icon": "baby",
   "shield": true,
-  "alt": "Bebê dando os primeiros passos em casa usando o protetor de cabeça para bebê de leão nas costas"
+  "alt": "Bebê dando os primeiros passos na sala usando o protetor de cabeça para bebê de leão nas costas",
+  "align": "left"
  },
  {
   "out": "protetor-de-cabeca-para-bebe-03-problema.jpg",
-  "layout": "card",
-  "img": "_fontes/pro-03-problema.png",
+  "layout": "split",
+  "img": "_fontes/cena-03-sofa.png",
+  "t1": "Medo do tombo",
+  "t2": "para trás?",
+  "sub": "Nos primeiros passos, a almofada fica entre a cabeça e o chão",
+  "icon": "baby",
+  "alt": "Bebê de pé apoiado no sofá nos primeiros passos, com a almofada antiqueda atrás da cabeça",
   "crop": [
    0,
-   120,
+   0,
    1024,
-   810
-  ],
-  "t1": "Tombo para trás",
-  "t2": "nos primeiros passos?",
-  "sub": "A almofada fica entre a cabeça e o chão",
-  "alt": "Bebê sentado no tapete com a almofada antiqueda protegendo a parte de trás da cabeça"
+   1024
+  ]
  },
  {
   "out": "protetor-de-cabeca-para-bebe-04-beneficio.jpg",
-  "layout": "card",
-  "img": "_fontes/enh-loja-02.png",
-  "crop": [
-   0,
-   20,
-   1024,
-   710
-  ],
+  "layout": "overlay",
+  "img": "_fontes/cena-04-explorando.png",
   "t1": "Mais liberdade",
   "t2": "para explorar",
   "sub": "E mais tranquilidade para os pais",
   "shield": true,
-  "alt": "Criança andando sorrindo pela casa com o protetor de cabeça infantil vestido como mochila"
+  "alt": "Criança andando e explorando a sala com o protetor de cabeça infantil vestido como mochila"
  },
  {
   "out": "protetor-de-cabeca-para-bebe-05-como-funciona.jpg",
   "layout": "lista",
   "style": "num",
-  "img": "_fontes/enh-loja-05.png",
+  "side": "right",
+  "img": "_fontes/uso-costas.png",
   "crop": [
    150,
    0,
@@ -67,38 +64,60 @@
    },
    {
     "t": "Feche",
-    "d": "Os botões de pressão e a tira de peito na fivela"
+    "d": "Os botões de pressão e a tira de peito"
    },
    {
     "t": "Ajuste",
     "d": "Até a almofada ficar firme atrás da cabeça"
    }
   ],
-  "alt": "Como vestir o protetor de cabeça para bebê: passar os braços nas alças, fechar a fivela e ajustar"
+  "alt": "Como vestir o protetor de cabeça para bebê: passar os braços nas alças, fechar os botões e ajustar"
  },
  {
   "out": "protetor-de-cabeca-para-bebe-06-diferenciais.jpg",
-  "layout": "lista",
+  "layout": "detalhe",
   "style": "num",
-  "img": "_fontes/detalhe-branco.png",
+  "img": "_fontes/estudio-costas.png",
   "white": true,
   "t1": "O que faz a",
   "t2": "diferença",
-  "markers": [
+  "photo_box": [
+   40,
+   225,
+   944,
+   510
+  ],
+  "legend_top": 790,
+  "zooms": [
    {
     "n": 1,
-    "x": 0.3,
-    "y": 0.12
+    "x": 0.6,
+    "y": 0.27,
+    "at": [
+     0.14,
+     0.34
+    ],
+    "zoom": 1.9
    },
    {
     "n": 2,
-    "x": 0.1,
-    "y": 0.5
+    "x": 0.2,
+    "y": 0.57,
+    "at": [
+     0.14,
+     0.6
+    ],
+    "zoom": 2.4
    },
    {
     "n": 3,
-    "x": 0.5,
-    "y": 0.97
+    "x": 0.63,
+    "y": 0.75,
+    "at": [
+     0.86,
+     0.56
+    ],
+    "zoom": 2.4
    }
   ],
   "items": [
@@ -108,19 +127,19 @@
    },
    {
     "t": "Alças elásticas",
-    "d": "Botão de pressão e tira de peito com fivela"
+    "d": "Com botão de pressão e tira de peito"
    },
    {
     "t": "Malha respirável",
-    "d": "Painel traseiro que deixa as costas ventiladas"
+    "d": "Painel das costas ventilado"
    }
   ],
-  "alt": "Detalhe da almofada antiqueda bebê: almofada acolchoada, alças elásticas com botão e malha respirável"
+  "alt": "Detalhes em zoom da almofada antiqueda bebê: almofada acolchoada, alça elástica com botão e malha respirável"
  },
  {
   "out": "protetor-de-cabeca-para-bebe-07-duvidas.jpg",
   "layout": "lista",
-  "img": "_fontes/capa-branca.png",
+  "img": "_fontes/estudio-frente.png",
   "white": true,
   "t1": "Para qual",
   "t2": "idade serve?",
@@ -146,12 +165,12 @@
  {
   "out": "protetor-de-cabeca-para-bebe-08-onde-usar.jpg",
   "layout": "card",
-  "img": "_fontes/pro-08-cena.png",
+  "img": "_fontes/cena-08-tapete.png",
   "crop": [
    0,
-   170,
+   150,
    1024,
-   860
+   880
   ],
   "t1": "Para usar",
   "t2": "no dia a dia",
@@ -162,37 +181,41 @@
    "Na brincadeira"
   ],
   "chip_icons": [
-   "door",
+   "home",
    "baby",
    "heartless_star"
   ],
-  "alt": "Bebê brincando no tapete da sala com blocos de madeira usando a almofada protetora de cabeça"
+  "alt": "Bebê brincando com blocos de madeira no tapete da sala usando a almofada protetora de cabeça"
  },
  {
   "out": "protetor-de-cabeca-para-bebe-09-resumo.jpg",
-  "layout": "lista",
-  "img": "_fontes/capa-branca.png",
+  "layout": "passos",
+  "img": "_fontes/estudio-costas.png",
   "white": true,
   "t1": "Por que",
   "t2": "escolher",
   "items": [
    {
-    "icon": "check",
-    "t": "Protege a parte de trás da cabeça"
+    "icon": "shield",
+    "t": "Atrás da cabeça",
+    "d": "Nas quedas para trás"
    },
    {
-    "icon": "check",
-    "t": "Veste como mochila em segundos"
+    "icon": "bag",
+    "t": "Veste fácil",
+    "d": "Como uma mochila"
    },
    {
-    "icon": "check",
-    "t": "Leve: cerca de 190 g"
+    "icon": "material",
+    "t": "Respirável",
+    "d": "Malha nas costas"
    },
    {
-    "icon": "check",
-    "t": "Malha respirável nas costas"
+    "icon": "baby",
+    "t": "1 a 3 anos",
+    "d": "Cerca de 190 g"
    }
   ],
-  "alt": "Resumo do protetor de queda bebê: protege a parte de trás da cabeça, veste fácil, leve e respirável"
+  "alt": "Resumo do protetor de queda bebê visto de costas: alças elásticas, malha respirável, leve e fácil de vestir"
  }
 ]

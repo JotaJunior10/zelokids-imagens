@@ -62,12 +62,13 @@ def prep_image(src, dst, crop=None, box=None, whiten=False, trim=False):
         else:
             nh = int(w / r); y = (h - nh) // 2; im = im.crop((0, y, w, y + nh))
         im = im.resize((bw * 2, bh * 2), Image.LANCZOS)
-    if whiten:  # fundo quase branco vira branco puro (capa)
-        px = im.load()
-        for y in range(im.height):
-            for x in range(im.width):
-                r, g, b = px[x, y]
-                if r > 242 and g > 242 and b > 242: px[x, y] = (255, 255, 255)
+    if whiten:  # só o FUNDO (área clara ligada às bordas) vira branco puro; o produto não é tocado
+        from PIL import ImageDraw
+        g = im.convert("L").point(lambda v: 255 if v > 249 else 0)  # limiar alto: só fundo quase branco puro
+        for c in [(0, 0), (g.width - 1, 0), (0, g.height - 1), (g.width - 1, g.height - 1)]:
+            if g.getpixel(c) == 255: ImageDraw.floodfill(g, c, 128)
+        mask = g.point(lambda v: 255 if v == 128 else 0)
+        im.paste((255, 255, 255), (0, 0), mask)
         if trim:  # corta a margem branca para o produto ocupar mais espaço
             from PIL import ImageChops
             bbox = ImageChops.difference(im, Image.new("RGB", im.size, (255, 255, 255))).getbbox()
@@ -75,25 +76,36 @@ def prep_image(src, dst, crop=None, box=None, whiten=False, trim=False):
                 p = 16; im = im.crop((max(bbox[0]-p, 0), max(bbox[1]-p, 0), min(bbox[2]+p, im.width), min(bbox[3]+p, im.height)))
     im.save(dst, "PNG")
 
+# Tipografia da marca: Capriola (títulos) + Rubik (linha leve do título, apoio, itens)
+FONT_FILES = [KIT / "fonts" / "capriola.woff2", KIT / "fonts" / "rubik.woff2"]
+FONT = "Rubik"
+FONT_FACE = ("@font-face{font-family:'Capriola';src:url('capriola.woff2') format('woff2');font-weight:400}"
+             "@font-face{font-family:'Rubik';src:url('rubik.woff2') format('woff2');font-weight:300 900}")
+
 CSS = f"""
-@font-face{{font-family:'Lexend';src:url('lexend.woff2') format('woff2');font-weight:100 900}}
+{FONT_FACE}
 html,body{{margin:0;padding:0}}
-.art{{width:{S}px;height:{S}px;position:relative;overflow:hidden;font-family:'Lexend',sans-serif;color:{ROXO};background:#fff}}
+.art{{width:{S}px;height:{S}px;position:relative;overflow:hidden;font-family:'{FONT}',sans-serif;color:{ROXO};background:#fff}}
+.bar{{width:76px;height:7px;border-radius:4px;background:{VERDE};margin-top:14px}}
+.mk{{position:absolute;width:46px;height:46px;margin:-23px 0 0 -23px;border-radius:50%;background:{ROXO};color:#fff;border:4px solid {VERDE};
+  display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:700;box-shadow:0 6px 16px rgba(45,40,100,.3)}}
 .title{{position:absolute;left:0;width:{S}px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:0}}
-.t1{{font-size:74px;font-weight:300;line-height:1.06;letter-spacing:-1px;white-space:nowrap}}
-.t2{{font-size:74px;font-weight:700;line-height:1.06;letter-spacing:-1.5px;white-space:nowrap}}
+.t1{{font-family:'Rubik',sans-serif;font-size:70px;font-weight:300;line-height:1.08;letter-spacing:-1px;white-space:nowrap}}
+.t2{{font-family:'Capriola',sans-serif;font-size:72px;font-weight:400;line-height:1.08;letter-spacing:-1px;white-space:nowrap}}
 .sub{{font-size:29px;font-weight:400;line-height:1.32;color:{ROXO}}}
 .shield{{position:absolute;width:84px;height:84px;border-radius:50%;background:{ROXO};border:5px solid #fff;
   box-shadow:0 8px 20px rgba(92,84,233,.28);display:flex;align-items:center;justify-content:center}}
 .chips{{position:absolute;display:flex;gap:14px;justify-content:center;left:0;width:{S}px}}
-.chip{{display:flex;align-items:center;gap:10px;background:#fff;color:{ROXO};border-radius:999px;padding:14px 26px;
-  font-size:26px;font-weight:600;box-shadow:0 6px 18px rgba(45,40,100,.16)}}
+.chip{{display:flex;align-items:center;gap:10px;background:{ROXO};color:#fff;border-radius:999px;padding:14px 26px;
+  font-size:26px;font-weight:600;box-shadow:0 6px 18px rgba(45,40,100,.22)}}
+.chip svg{{color:{VERDE}}}
 .card{{position:absolute;overflow:hidden;border-radius:36px;background:#F4F3F0}}
 .card img{{width:100%;height:100%;object-fit:cover;display:block}}
 .items{{display:flex;flex-direction:column;gap:30px}}
 .it{{display:flex;gap:22px;align-items:flex-start}}
-.ic{{flex:0 0 64px;height:64px;border-radius:50%;background:{ROXO};color:#fff;display:flex;align-items:center;justify-content:center;
+.ic{{flex:0 0 64px;width:64px;height:64px;box-sizing:border-box;border-radius:50%;background:{ROXO};color:#fff;display:flex;align-items:center;justify-content:center;
   font-size:30px;font-weight:700}}
+.ic.num{{border:4px solid {VERDE}}}
 .it b{{display:block;font-size:30px;font-weight:600;line-height:1.2}}
 .it span{{display:block;font-size:23px;font-weight:400;line-height:1.35;margin-top:4px;opacity:.92}}
 """
@@ -107,6 +119,7 @@ def title_block(sp, top):
     t = ""
     if sp.get("t1"): t += f'<span class="t1">{esc(sp["t1"])}</span>'
     if sp.get("t2"): t += f'<span class="t2">{esc(sp["t2"])}</span>'
+    if sp.get("layout") != "hero": t += '<span class="bar"></span>'
     return f'<div class="title" style="top:{top}px">{t}</div>'
 
 def chips_html(sp, bottom):
@@ -149,16 +162,40 @@ def build(sp, work, base):
     elif lay == "lista":
         two = sp.get("t1") and sp.get("t2")
         top = 300 if two else 214
-        w = sp.get("img", "").endswith("capa.png")  # foto da capa: fundo branco, margem cortada, encaixe sem corte
+        w = bool(sp.get("white", sp.get("img", "").endswith("capa.png")))  # foto em fundo branco: limpa fundo e corta margem
         prep_image(src, work / "img.png", sp.get("crop"), whiten=w, trim=w)
         num = sp.get("style") == "num"
         its = ""
         for i, it in enumerate(sp["items"], 1):
-            mark = str(i) if num else svg(it.get("icon", "check"), 34, "#fff", 2.2)
+            if num: mark, cls = str(i), "ic num"
+            else: mark, cls = svg(it.get("icon", "check"), 34, VERDE if it.get("icon", "check") == "check" else "#fff", 2.4), "ic"
             desc = f'<span>{esc(it["d"])}</span>' if it.get("d") else ""
-            its += f'<div class="it"><div class="ic">{mark}</div><div><b>{esc(it["t"])}</b>{desc}</div></div>'
+            its += f'<div class="it"><div class="{cls}">{mark}</div><div><b>{esc(it["t"])}</b>{desc}</div></div>'
+        # imagem do produto + marcadores numerados nas partes (x, y = fração da imagem)
+        iw, ih = Image.open(work / "img.png").size
+        mks = "".join(f'<span class="mk" style="left:{m["x"]*100:.1f}%;top:{m["y"]*100:.1f}%">{m.get("n", "")}</span>' for m in sp.get("markers", []))
+        rad = "28px" if not w else "0"
+        if sp.get("img_pos") == "top" or iw / ih > 1.3:  # foto larga: em cima, itens em colunas embaixo
+            bw, bh = 900, 400 if two else 470
+            sc = min(bw / iw, bh / ih); dw, dh = int(iw * sc), int(ih * sc)
+            items_top = top + bh + 30
+            grid = ""
+            for i, it in enumerate(sp["items"], 1):
+                if num: mark, cls = str(i), "ic num"
+                else: mark, cls = svg(it.get("icon", "check"), 34, VERDE if it.get("icon", "check") == "check" else "#fff", 2.4), "ic"
+                desc = f'<span>{esc(it["d"])}</span>' if it.get("d") else ""
+                grid += (f'<div class="it" style="flex:1;flex-direction:column;align-items:center;text-align:center;gap:14px">'
+                         f'<div class="{cls}">{mark}</div><div><b>{esc(it["t"])}</b>{desc}</div></div>')
+            body = (title_block(sp, 58) +
+                    f'<div style="position:absolute;left:{(S - dw)//2}px;top:{top + (bh - dh)//2}px;width:{dw}px;height:{dh}px">'
+                    f'<img src="img.png" style="width:100%;height:100%;display:block;border-radius:{rad}">{mks}</div>'
+                    f'<div style="position:absolute;left:52px;top:{items_top}px;width:920px;display:flex;gap:28px">{grid}</div>')
+            return f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>{CSS}</style></head><body><div class="art">{body}</div></body></html>'
+        bw, bh = 430, S - top - 60
+        sc = min(bw / iw, bh / ih); dw, dh = int(iw * sc), int(ih * sc)
         body = (title_block(sp, 58) +
-                f'<div class="card" style="left:40px;top:{top}px;width:430px;height:{S - top - 60}px;background:#fff"><img src="img.png" style="object-fit:contain"></div>'
+                f'<div style="position:absolute;left:{40 + (bw - dw)//2}px;top:{top + (bh - dh)//2}px;width:{dw}px;height:{dh}px">'
+                f'<img src="img.png" style="width:100%;height:100%;display:block;border-radius:{rad}">{mks}</div>'
                 f'<div class="items" style="position:absolute;left:500px;top:{top}px;width:480px;height:{S - top - 60}px;justify-content:center">{its}</div>')
     else:
         raise SystemExit(f"layout desconhecido: {lay}")
@@ -175,7 +212,7 @@ def main():
         pg = b.new_page(viewport={"width": S, "height": S})
         for sp in specs:
             work = pathlib.Path(tempfile.mkdtemp())
-            shutil.copy(KIT / "fonts" / "lexend.woff2", work / "lexend.woff2")
+            for ff in FONT_FILES: shutil.copy(ff, work / ff.name)
             (work / "a.html").write_text(build(sp, work, spec_path.parent), encoding="utf-8")
             pg.goto((work / "a.html").as_uri()); pg.evaluate("document.fonts.ready"); pg.evaluate(FIT_JS)
             pg.wait_for_timeout(150)

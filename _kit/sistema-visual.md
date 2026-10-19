@@ -9,9 +9,9 @@ Referência aprovada pelo dono: `trava-macaneta/` (piloto de 19/10/2026).
 
 ## Cores e letra
 - Roxo **#5C54E9** em todo texto (título, apoio, itens) e nos círculos de ícone.
-- Verde **#BAE150** só em detalhe pequeno (check do escudo). Nunca em texto.
+- Verde **#BAE150** em detalhes pequenos, nunca em texto: traço curto abaixo do título, borda dos números e marcadores, checks, ícones dos chips, check do escudo.
 - Branco #FFFFFF de fundo.
-- Fonte **Lexend**: título em duas linhas, a primeira leve (300) e a segunda forte (700); apoio 400; itens 600/400.
+- Tipografia da marca: **Capriola** na linha forte do título; **Rubik** na linha leve do título (300), no apoio (400) e nos itens (600/400).
 - Não usar: títulos marrom, cinza, salmão ou coral; corações; rabiscos; círculos multicoloridos; rodapé ondulado; emoji; personagens; logotipo ou nome "ZeloKids" na arte (só se o dono pedir).
 
 ## A galeria (9 imagens, nesta ordem)
@@ -26,6 +26,14 @@ Referência aprovada pelo dono: `trava-macaneta/` (piloto de 19/10/2026).
 | 07 | Quebra de objeções | `lista` ícones | Compatibilidade, medidas, material |
 | 08 | Praticidade | `card` + chips | Onde usar (até 3 chips) |
 | 09 | Resumo | `lista` checks | Até 4 motivos |
+
+## Estudo do produto (antes de qualquer arte)
+- Juntar TODAS as fotos: galeria atual da loja (página do produto, imagens `acdn-us.mitiendanube.com/.../products/...-1024-1024.webp`), fotos do fornecedor (pasta `D:\Downloads\<nome>_<id>_images` ou o que o resumo do agente SEO indicar) e o `resumo-fornecedor.md`.
+- Escrever `ficha-visual.md`: partes obrigatórias (botões, ícones, parafusos, texturas, setas), vistas disponíveis, melhor referência de estúdio, ideias de destaque com origem, o que não afirmar.
+- A referência para o Gemini é sempre a foto mais nítida e completa (de preferência a de estúdio da loja), nunca uma miniatura.
+
+## Destaque de partes (diferenciais)
+- Marcadores numerados (círculo roxo, borda verde) AO LADO da parte, sem cobri-la, ligados à lista numerada. Nada de linhas puxadas.
 
 ## Regras de conteúdo
 - Toda afirmação vem da página do produto na Nuvemshop, do resumo do agente SEO ou de avaliação de cliente. Nada inventado.

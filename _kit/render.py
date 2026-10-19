@@ -16,7 +16,7 @@ spec.json = lista de imagens. Campos por imagem:
   shield   true = escudo roxo pequeno no canto (hero/card)
 
 Regras visuais (sistema-visual.md): roxo #5C54E9 em todo texto, verde #BAE150 só em detalhe,
-fonte Lexend (300 leve / 700 forte / 400 apoio), fundo branco, sem corações, sem multicolor.
+Capriola (título forte) + Rubik (linha leve, apoio, itens), fundo branco, sem corações, sem multicolor.
 """
 import json, sys, pathlib, html, tempfile, shutil
 from PIL import Image

@@ -77,3 +77,9 @@ Reprovar e refazer se: produto alterado; texto com erro; título fora do roxo; m
 - Toda foto da loja ou do fornecedor que entrar numa arte (recortada ou ampliada) passa ANTES pelo Gemini pro em 2K com o prompt de melhoria (`prompts/melhorar.txt`: upscale + nitidez, tudo idêntico), depois reduz para 1024 com Lanczos + UnsharpMask leve. Sem isso a foto ampliada fica macia e destoa das geradas.
 - Conferir a melhoria como qualquer geração (o pro pode trocar textura ou reenquadrar). Em paralelo, os arquivos de saída podem vir trocados entre si: identifique pelo conteúdo, não pelo nome.
 - Modelo padrão: `gemini-3-pro-image --size 2K` para capa, cenários e melhoria; o flash só para testes.
+
+## v2 — nitidez, zoom e variedade de layout (pedido do dono, 19/10/2026)
+- **Render em 2K**: o `render.py` monta a arte em 2048 px (fontes de `_fontes/pro-2k/` quando existem) e reduz para 1024 com Lanczos + nitidez leve. Nunca montar em 1024 direto.
+- **Cena de uso nasce no Gemini**: não esticar/outpaint foto antiga da loja (vem macia); gerar a cena do zero com a foto de estúdio limpa como `--ref` e conferir o produto.
+- **Diferenciais com lupa** (layout `detalhe`): cada parte tem uma lupa circular (borda verde) com o zoom real da foto, o número preso na lupa e uma linha fina roxa até o ponto da peça. Substitui os marcadores soltos.
+- **Variar o layout**: nunca repetir o mesmo arranjo em imagens seguidas. Sugestão padrão: 02 `hero` · 03 `split` · 04 `overlay` · 05 `lista` (side right) · 06 `detalhe` · 07 `lista` · 08 `card`+chips · 09 `passos`.

@@ -6,7 +6,7 @@ A chave vem de GEMINI_API_KEY no ambiente ou do arquivo .env da pasta ZeloKids_G
 import argparse, os, io, json, base64, urllib.request, urllib.error, pathlib, sys
 ap = argparse.ArgumentParser()
 ap.add_argument("--prompt", required=True); ap.add_argument("--out", required=True)
-ap.add_argument("--ref"); ap.add_argument("--pad", type=float); ap.add_argument("--model", default="gemini-3.1-flash-image")
+ap.add_argument("--ref"); ap.add_argument("--pad", type=float); ap.add_argument("--model", default="gemini-3.1-flash-image"); ap.add_argument("--size", default=None, help="1K, 2K ou 4K (modelos pro)")
 a = ap.parse_args()
 key = os.environ.get("GEMINI_API_KEY")
 if not key:
@@ -23,7 +23,7 @@ if a.ref:
     buf = io.BytesIO(); im.save(buf, "PNG")
     parts.append({"inline_data":{"mime_type":"image/png","data":base64.b64encode(buf.getvalue()).decode()}})
 parts.append({"text": open(a.prompt, encoding="utf-8").read()})
-body = {"contents":[{"parts":parts}], "generationConfig":{"responseModalities":["IMAGE"],"imageConfig":{"aspectRatio":"1:1"}}}
+body = {"contents":[{"parts":parts}], "generationConfig":{"responseModalities":["IMAGE"],"imageConfig":{"aspectRatio":"1:1", **({"imageSize": a.size} if a.size else {})}}}
 req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{a.model}:generateContent",
       data=json.dumps(body).encode(), headers={"Content-Type":"application/json","x-goog-api-key":key})
 try: d = json.load(urllib.request.urlopen(req, timeout=170))

@@ -67,3 +67,8 @@ Reprovar e refazer se: produto alterado; texto com erro; título fora do roxo; m
 
 ## Títulos
 - Cada linha do título cabe em ~930 px: até ~20 caracteres na linha forte (Capriola) e ~24 na leve. O renderizador reduz a fonte se passar, mas acima disso o título fica pequeno — reescreva em vez de depender da redução.
+
+## Limpeza de fundo (aprendido no protetor de cabeça, 19/10/2026)
+- Nunca clarear por limiar global ("tudo acima de X vira branco"): produtos creme/bege/branco perdem pedaços. Separar o fundo pela cor dele (neutro, pouco saturado) ligado às bordas, manter só as regiões grandes do produto e suavizar 1 px.
+- Depois do recorte, aplicar máscara de nitidez leve (UnsharpMask raio 1,5 / 65%): o Gemini flash entrega a foto um pouco macia.
+- Para mais qualidade na capa/close: `gerar_cena.py --model gemini-3.1-pro-image --size 2K` (custa mais; usar só na capa e no close de detalhe) ou partir da foto de estúdio da loja quando ela já for nítida.

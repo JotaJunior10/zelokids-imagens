@@ -1,0 +1,198 @@
+[
+ {
+  "out": "protetor-de-cabeca-para-bebe-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/capa-branca.png",
+  "alt": "Protetor de cabeça para bebê modelo leão, almofada antiqueda com juba laranja e alças elásticas, em fundo branco"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-02-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/v-04-beneficio.png",
+  "t1": "Protetor de cabeça",
+  "t2": "para bebê",
+  "sub": "Almofada atrás da cabeça\nnos primeiros passos",
+  "icon": "baby",
+  "shield": true,
+  "alt": "Bebê dando os primeiros passos em casa usando o protetor de cabeça para bebê de leão nas costas"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-03-problema.jpg",
+  "layout": "card",
+  "img": "_fontes/loja-01.png",
+  "crop": [
+   380,
+   230,
+   1024,
+   664
+  ],
+  "t1": "Tombo para trás",
+  "t2": "nos primeiros passos?",
+  "sub": "A almofada fica entre a cabeça e o chão",
+  "alt": "Bebê sentado no tapete com a almofada antiqueda protegendo a parte de trás da cabeça"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-04-beneficio.jpg",
+  "layout": "card",
+  "img": "_fontes/loja-02.png",
+  "crop": [
+   0,
+   20,
+   1024,
+   710
+  ],
+  "t1": "Mais liberdade",
+  "t2": "para explorar",
+  "sub": "E mais tranquilidade para os pais",
+  "shield": true,
+  "alt": "Criança andando sorrindo pela casa com o protetor de cabeça infantil vestido como mochila"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-05-como-funciona.jpg",
+  "layout": "lista",
+  "style": "num",
+  "img": "_fontes/loja-05.png",
+  "crop": [
+   150,
+   0,
+   874,
+   1024
+  ],
+  "t1": "Como",
+  "t2": "vestir",
+  "items": [
+   {
+    "t": "Passe os braços",
+    "d": "Pelas alças de ombro elásticas, como uma mochila"
+   },
+   {
+    "t": "Feche",
+    "d": "Os botões de pressão e a tira de peito na fivela"
+   },
+   {
+    "t": "Ajuste",
+    "d": "Até a almofada ficar firme atrás da cabeça"
+   }
+  ],
+  "alt": "Como vestir o protetor de cabeça para bebê: passar os braços nas alças, fechar a fivela e ajustar"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-06-diferenciais.jpg",
+  "layout": "lista",
+  "style": "num",
+  "img": "_fontes/detalhe-branco.png",
+  "white": true,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "markers": [
+   {
+    "n": 1,
+    "x": 0.36,
+    "y": 0.1
+   },
+   {
+    "n": 2,
+    "x": 0.08,
+    "y": 0.36
+   },
+   {
+    "n": 3,
+    "x": 0.6,
+    "y": 0.99
+   }
+  ],
+  "items": [
+   {
+    "t": "Almofada acolchoada",
+    "d": "Veludo macio com enchimento de algodão PP"
+   },
+   {
+    "t": "Alças elásticas",
+    "d": "Botão de pressão e tira de peito com fivela"
+   },
+   {
+    "t": "Malha respirável",
+    "d": "Painel traseiro que deixa as costas ventiladas"
+   }
+  ],
+  "alt": "Detalhe da almofada antiqueda bebê: almofada acolchoada, alças elásticas com botão e malha respirável"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-07-duvidas.jpg",
+  "layout": "lista",
+  "img": "_fontes/capa-branca.png",
+  "white": true,
+  "t1": "Para qual",
+  "t2": "idade serve?",
+  "items": [
+   {
+    "icon": "baby",
+    "t": "De 1 a 3 anos",
+    "d": "Na fase de ficar de pé e começar a andar"
+   },
+   {
+    "icon": "ruler",
+    "t": "30 x 20 x 6 cm",
+    "d": "Leve: cerca de 190 g"
+   },
+   {
+    "icon": "material",
+    "t": "Veludo macio",
+    "d": "Com enchimento de algodão PP"
+   }
+  ],
+  "alt": "Protetor de cabeça para criança de 1 a 3 anos: 30 x 20 x 6 cm, cerca de 190 g, veludo macio"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-08-onde-usar.jpg",
+  "layout": "card",
+  "img": "_fontes/v-08-cena.png",
+  "crop": [
+   0,
+   170,
+   1024,
+   860
+  ],
+  "t1": "Para usar",
+  "t2": "no dia a dia",
+  "sub": "Enquanto ele brinca e explora a casa",
+  "chips": [
+   "Em casa",
+   "No tapete",
+   "Na brincadeira"
+  ],
+  "chip_icons": [
+   "door",
+   "baby",
+   "heartless_star"
+  ],
+  "alt": "Bebê brincando no tapete da sala com blocos de madeira usando a almofada protetora de cabeça"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-09-resumo.jpg",
+  "layout": "lista",
+  "img": "_fontes/capa-branca.png",
+  "white": true,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "check",
+    "t": "Protege a parte de trás da cabeça"
+   },
+   {
+    "icon": "check",
+    "t": "Veste como mochila em segundos"
+   },
+   {
+    "icon": "check",
+    "t": "Leve: cerca de 190 g"
+   },
+   {
+    "icon": "check",
+    "t": "Malha respirável nas costas"
+   }
+  ],
+  "alt": "Resumo do protetor de queda bebê: protege a parte de trás da cabeça, veste fácil, leve e respirável"
+ }
+]

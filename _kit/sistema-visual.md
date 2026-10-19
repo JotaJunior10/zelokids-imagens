@@ -54,3 +54,16 @@ Referência aprovada pelo dono: `trava-macaneta/` (piloto de 19/10/2026).
 
 ## Conferência antes de publicar
 Reprovar e refazer se: produto alterado; texto com erro; título fora do roxo; mais de um tratamento de título; ícone multicolorido; corte no produto; emenda visível no cenário; formato diferente de 1024.
+
+## Ferramentas do kit (resumo)
+- `render.py <spec> --out-dir <pasta> [--only 01,06]` — gera as artes; `--only` re-renderiza só algumas; sempre grava `_preview.jpg` (folha 3x3) e imprime AVISO quando a capa não está branca nos cantos, o alt falta ou passa de 140 caracteres.
+- `publicar.py <spec> [--sha <commit>]` — imprime o payload `images` pronto para o `update_product` (URL fixa no commit, posições 1..N, alt pt_BR).
+- `gerar_cena.py --ref foto --prompt txt --out png [--pad 0.6]` — Gemini; roda no computador do dono (chave no .env).
+
+## Exceções de capa
+- Produto grande ou "de cena" (rede de proteção, tatame, mosquiteiro): se não der para isolar em branco sem distorcer, a capa é a melhor foto limpa do produto em fundo neutro claro, ainda sem texto e sem ícone.
+- Kits (ex.: 20 protetores de tomada): a capa mostra o conteúdo do kit arrumado, não uma peça só.
+- Variantes de cor: uma foto por cor entra na galeria (depois das 9) e o dono associa à variante no admin; o conector não faz essa associação.
+
+## Títulos
+- Cada linha do título cabe em ~930 px: até ~20 caracteres na linha forte (Capriola) e ~24 na leve. O renderizador reduz a fonte se passar, mas acima disso o título fica pequeno — reescreva em vez de depender da redução.

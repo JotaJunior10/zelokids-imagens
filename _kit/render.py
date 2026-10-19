@@ -201,16 +201,36 @@ def build(sp, work, base):
         raise SystemExit(f"layout desconhecido: {lay}")
     return f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>{CSS}</style></head><body><div class="art">{body}</div></body></html>'
 
+def check(sp, path):
+    """Conferências automáticas; devolve lista de avisos."""
+    im = Image.open(path).convert("RGB"); w, h = im.size; warns = []
+    if (w, h) != (S, S): warns.append(f"tamanho {w}x{h}")
+    if sp["layout"] == "capa":
+        px = [im.getpixel(p) for p in [(4, 4), (w - 5, 4), (4, h - 5), (w - 5, h - 5), (w // 2, 4), (w // 2, h - 5)]]
+        if any(min(c) < 250 for c in px): warns.append("fundo da capa não é branco puro nos cantos")
+    if not sp.get("alt"): warns.append("sem alt text")
+    elif len(sp["alt"]) > 140: warns.append(f"alt com {len(sp['alt'])} caracteres (máx. ~125)")
+    return warns
+
+def preview(out_dir, specs):
+    ims = [Image.open(out_dir / sp["out"]).resize((340, 340)) for sp in specs if (out_dir / sp["out"]).exists()]
+    cols = 3; rows = (len(ims) + cols - 1) // cols
+    sheet = Image.new("RGB", (cols * 350 + 10, rows * 350 + 10), "#DDDDDD")
+    for i, im in enumerate(ims): sheet.paste(im, (10 + (i % cols) * 350, 10 + (i // cols) * 350))
+    sheet.save(out_dir / "_preview.jpg", quality=88); return out_dir / "_preview.jpg"
+
 def main():
     spec_path = pathlib.Path(sys.argv[1]).resolve()
     out_dir = pathlib.Path(sys.argv[sys.argv.index("--out-dir") + 1]).resolve() if "--out-dir" in sys.argv else spec_path.parent / "final"
+    only = sys.argv[sys.argv.index("--only") + 1].split(",") if "--only" in sys.argv else None  # ex.: --only 01,06
     out_dir.mkdir(parents=True, exist_ok=True)
     specs = json.loads(spec_path.read_text(encoding="utf-8"))
+    todo = [sp for sp in specs if not only or any(f"-{n.zfill(2)}-" in sp["out"] for n in only)]
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
         b = p.chromium.launch()
         pg = b.new_page(viewport={"width": S, "height": S})
-        for sp in specs:
+        for sp in todo:
             work = pathlib.Path(tempfile.mkdtemp())
             for ff in FONT_FILES: shutil.copy(ff, work / ff.name)
             (work / "a.html").write_text(build(sp, work, spec_path.parent), encoding="utf-8")
@@ -218,8 +238,10 @@ def main():
             pg.wait_for_timeout(150)
             tmp = work / "o.png"; pg.locator(".art").screenshot(path=str(tmp))
             Image.open(tmp).convert("RGB").save(out_dir / sp["out"], quality=90, optimize=True)
-            print("ok", sp["out"])
+            w = check(sp, out_dir / sp["out"])
+            print(("AVISO " + "; ".join(w) + " -> ") if w else "ok ", sp["out"])
         b.close()
+    print("preview:", preview(out_dir, specs))
 
 if __name__ == "__main__":
     main()

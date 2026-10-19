@@ -64,11 +64,23 @@ def prep_image(src, dst, crop=None, box=None, whiten=False, trim=False):
         im = im.resize((bw * 2, bh * 2), Image.LANCZOS)
     if whiten:  # só o FUNDO (área clara ligada às bordas) vira branco puro; o produto não é tocado
         from PIL import ImageDraw
-        g = im.convert("L").point(lambda v: 255 if v > 249 else 0)  # limiar alto: só fundo quase branco puro
-        for c in [(0, 0), (g.width - 1, 0), (0, g.height - 1), (g.width - 1, g.height - 1)]:
-            if g.getpixel(c) == 255: ImageDraw.floodfill(g, c, 128)
-        mask = g.point(lambda v: 255 if v == 128 else 0)
-        im.paste((255, 255, 255), (0, 0), mask)
+        # fundo = região LIGADA ÀS BORDAS com cor parecida com a dos cantos (tolerância por cor, não por brilho):
+        # o Gemini entrega fundo "branco" em ~244-248 e produtos creme ficam perto disso em brilho, mas não em cor.
+        import numpy as np
+        from scipy import ndimage
+        a = np.array(im).astype(int)
+        corners = np.array([a[0, 0], a[0, -1], a[-1, 0], a[-1, -1]])
+        bg = np.median(corners, axis=0)
+        if bg.min() >= 215:  # só trata fundos claros; foto de cena fica como está
+            tol = 10
+            cand = (np.abs(a - bg).max(axis=2) <= tol)
+            lab, n = ndimage.label(cand)
+            border = set(np.unique(np.concatenate([lab[0], lab[-1], lab[:, 0], lab[:, -1]]))) - {0}
+            m = np.isin(lab, list(border))
+            m = ndimage.binary_erosion(m, iterations=1)
+            soft = ndimage.gaussian_filter(m.astype(float), 1.0)[..., None]
+            out = a * (1 - soft) + 255 * soft
+            im = Image.fromarray(out.clip(0, 255).astype("uint8"))
         if trim:  # corta a margem branca para o produto ocupar mais espaço
             from PIL import ImageChops
             bbox = ImageChops.difference(im, Image.new("RGB", im.size, (255, 255, 255))).getbbox()

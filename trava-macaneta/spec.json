@@ -1,0 +1,58 @@
+[
+  {"out": "trava-porta-bebe-macaneta-alavanca-01-capa.jpg", "layout": "capa", "img": "_fontes/g-01-capa.png",
+   "alt": "Trava porta bebê para maçaneta de alavanca branca instalada em maçaneta preta, em fundo branco"},
+
+  {"out": "trava-porta-bebe-macaneta-alavanca-02-em-uso.jpg", "layout": "hero", "img": "_fontes/cena-03.png",
+   "t1": "Trava para", "t2": "maçaneta de alavanca", "sub": "Fica sobre a alavanca e a porta\ncontinua fechada", "icon": "door", "shield": true,
+   "alt": "Trava de porta para criança instalada sobre a alavanca da maçaneta em porta branca de casa"},
+
+  {"out": "trava-porta-bebe-macaneta-alavanca-03-problema.jpg", "layout": "card", "img": "_fontes/g-03-dor-b.png", "crop": [0, 300, 1024, 1024],
+   "t1": "Ele já alcança", "t2": "a maçaneta?", "sub": "E abre a porta do banheiro sozinho",
+   "alt": "Porta do banheiro aberta no corredor com brinquedos de bebê no chão, situação que a trava porta bebê evita"},
+
+  {"out": "trava-porta-bebe-macaneta-alavanca-04-beneficio.jpg", "layout": "card", "img": "_fontes/g-04-beneficio.png", "crop": [0, 380, 1024, 1024],
+   "t1": "A porta fica", "t2": "fechada", "sub": "Seu filho não abre sozinho e a casa fica mais tranquila", "shield": true,
+   "alt": "Porta fechada com trava porta criança na maçaneta de alavanca e brinquedos de madeira no chão"},
+
+  {"out": "trava-porta-bebe-macaneta-alavanca-05-como-funciona.jpg", "layout": "lista", "style": "num", "img": "_fontes/g-01-capa.png",
+   "t1": "Como", "t2": "funciona",
+   "items": [
+     {"t": "Limpe e cole", "d": "Logo abaixo da maçaneta, sem furos"},
+     {"t": "Gire o braço", "d": "0°, 90° ou 180°, até ficar sobre a alavanca"},
+     {"t": "Para abrir", "d": "Aperte o botão e abaixe a maçaneta"}
+   ],
+   "alt": "Como instalar a trava para maçaneta: colar abaixo da maçaneta, girar o braço e abrir pelo botão"},
+
+  {"out": "trava-porta-bebe-macaneta-alavanca-06-diferenciais.jpg", "layout": "lista", "img": "_fontes/cena-01.png", "crop": [380, 250, 800, 1000],
+   "t1": "O que faz a", "t2": "diferença",
+   "items": [
+     {"icon": "lock", "t": "Braço que trava a alavanca", "d": "A criança abaixa e a porta continua fechada"},
+     {"icon": "key", "t": "Botão com ícone de chave", "d": "Abre no botão, sem chave para perder"},
+     {"icon": "nodrill", "t": "Adesiva, sem furos", "d": "Instala sem furadeira, em minutos"}
+   ],
+   "alt": "Detalhe da trava de porta adesiva com botão de abertura e braço que trava a maçaneta de alavanca"},
+
+  {"out": "trava-porta-bebe-macaneta-alavanca-07-duvidas.jpg", "layout": "lista", "img": "_fontes/g-01-capa.png",
+   "t1": "Serve na", "t2": "minha porta?",
+   "items": [
+     {"icon": "door", "t": "Maçaneta de alavanca", "d": "A que abaixa para abrir. Não serve em maçaneta redonda"},
+     {"icon": "ruler", "t": "8,5 x 4,4 cm", "d": "Com 8 cm de profundidade"},
+     {"icon": "material", "t": "Plástico ABS", "d": "Na cor branca, discreta na porta"}
+   ],
+   "alt": "Medidas e compatibilidade da trava porta infantil: maçaneta de alavanca, 8,5 x 4,4 cm, plástico ABS branco"},
+
+  {"out": "trava-porta-bebe-macaneta-alavanca-08-onde-usar.jpg", "layout": "card", "img": "_fontes/cena-02.png",
+   "t1": "Use em", "t2": "vários cômodos", "sub": "O cômodo fica fechado para o pequeno que já anda",
+   "chips": ["Banheiro", "Lavanderia", "Quarto"], "chip_icons": ["bath", "laundry", "bed"],
+   "alt": "Trava para porta de quarto, banheiro e lavanderia instalada em maçaneta de alavanca"},
+
+  {"out": "trava-porta-bebe-macaneta-alavanca-09-resumo.jpg", "layout": "lista", "img": "_fontes/g-01-capa.png",
+   "t1": "Por que", "t2": "escolher esta trava",
+   "items": [
+     {"icon": "check", "t": "Mantém a porta fechada"},
+     {"icon": "check", "t": "Abre no botão, sem chave"},
+     {"icon": "check", "t": "Cola sem furos"},
+     {"icon": "check", "t": "Braço ajustável 0°, 90° e 180°"}
+   ],
+   "alt": "Resumo da trava porta bebê: mantém a porta fechada, abre no botão, cola sem furos e tem braço ajustável"}
+]

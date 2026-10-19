@@ -8,7 +8,7 @@
  {
   "out": "protetor-de-cabeca-para-bebe-02-em-uso.jpg",
   "layout": "hero",
-  "img": "_fontes/v-04-beneficio.png",
+  "img": "_fontes/pro-02-uso.png",
   "t1": "Protetor de cabeça",
   "t2": "para bebê",
   "sub": "Almofada atrás da cabeça\nnos primeiros passos",
@@ -19,12 +19,12 @@
  {
   "out": "protetor-de-cabeca-para-bebe-03-problema.jpg",
   "layout": "card",
-  "img": "_fontes/loja-01.png",
+  "img": "_fontes/pro-03-problema.png",
   "crop": [
-   380,
-   230,
+   0,
+   120,
    1024,
-   664
+   810
   ],
   "t1": "Tombo para trás",
   "t2": "nos primeiros passos?",
@@ -146,7 +146,7 @@
  {
   "out": "protetor-de-cabeca-para-bebe-08-onde-usar.jpg",
   "layout": "card",
-  "img": "_fontes/v-08-cena.png",
+  "img": "_fontes/pro-08-cena.png",
   "crop": [
    0,
    170,

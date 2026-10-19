@@ -72,3 +72,8 @@ Reprovar e refazer se: produto alterado; texto com erro; título fora do roxo; m
 - Nunca clarear por limiar global ("tudo acima de X vira branco"): produtos creme/bege/branco perdem pedaços. Separar o fundo pela cor dele (neutro, pouco saturado) ligado às bordas, manter só as regiões grandes do produto e suavizar 1 px.
 - Depois do recorte, aplicar máscara de nitidez leve (UnsharpMask raio 1,5 / 65%): o Gemini flash entrega a foto um pouco macia.
 - Para mais qualidade na capa/close: `gerar_cena.py --model gemini-3.1-pro-image --size 2K` (custa mais; usar só na capa e no close de detalhe) ou partir da foto de estúdio da loja quando ela já for nítida.
+
+## Fotos existentes também passam por melhoria (regra do dono, 19/10/2026)
+- Toda foto da loja ou do fornecedor que entrar numa arte (recortada ou ampliada) passa ANTES pelo Gemini pro em 2K com o prompt de melhoria (`prompts/melhorar.txt`: upscale + nitidez, tudo idêntico), depois reduz para 1024 com Lanczos + UnsharpMask leve. Sem isso a foto ampliada fica macia e destoa das geradas.
+- Conferir a melhoria como qualquer geração (o pro pode trocar textura ou reenquadrar). Em paralelo, os arquivos de saída podem vir trocados entre si: identifique pelo conteúdo, não pelo nome.
+- Modelo padrão: `gemini-3-pro-image --size 2K` para capa, cenários e melhoria; o flash só para testes.

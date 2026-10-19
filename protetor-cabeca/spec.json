@@ -34,7 +34,7 @@
  {
   "out": "protetor-de-cabeca-para-bebe-04-beneficio.jpg",
   "layout": "card",
-  "img": "_fontes/loja-02.png",
+  "img": "_fontes/enh-loja-02.png",
   "crop": [
    0,
    20,
@@ -51,7 +51,7 @@
   "out": "protetor-de-cabeca-para-bebe-05-como-funciona.jpg",
   "layout": "lista",
   "style": "num",
-  "img": "_fontes/loja-05.png",
+  "img": "_fontes/enh-loja-05.png",
   "crop": [
    150,
    0,
@@ -87,18 +87,18 @@
   "markers": [
    {
     "n": 1,
-    "x": 0.36,
-    "y": 0.1
+    "x": 0.3,
+    "y": 0.12
    },
    {
     "n": 2,
-    "x": 0.08,
-    "y": 0.36
+    "x": 0.1,
+    "y": 0.5
    },
    {
     "n": 3,
-    "x": 0.6,
-    "y": 0.99
+    "x": 0.5,
+    "y": 0.97
    }
   ],
   "items": [

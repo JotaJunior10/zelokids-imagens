@@ -24,3 +24,8 @@
 
 ## Variantes / divergências
 - Variante única (branco). Medida antiga da loja (10 x 9,8 x 2,2 cm) diverge; página atual já usa 9,5 cm/1,5 cm.
+
+## Refação 20/10 (tarde) — pedido do dono
+- Dono gostou de 2 fotos antigas da loja (L02 "Proteja seu pequeno" e L03 "Evita: acidentes / portas batendo / tranca acidental") e pediu no padrão.
+- Nova 03 (split): bebê de listras alcançando a maçaneta, protetor na borda (Gemini, ref estúdio + exemplo forn-macaneta). Sem colagem.
+- Nova 09 (passos): "Diga adeus a portas batendo" com Dedos presos · Porta batendo · Janela batendo. "Tranca acidental" ficou de fora (não afirmado; janela é confirmada por avaliação).

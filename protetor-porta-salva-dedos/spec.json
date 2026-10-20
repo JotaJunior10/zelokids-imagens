@@ -20,12 +20,19 @@
  {
   "out": "protetor-de-porta-para-bebe-03-problema.jpg",
   "layout": "split",
-  "img": "_fontes/cena-03-mao.png",
-  "t1": "Porta batendo",
-  "t2": "com o vento?",
-  "sub": "A espuma segura uma fresta e a porta não fecha na mão",
+  "img": "_fontes/cena-03-macaneta.png",
+  "photo_w": 600,
+  "crop": [
+   120,
+   0,
+   740,
+   1024
+  ],
+  "t1": "Proteja seu",
+  "t2": "pequeno",
+  "sub": "A porta não fecha sobre os dedinhos",
   "icon": "baby",
-  "alt": "Mãozinha de criança na porta com o protetor de dedos para porta mantendo uma fresta aberta no batente"
+  "alt": "Bebê alcançando a maçaneta da porta entreaberta com o protetor de dedos para porta encaixado na borda"
  },
  {
   "out": "protetor-de-porta-para-bebe-04-beneficio.jpg",
@@ -187,32 +194,26 @@
  {
   "out": "protetor-de-porta-para-bebe-09-resumo.jpg",
   "layout": "passos",
-  "img": "_fontes/estudio-1peca.png",
-  "white": true,
-  "t1": "Por que",
-  "t2": "escolher",
+  "img": "_fontes/cena-09-fresta.png",
+  "t1": "Diga adeus a",
+  "t2": "portas batendo",
   "items": [
    {
     "icon": "shield",
-    "t": "Salva dedos",
-    "d": "Não fecha na mão"
+    "t": "Dedos presos",
+    "d": "A porta não fecha"
    },
    {
     "icon": "door",
-    "t": "Sem batida",
-    "d": "Fresta aberta"
-   },
-   {
-    "icon": "nodrill",
-    "t": "Sem obra",
-    "d": "Só encaixar"
+    "t": "Porta batendo",
+    "d": "Com o vento"
    },
    {
     "icon": "home",
-    "t": "4 peças",
-    "d": "Várias portas"
+    "t": "Janela batendo",
+    "d": "Na moldura"
    }
   ],
-  "alt": "Resumo do salva dedos para porta em espuma: não fecha na mão, sem batida, sem obra e kit com 4 peças"
+  "alt": "Protetor de porta em espuma mantendo a fresta aberta: evita dedos presos, porta batendo e janela batendo"
  }
 ]

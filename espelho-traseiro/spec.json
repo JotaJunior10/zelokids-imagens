@@ -1,0 +1,300 @@
+[
+ {
+  "out": "espelho-traseiro-bebe-carro-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/p-01-capa.png",
+  "white_tol": 14,
+  "alt": "Espelho traseiro para bebê no carro com moldura preta, base de ventosa e clipe para pala de sol"
+ },
+ {
+  "out": "espelho-traseiro-bebe-carro-02-em-uso.jpg",
+  "layout": "overlay",
+  "img": "_fontes/c-02-uso.png",
+  "t1": "Espelho traseiro",
+  "t2": "para ver o bebê",
+  "sub": "A criança no banco de trás à vista, sem se virar",
+  "shield": true,
+  "alt": "Mãe dirigindo com o espelho traseiro para bebê preso na pala de sol, mostrando a criança na cadeirinha"
+ },
+ {
+  "out": "espelho-traseiro-bebe-carro-03-problema.jpg",
+  "layout": "comparativo",
+  "img": "_fontes/c-03-sem.png",
+  "img2": "_fontes/c-02-uso.png",
+  "crop2": [
+   150,
+   0,
+   1024,
+   1024
+  ],
+  "t1": "Sem precisar",
+  "t2": "olhar para trás",
+  "labels": [
+   "Sem espelho",
+   "Com espelho"
+  ],
+  "alt": "Comparação: mãe preocupada sem ver o filho e mãe vendo a criança pelo espelho para bebê no carro"
+ },
+ {
+  "out": "espelho-traseiro-bebe-carro-04-beneficio.jpg",
+  "layout": "faixa",
+  "img": "_fontes/c-04-reflexo.png",
+  "band": "top",
+  "t1": "Um olhar e",
+  "t2": "tudo bem lá atrás",
+  "sub": "Veja se a criança dorme ou brinca",
+  "shield": true,
+  "alt": "Criança dormindo na cadeirinha refletida no espelho retrovisor para bebê preso na pala de sol"
+ },
+ {
+  "out": "espelho-traseiro-bebe-carro-05-como-funciona.jpg",
+  "layout": "sequencia",
+  "img": "_fontes/c-05-clipe.png",
+  "t1": "Como",
+  "t2": "instalar",
+  "steps": [
+   {
+    "img": "_fontes/c-05-clipe.png",
+    "crop": [
+     400,
+     0,
+     1024,
+     1024
+    ],
+    "t": "Prenda na pala",
+    "d": "com o clipe"
+   },
+   {
+    "img": "_fontes/c-05-gira.png",
+    "crop": [
+     80,
+     0,
+     780,
+     1024
+    ],
+    "t": "Ou no para-brisa",
+    "d": "com a ventosa"
+   },
+   {
+    "img": "_fontes/c-04-reflexo.png",
+    "crop": [
+     200,
+     40,
+     840,
+     1000
+    ],
+    "t": "Gire e ajuste",
+    "d": "até ver a criança"
+   }
+  ],
+  "alt": "Como instalar o espelho de bebê para carro: clipe na pala de sol ou ventosa no para-brisa e ajuste do ângulo"
+ },
+ {
+  "out": "espelho-traseiro-bebe-carro-06-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/e-montados.png",
+  "white": true,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   180,
+   250,
+   664,
+   500
+  ],
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.3,
+    "y": 0.12,
+    "at": [
+     0.13,
+     0.33
+    ],
+    "zoom": 2.0,
+    "d": 200
+   },
+   {
+    "n": 2,
+    "x": 0.29,
+    "y": 0.38,
+    "at": [
+     0.52,
+     0.33
+    ],
+    "zoom": 2.2,
+    "d": 200
+   },
+   {
+    "n": 3,
+    "x": 0.86,
+    "y": 0.2,
+    "at": [
+     0.87,
+     0.62
+    ],
+    "zoom": 2.0,
+    "d": 200
+   }
+  ],
+  "items": [
+   {
+    "t": "Clipe de pala",
+    "d": "Prende na pala de sol"
+   },
+   {
+    "t": "Rótula giratória",
+    "d": "Gira 360°"
+   },
+   {
+    "t": "Ventosa",
+    "d": "Fixa no para-brisa"
+   }
+  ],
+  "alt": "Detalhes em zoom do espelho para bebê no carro: clipe de pala de sol, rótula giratória 360° e base de ventosa"
+ },
+ {
+  "out": "espelho-traseiro-bebe-carro-07-rotacao.jpg",
+  "layout": "numero",
+  "img": "_fontes/e-ventosa.png",
+  "white": true,
+  "t1": "Ajuste",
+  "t2": "fácil",
+  "num": "360°",
+  "legend": "de rotação para achar o ângulo da criança",
+  "sub": "Sem mexer no seu retrovisor",
+  "alt": "Espelho para bebê com ventosa e rotação de 360 graus para ajustar o ângulo de visão da criança"
+ },
+ {
+  "out": "espelho-traseiro-bebe-carro-08-duvidas.jpg",
+  "layout": "pergunta",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "white_tol": 14,
+  "q": "Serve no\nmeu carro?",
+  "a": "Vem com 2 suportes: clipe para a pala de sol e ventosa para o para-brisa. Use o que fica melhor no seu carro.",
+  "alt": "Serve no meu carro? Kit do espelho traseiro com clipe para pala de sol e ventosa para para-brisa"
+ },
+ {
+  "out": "espelho-traseiro-bebe-carro-09-onde-usar.jpg",
+  "layout": "mosaico",
+  "img": "_fontes/c-10-viagem.png",
+  "crop": [
+   100,
+   0,
+   1024,
+   1024
+  ],
+  "t1": "Do dia a dia",
+  "t2": "à viagem",
+  "chips": [
+   "Na estrada"
+  ],
+  "chip_icons": [
+   "car"
+  ],
+  "imgs": [
+   {
+    "img": "_fontes/c-02-uso.png",
+    "crop": [
+     520,
+     0,
+     1024,
+     420
+    ],
+    "label": "Na pala de sol",
+    "icon": "check"
+   },
+   {
+    "img": "_fontes/c-13-crianca.png",
+    "crop": [
+     560,
+     330,
+     1010,
+     700
+    ],
+    "label": "No para-brisa",
+    "icon": "check"
+   }
+  ],
+  "alt": "Espelho de bebê para carro na viagem de estrada, preso na pala de sol ou com ventosa no para-brisa"
+ },
+ {
+  "out": "espelho-traseiro-bebe-carro-10-vovo.jpg",
+  "layout": "cheia",
+  "img": "_fontes/c-09-vovo.png",
+  "chips": [
+   "Passeio com o vovô"
+  ],
+  "chip_icons": [
+   "car"
+  ],
+  "alt": "Avô dirigindo no fim de tarde e vendo a neta sorrindo pelo espelho retrovisor para bebê com ventosa"
+ },
+ {
+  "out": "espelho-traseiro-bebe-carro-11-compacto.jpg",
+  "layout": "card",
+  "img": "_fontes/c-11-mao.png",
+  "crop": [
+   0,
+   0,
+   1024,
+   700
+  ],
+  "t1": "Pequeno,",
+  "t2": "cabe na mão",
+  "sub": "Compacto e fácil de ajustar",
+  "alt": "Mão segurando o espelho traseiro compacto para bebê com clipe, em acrílico e moldura de plástico ABS",
+  "chips": [
+   "Espelho acrílico",
+   "Moldura em ABS"
+  ],
+  "chip_icons": [
+   "material",
+   "shield"
+  ]
+ },
+ {
+  "out": "espelho-traseiro-bebe-carro-12-resumo.jpg",
+  "layout": "passos",
+  "img": "_fontes/e-montados.png",
+  "white": true,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "rotate",
+    "t": "Gira 360°",
+    "d": "Ângulo ideal"
+   },
+   {
+    "icon": "car",
+    "t": "2 suportes",
+    "d": "Pala ou vidro"
+   },
+   {
+    "icon": "material",
+    "t": "Acrílico",
+    "d": "E ABS rígido"
+   },
+   {
+    "icon": "baby",
+    "t": "Sem se virar",
+    "d": "Criança à vista"
+   }
+  ],
+  "alt": "Resumo do espelho para bebê no carro: gira 360°, dois suportes, acrílico e ABS, criança à vista"
+ },
+ {
+  "out": "espelho-traseiro-bebe-carro-13-crianca.jpg",
+  "layout": "hero",
+  "img": "_fontes/c-13-crianca.png",
+  "t1": "Trajeto tranquilo",
+  "t2": "para os dois",
+  "sub": "Um olhar rápido e você\nsegue dirigindo em paz",
+  "icon": "baby",
+  "alt": "Criança na cadeirinha acenando para o próprio reflexo no espelho para bebê preso no para-brisa do carro"
+ }
+]

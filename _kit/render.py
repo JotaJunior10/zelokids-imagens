@@ -16,6 +16,7 @@ spec.json = lista de imagens. Campos por imagem:
   chips    card/hero/overlay: ["Banheiro", "Lavanderia"] com "chip_icons" opcional
   shield   true = escudo roxo pequeno no canto
   white    true = foto de estúdio: fundo vira branco puro e margem é cortada
+  full     capa: true = foto sangrada sem limpeza de fundo (exceção de capa para produto "de cena", ex. mosquiteiro)
   markers  lista: [{"n":1,"x":0.3,"y":0.1}] círculos numerados sobre a foto (fração da foto)
   zooms    detalhe: [{"n":1,"x":0.3,"y":0.1,"at":[0.15,0.4],"zoom":2.4}] lupa circular com o ponto (x,y) da foto
            ampliado, posicionada em `at` (fração do quadro) e ligada ao ponto por uma linha fina
@@ -248,7 +249,11 @@ def build(sp, work, base):
     w = bool(sp.get("white"))
     two = bool(sp.get("t1") and sp.get("t2"))
 
-    if lay == "capa":
+    if lay == "capa" and sp.get("full"):  # exceção de capa (produto "de cena"): foto limpa em fundo claro, sangrada, sem limpeza de fundo
+        save(fit_box(im, S, S), work / "img.png")
+        body = f'<img src="img.png" style="position:absolute;inset:0;width:{S}px;height:{S}px;object-fit:cover">'
+
+    elif lay == "capa":
         save(whiten_trim(im, trim=False, tol=sp.get("white_tol", 10)), work / "img.png")
         body = '<img src="img.png" style="position:absolute;left:62px;top:62px;width:900px;height:900px;object-fit:contain">'
 

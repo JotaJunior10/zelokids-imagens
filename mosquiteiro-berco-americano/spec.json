@@ -1,0 +1,228 @@
+[
+ {
+  "out": "mosquiteiro-para-berco-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/estudio-berco.png",
+  "alt": "Mosquiteiro para berço americano em véu de tule branco cobrindo o berço inteiro até perto do chão, em fundo claro",
+  "full": true
+ },
+ {
+  "out": "mosquiteiro-para-berco-02-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/cena-02-noite.png",
+  "align": "left",
+  "t1": "Mosquiteiro",
+  "t2": "para berço",
+  "sub": "O bebê dorme sem picadas\nde pernilongo",
+  "icon": "bed",
+  "shield": true,
+  "alt": "Bebê dormindo no berço americano coberto pelo mosquiteiro de tule à noite no quarto"
+ },
+ {
+  "out": "mosquiteiro-para-berco-03-problema.jpg",
+  "layout": "split",
+  "img": "_fontes/cena-03-pernilongo.png",
+  "crop": [
+   300,
+   0,
+   1024,
+   1024
+  ],
+  "t1": "Pernilongo",
+  "t2": "no quarto?",
+  "sub": "E o bebê acordando com picadas no berço",
+  "icon": "baby",
+  "alt": "Pernilongo na parede do quarto do bebê ao lado do berço, antes de usar o mosquiteiro de berço"
+ },
+ {
+  "out": "mosquiteiro-para-berco-04-beneficio.jpg",
+  "layout": "overlay",
+  "img": "_fontes/cena-04-mae.png",
+  "t1": "Noite inteira",
+  "t2": "de sono",
+  "sub": "Para ele e para a família",
+  "shield": true,
+  "alt": "Mãe olhando o bebê dormir tranquilo no berço americano protegido pelo cortinado para berço"
+ },
+ {
+  "out": "mosquiteiro-para-berco-05-como-funciona.jpg",
+  "layout": "lista",
+  "style": "num",
+  "side": "right",
+  "img": "_fontes/cena-05-abertura.png",
+  "crop": [
+   150,
+   0,
+   874,
+   1024
+  ],
+  "t1": "Como",
+  "t2": "usar",
+  "items": [
+   {
+    "t": "Pendure no alto",
+    "d": "No suporte que você já usa ou num gancho no teto"
+   },
+   {
+    "t": "Deixe o véu descer",
+    "d": "Ao redor do berço até perto do chão"
+   },
+   {
+    "t": "Abra pela frente",
+    "d": "Para pegar o bebê, sem desmontar nada"
+   }
+  ],
+  "alt": "Mãos abrindo a abertura frontal do véu para berço de tule para pegar o bebê sem desmontar"
+ },
+ {
+  "out": "mosquiteiro-para-berco-06-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/estudio-berco.png",
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   190,
+   220,
+   644,
+   540
+  ],
+  "legend_top": 800,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.5,
+    "y": 0.03,
+    "at": [
+     0.12,
+     0.3
+    ],
+    "zoom": 2.4,
+    "d": 200
+   },
+   {
+    "n": 2,
+    "x": 0.9,
+    "y": 0.55,
+    "at": [
+     0.88,
+     0.36
+    ],
+    "zoom": 2.4,
+    "d": 200
+   },
+   {
+    "n": 3,
+    "x": 0.4,
+    "y": 0.86,
+    "at": [
+     0.12,
+     0.62
+    ],
+    "zoom": 2.0,
+    "d": 200
+   }
+  ],
+  "items": [
+   {
+    "t": "Pendura no alto",
+    "d": "Cobre o berço por cima"
+   },
+   {
+    "t": "Tule leve",
+    "d": "Em poliamida"
+   },
+   {
+    "t": "1,50 m de altura",
+    "d": "Desce até perto do chão"
+   }
+  ],
+  "alt": "Detalhes em zoom do mosquiteiro de tule para berço: borda franzida no alto, tule de poliamida e barra perto do chão"
+ },
+ {
+  "out": "mosquiteiro-para-berco-07-duvidas.jpg",
+  "layout": "lista",
+  "img": "_fontes/estudio-berco.png",
+  "t1": "Serve no",
+  "t2": "meu berço?",
+  "items": [
+   {
+    "icon": "ruler",
+    "t": "4,50 m de contorno",
+    "d": "Dá a volta no berço americano"
+   },
+   {
+    "icon": "bed",
+    "t": "1,50 m de altura",
+    "d": "Meça do ponto de pendurar ao chão"
+   },
+   {
+    "icon": "question",
+    "t": "Suporte não acompanha",
+    "d": "Use o seu ou um gancho no teto"
+   }
+  ],
+  "alt": "Medidas do mosquiteiro grande para berço: 4,50 m de contorno e 1,50 m de altura; suporte não acompanha"
+ },
+ {
+  "out": "mosquiteiro-para-berco-08-onde-usar.jpg",
+  "layout": "card",
+  "img": "_fontes/cena-08-dia.png",
+  "crop": [
+   0,
+   120,
+   1024,
+   900
+  ],
+  "t1": "Sai para lavar",
+  "t2": "e volta limpinho",
+  "sub": "Tule de poliamida, leve e macio",
+  "chips": [
+   "Berço americano",
+   "Abertura na frente",
+   "Lavável"
+  ],
+  "chip_icons": [
+   "bed",
+   "door",
+   "laundry"
+  ],
+  "alt": "Mosquiteiro para bebê em tule branco lavado pendurado sobre o berço no quarto claro de dia"
+ },
+ {
+  "out": "mosquiteiro-para-berco-09-resumo.jpg",
+  "layout": "passos",
+  "img": "_fontes/estudio-berco.png",
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "shield",
+    "t": "Sem picadas",
+    "d": "Pernilongo longe"
+   },
+   {
+    "icon": "ruler",
+    "t": "4,50 m",
+    "d": "Berço inteiro"
+   },
+   {
+    "icon": "door",
+    "t": "Abertura",
+    "d": "Na frente"
+   },
+   {
+    "icon": "laundry",
+    "t": "Lavável",
+    "d": "Poliamida"
+   }
+  ],
+  "alt": "Resumo da tela mosquiteira para berço: sem picadas de pernilongo, 4,50 m, abertura frontal e lavável",
+  "crop": [
+   0,
+   30,
+   1024,
+   480
+  ]
+ }
+]

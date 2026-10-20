@@ -1,0 +1,249 @@
+[
+ {
+  "out": "aspirador-nasal-eletrico-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/estudio-azul.png",
+  "white_tol": 12,
+  "alt": "Aspirador nasal elétrico para bebê azul com visor digital, botão e ponta de silicone, em fundo branco"
+ },
+ {
+  "out": "aspirador-nasal-eletrico-02-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/cena-02-sofa.png",
+  "t1": "Aspirador nasal",
+  "t2": "elétrico",
+  "sub": "Tira a secreção com um toque,\nsem sugar com a boca",
+  "icon": "baby",
+  "shield": true,
+  "align": "left",
+  "alt": "Mãe no sofá usando o aspirador nasal elétrico bebê com a ponta de silicone na entrada da narina"
+ },
+ {
+  "out": "aspirador-nasal-eletrico-03-problema.jpg",
+  "layout": "split",
+  "img": "_fontes/cena-03-nariz.png",
+  "crop": [
+   200,
+   0,
+   1024,
+   1024
+  ],
+  "t1": "Narizinho",
+  "t2": "entupido?",
+  "sub": "E você sem vontade de sugar com a boca",
+  "icon": "baby",
+  "alt": "Bebê no colo com o narizinho entupido antes de usar o sugador nasal elétrico"
+ },
+ {
+  "out": "aspirador-nasal-eletrico-04-beneficio.jpg",
+  "layout": "overlay",
+  "img": "_fontes/cena-04-colo.png",
+  "t1": "Mamada e soninho",
+  "t2": "mais tranquilos",
+  "sub": "Com o narizinho limpo e sem nojo na rotina",
+  "shield": true,
+  "alt": "Bebê dormindo tranquilo no colo da mãe com o aspirador nasal elétrico na mesinha ao lado"
+ },
+ {
+  "out": "aspirador-nasal-eletrico-05-como-funciona.jpg",
+  "layout": "lista",
+  "style": "num",
+  "side": "right",
+  "img": "_fontes/estudio-azul.png",
+  "white": true,
+  "white_tol": 12,
+  "crop": [
+   330,
+   100,
+   625,
+   880
+  ],
+  "t1": "Como",
+  "t2": "usar",
+  "items": [
+   {
+    "t": "Soro antes",
+    "d": "Pulverize e aguarde alguns minutos"
+   },
+   {
+    "t": "Comece no nível 1",
+    "d": "O mais suave, com o bebê no colo"
+   },
+   {
+    "t": "Só na entrada",
+    "d": "Encoste a ponta na narina e aspire"
+   }
+  ],
+  "alt": "Como usar o aspirador nasal infantil: soro antes, começar no nível 1 e encostar a ponta só na entrada da narina"
+ },
+ {
+  "out": "aspirador-nasal-eletrico-06-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/estudio-azul.png",
+  "white": true,
+  "white_tol": 12,
+  "crop": [
+   330,
+   100,
+   625,
+   880
+  ],
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   40,
+   215,
+   944,
+   560
+  ],
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.3,
+    "y": 0.04,
+    "at": [
+     0.2,
+     0.31
+    ],
+    "zoom": 2.0,
+    "d": 210
+   },
+   {
+    "n": 2,
+    "x": 0.4,
+    "y": 0.14,
+    "at": [
+     0.8,
+     0.34
+    ],
+    "zoom": 1.8,
+    "d": 210
+   },
+   {
+    "n": 3,
+    "x": 0.25,
+    "y": 0.44,
+    "at": [
+     0.2,
+     0.6
+    ],
+    "zoom": 1.8,
+    "d": 210
+   }
+  ],
+  "items": [
+   {
+    "t": "Ponta de silicone",
+    "d": "Macia, com 2 bicos"
+   },
+   {
+    "t": "Reservatório",
+    "d": "Transparente, desencaixa"
+   },
+   {
+    "t": "6 níveis",
+    "d": "Visor e 1 botão"
+   }
+  ],
+  "alt": "Detalhes em zoom do sugador nasal elétrico: ponta de silicone, reservatório transparente e visor com 6 níveis"
+ },
+ {
+  "out": "aspirador-nasal-eletrico-07-duvidas.jpg",
+  "layout": "lista",
+  "img": "_fontes/estudio-kit.png",
+  "white": true,
+  "white_tol": 12,
+  "t1": "O que vem",
+  "t2": "na caixa?",
+  "items": [
+   {
+    "icon": "check",
+    "t": "1 aspirador elétrico",
+    "d": "Com 6 níveis de sucção"
+   },
+   {
+    "icon": "drop",
+    "t": "2 bicos de silicone",
+    "d": "Em formatos diferentes"
+   },
+   {
+    "icon": "button",
+    "t": "1 cabo USB",
+    "d": "Recarregável, sem pilhas"
+   }
+  ],
+  "alt": "Kit do limpador nasal elétrico: aparelho, 2 bicos de silicone de formatos diferentes e cabo USB"
+ },
+ {
+  "out": "aspirador-nasal-eletrico-08-onde-usar.jpg",
+  "layout": "card",
+  "img": "_fontes/cena-08-comoda.png",
+  "crop": [
+   0,
+   150,
+   1024,
+   950
+  ],
+  "t1": "Na rotina",
+  "t2": "do bebê",
+  "sub": "Leve e fácil de segurar com ele no colo",
+  "chips": [
+   "Antes da mamada",
+   "Antes de dormir",
+   "Recarrega no USB"
+  ],
+  "chip_icons": [
+   "baby",
+   "bed",
+   "check"
+  ],
+  "alt": "Aspirador nasal bebê elétrico em pé na cômoda do quarto ao lado de manta e frasco de soro"
+ },
+ {
+  "out": "aspirador-nasal-eletrico-09-resumo.jpg",
+  "layout": "passos",
+  "img": "_fontes/estudio-azul.png",
+  "white": true,
+  "white_tol": 12,
+  "crop": [
+   330,
+   100,
+   625,
+   880
+  ],
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "check",
+    "t": "1 toque",
+    "d": "Sem sugar"
+   },
+   {
+    "icon": "rotate",
+    "t": "6 níveis",
+    "d": "Comece suave"
+   },
+   {
+    "icon": "drop",
+    "t": "Silicone",
+    "d": "2 bicos macios"
+   },
+   {
+    "icon": "wash",
+    "t": "Desencaixa",
+    "d": "Para lavar"
+   }
+  ],
+  "alt": "Resumo do aspirador nasal elétrico: um toque sem sugar com a boca, 6 níveis, bicos de silicone e peças que desencaixam"
+ },
+ {
+  "out": "aspirador-nasal-eletrico-10-rosa.jpg",
+  "layout": "capa",
+  "img": "_fontes/estudio-rosa.png",
+  "white_tol": 12,
+  "alt": "Aspirador nasal elétrico para bebê na cor rosa com visor digital e ponta de silicone, em fundo branco"
+ }
+]

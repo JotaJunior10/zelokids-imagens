@@ -1,0 +1,227 @@
+[
+ {
+  "out": "ajustador-de-cinto-de-seguranca-infantil-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/capa-vermelho.png",
+  "white_tol": 32,
+  "alt": "Ajustador de cinto de segurança infantil vermelho acolchoado, formato triangular com botões de pressão, fundo branco"
+ },
+ {
+  "out": "ajustador-de-cinto-de-seguranca-infantil-02-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/cena-02-menina.png",
+  "align": "left",
+  "t1": "Ajustador",
+  "t2": "de cinto",
+  "sub": "Cinto longe do\npescoço da criança",
+  "icon": "car",
+  "shield": true,
+  "alt": "Menina sorrindo no banco de trás do carro com ajustador de cinto de segurança infantil vermelho e o cinto no ombro"
+ },
+ {
+  "out": "ajustador-de-cinto-de-seguranca-infantil-03-problema.jpg",
+  "layout": "overlay",
+  "img": "_fontes/cena-03-pescoco.png",
+  "t1": "Cinto no",
+  "t2": "pescoço?",
+  "sub": "No banco do carro, a faixa sobe e roça no pescoço da criança",
+  "alt": "Menino no banco do carro afastando com a mão o cinto de segurança que roça no pescoço, sem ajustador de cinto"
+ },
+ {
+  "out": "ajustador-de-cinto-de-seguranca-infantil-04-beneficio.jpg",
+  "layout": "split",
+  "img": "_fontes/cena-04-menino.png",
+  "crop": [
+   300,
+   0,
+   820,
+   1024
+  ],
+  "t1": "Longe do",
+  "t2": "pescoço",
+  "sub": "A faixa passa pelo ombro e pelo peito",
+  "shield": true,
+  "alt": "Menino feliz no carro com ajustador de cinto para criança: a faixa passa pelo ombro e pelo peito, longe do pescoço"
+ },
+ {
+  "out": "ajustador-de-cinto-de-seguranca-infantil-05-como-funciona.jpg",
+  "layout": "lista",
+  "style": "num",
+  "side": "right",
+  "img": "_fontes/preto-banco.png",
+  "crop": [
+   250,
+   150,
+   770,
+   950
+  ],
+  "t1": "Como",
+  "t2": "colocar",
+  "items": [
+   {
+    "t": "Abra os botões",
+    "d": "Solte os botões de pressão"
+   },
+   {
+    "t": "Passe o cinto",
+    "d": "Por dentro das abas do triângulo"
+   },
+   {
+    "t": "Feche e acomode",
+    "d": "Faixa no ombro, longe do pescoço"
+   }
+  ],
+  "alt": "Como colocar o ajuste para cinto de segurança preto: abrir os botões, passar o cinto pelas abas e fechar"
+ },
+ {
+  "out": "ajustador-de-cinto-de-seguranca-infantil-06-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/capa-vermelho.png",
+  "white": true,
+  "white_tol": 32,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   40,
+   225,
+   904,
+   510
+  ],
+  "legend_top": 790,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.735,
+    "y": 0.53,
+    "at": [
+     0.875,
+     0.4
+    ],
+    "zoom": 2.2,
+    "d": 220
+   },
+   {
+    "n": 2,
+    "x": 0.64,
+    "y": 0.33,
+    "at": [
+     0.125,
+     0.33
+    ],
+    "zoom": 2.0,
+    "d": 220
+   },
+   {
+    "n": 3,
+    "x": 0.15,
+    "y": 0.72,
+    "at": [
+     0.115,
+     0.655
+    ],
+    "zoom": 2.0,
+    "d": 200
+   }
+  ],
+  "items": [
+   {
+    "t": "Botões de pressão",
+    "d": "Abre e fecha em segundos"
+   },
+   {
+    "t": "Acolchoado macio",
+    "d": "Leve: só 45 g"
+   },
+   {
+    "t": "Passagem do cinto",
+    "d": "A faixa corre por dentro"
+   }
+  ],
+  "alt": "Detalhes em zoom do ajustador de cinto de segurança: botões de pressão, acolchoado macio e passagem do cinto"
+ },
+ {
+  "out": "ajustador-de-cinto-de-seguranca-infantil-07-duvidas.jpg",
+  "layout": "lista",
+  "img": "_fontes/capa-vermelho.png",
+  "white": true,
+  "white_tol": 32,
+  "t1": "Antes de",
+  "t2": "comprar",
+  "items": [
+   {
+    "icon": "ruler",
+    "t": "18,5 x 23,2 cm",
+    "d": "4 cm de espessura e só 45 g"
+   },
+   {
+    "icon": "baby",
+    "t": "A partir de 4 anos",
+    "d": "Com o cinto de 3 pontos do banco"
+   },
+   {
+    "icon": "bag",
+    "t": "Preto ou vermelho",
+    "d": "1 unidade por pedido"
+   }
+  ],
+  "alt": "Ajustador de cinto para criança de 18,5 x 23,2 cm e 45 g, a partir de 4 anos, nas cores preto ou vermelho"
+ },
+ {
+  "out": "ajustador-de-cinto-de-seguranca-infantil-08-onde-usar.jpg",
+  "layout": "card",
+  "img": "_fontes/cena-08-banco.png",
+  "crop": [
+   0,
+   250,
+   1024,
+   942
+  ],
+  "t1": "Em todo trajeto",
+  "t2": "de carro",
+  "sub": "No banco de trás, com o cinto de 3 pontos",
+  "chips": [
+   "Dia a dia",
+   "Viagens",
+   "Adulto baixo"
+  ],
+  "chip_icons": [
+   "home",
+   "car",
+   "check"
+  ],
+  "alt": "Posicionador de cinto de segurança vermelho preso ao cinto de 3 pontos no banco de trás do carro"
+ },
+ {
+  "out": "ajustador-de-cinto-de-seguranca-infantil-09-resumo.jpg",
+  "layout": "passos",
+  "img": "_fontes/capa-vermelho.png",
+  "white": true,
+  "white_tol": 32,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "shield",
+    "t": "Sem cinto",
+    "d": "No pescoço"
+   },
+   {
+    "icon": "button",
+    "t": "Fecha fácil",
+    "d": "Com botões"
+   },
+   {
+    "icon": "material",
+    "t": "Leve",
+    "d": "Só 45 g"
+   },
+   {
+    "icon": "lock",
+    "t": "Firme",
+    "d": "Fica no lugar"
+   }
+  ],
+  "alt": "Resumo do regulador de cinto de segurança infantil: tira o cinto do pescoço, fecha fácil, leve e firme no lugar"
+ }
+]

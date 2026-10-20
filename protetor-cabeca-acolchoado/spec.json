@@ -1,0 +1,241 @@
+[
+ {
+  "out": "protetor-de-cabeca-para-bebe-acolchoado-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/estudio-verde.png",
+  "white_tol": 18,
+  "alt": "Protetor de cabeça para bebê acolchoado verde com estampa floresta, faixas cruzadas no topo e cordão, em fundo branco"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-acolchoado-02-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/cena-02-engatinhando.png",
+  "t1": "Protetor de cabeça",
+  "t2": "para bebê",
+  "shield": true,
+  "alt": "Bebê engatinhando no tapete da sala usando o protetor de cabeça para bebê engatinhar com cordão no queixo"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-acolchoado-03-problema.jpg",
+  "layout": "split",
+  "img": "_fontes/cena-03-mesa.png",
+  "crop": [
+   40,
+   0,
+   760,
+   1024
+  ],
+  "t1": "Pé da mesa",
+  "t2": "por perto?",
+  "sub": "Ele tomba para o lado e você prende a respiração",
+  "icon": "baby",
+  "alt": "Bebê sentado no chão perto do pé da mesa de centro, sem o capacete de proteção para bebê"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-acolchoado-04-beneficio.jpg",
+  "layout": "overlay",
+  "img": "_fontes/cena-04-sofa.png",
+  "t1": "Liberdade",
+  "t2": "para explorar",
+  "sub": "Aro acolchoado que amortece as batidas",
+  "shield": true,
+  "alt": "Criança dando os primeiros passos apoiada no sofá com o protetor de cabeça infantil acolchoado"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-acolchoado-05-como-funciona.jpg",
+  "layout": "lista",
+  "style": "num",
+  "side": "right",
+  "img": "_fontes/cena-05-velcro.png",
+  "crop": [
+   150,
+   0,
+   874,
+   1024
+  ],
+  "t1": "Como",
+  "t2": "colocar",
+  "items": [
+   {
+    "t": "Abra o velcro",
+    "d": "E posicione o aro na testa e nas laterais"
+   },
+   {
+    "t": "Feche e amarre",
+    "d": "O velcro atrás e o cordão sob o queixo"
+   },
+   {
+    "t": "Na hora do sono",
+    "d": "Tire a touca"
+   }
+  ],
+  "alt": "Mãos fechando o velcro atrás do protetor para cabeça de bebê, com o aro acolchoado e as faixas no topo"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-acolchoado-06-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/estudio-verde.png",
+  "white": true,
+  "white_tol": 18,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   40,
+   215,
+   944,
+   560
+  ],
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.36,
+    "y": 0.42,
+    "at": [
+     0.13,
+     0.4
+    ],
+    "zoom": 1.7,
+    "d": 210
+   },
+   {
+    "n": 2,
+    "x": 0.55,
+    "y": 0.07,
+    "at": [
+     0.87,
+     0.3
+    ],
+    "zoom": 1.7,
+    "d": 210
+   },
+   {
+    "n": 3,
+    "x": 0.79,
+    "y": 0.9,
+    "at": [
+     0.87,
+     0.6
+    ],
+    "zoom": 1.8,
+    "d": 210
+   }
+  ],
+  "items": [
+   {
+    "t": "Aro de 2,5 cm",
+    "d": "Testa, laterais e nuca"
+   },
+   {
+    "t": "Topo vazado",
+    "d": "Faixas cruzadas, leve"
+   },
+   {
+    "t": "Cordão no queixo",
+    "d": "E velcro atrás"
+   }
+  ],
+  "alt": "Detalhes em zoom do protetor de cabeça acolchoado: aro de 2,5 cm, topo vazado com faixas cruzadas e cordão"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-acolchoado-07-duvidas.jpg",
+  "layout": "lista",
+  "img": "_fontes/estudio-verde-aro.png",
+  "white": true,
+  "t1": "Serve no",
+  "t2": "meu bebê?",
+  "items": [
+   {
+    "icon": "baby",
+    "t": "De 5 a 24 meses",
+    "d": "Quando senta, engatinha e anda"
+   },
+   {
+    "icon": "ruler",
+    "t": "Cerca de 70 cm",
+    "d": "De circunferência, com ajuste"
+   },
+   {
+    "icon": "material",
+    "t": "Cerca de 76 g",
+    "d": "Tecido macio, não é rígido"
+   }
+  ],
+  "alt": "Medidas do capacete para bebê engatinhar: de 5 a 24 meses, cerca de 70 cm de circunferência e 76 g"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-acolchoado-08-onde-usar.jpg",
+  "layout": "card",
+  "img": "_fontes/cena-08-blocos.png",
+  "crop": [
+   0,
+   80,
+   1024,
+   900
+  ],
+  "t1": "Para cada",
+  "t2": "fase nova",
+  "sub": "Nas brincadeiras do dia a dia",
+  "chips": [
+   "Sentar",
+   "Engatinhar",
+   "Primeiros passos"
+  ],
+  "chip_icons": [
+   "baby",
+   "home",
+   "heartless_star"
+  ],
+  "alt": "Bebê sentado brincando com blocos de madeira usando a proteção de cabeça para bebê estampa floresta"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-acolchoado-09-resumo.jpg",
+  "layout": "passos",
+  "img": "_fontes/estudio-verde-aro.png",
+  "white": true,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "shield",
+    "t": "Acolchoado",
+    "d": "Amortece batidas"
+   },
+   {
+    "icon": "rotate",
+    "t": "Ajustável",
+    "d": "Velcro e cordão"
+   },
+   {
+    "icon": "material",
+    "t": "Leve",
+    "d": "Cerca de 76 g"
+   },
+   {
+    "icon": "heartless_star",
+    "t": "Estampa",
+    "d": "Floresta"
+   }
+  ],
+  "alt": "Resumo do protetor de cabeça para criança: acolchoado, ajustável com velcro e cordão, leve e estampa floresta"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-acolchoado-10-cinza.jpg",
+  "layout": "capa",
+  "img": "_fontes/estudio-cinza.png",
+  "crop": [
+   170,
+   0,
+   1024,
+   1024
+  ],
+  "alt": "Protetor de cabeça para bebê acolchoado na cor cinza com estampa floresta e cordão, em fundo branco"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-acolchoado-11-rosa.jpg",
+  "layout": "capa",
+  "img": "_fontes/estudio-rosa.png",
+  "alt": "Protetor de cabeça para bebê acolchoado na cor rosa com estampa floresta e cordão, em fundo branco"
+ }
+]

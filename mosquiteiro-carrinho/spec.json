@@ -1,0 +1,241 @@
+[
+ {
+  "out": "mosquiteiro-para-carrinho-de-bebe-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/estudio-branco.png",
+  "alt": "Mosquiteiro para carrinho de bebê branco com elástico na borda cobrindo a capota e o assento do carrinho"
+ },
+ {
+  "out": "mosquiteiro-para-carrinho-de-bebe-02-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/cena-08-conforto.png",
+  "t1": "Mosquiteiro para",
+  "t2": "carrinho de bebê",
+  "sub": "O bebê passeia protegido\ndas picadas de pernilongo",
+  "icon": "baby",
+  "shield": true,
+  "alt": "Bebê conforto coberto pelo mosquiteiro para carrinho de bebê com elástico, no piquenique do parque"
+ },
+ {
+  "out": "mosquiteiro-para-carrinho-de-bebe-03-problema.jpg",
+  "layout": "split",
+  "img": "_fontes/cena-03-pernilongo.png",
+  "crop": [
+   250,
+   0,
+   1024,
+   1024
+  ],
+  "t1": "Voltou do",
+  "t2": "passeio picado?",
+  "sub": "Sem improvisar fralda ou paninho no carrinho",
+  "icon": "baby",
+  "alt": "Pernilongo pousado na capota do carrinho de bebê no parque ao entardecer, sem a tela mosquiteira"
+ },
+ {
+  "out": "mosquiteiro-para-carrinho-de-bebe-04-beneficio.jpg",
+  "layout": "overlay",
+  "img": "_fontes/cena-04-bebe.png",
+  "t1": "Passeio",
+  "t2": "tranquilo",
+  "sub": "Bebê sem picadas e a família com a cabeça leve",
+  "shield": true,
+  "alt": "Bebê dormindo no carrinho sob o mosquiteiro de carrinho com elástico, no jardim"
+ },
+ {
+  "out": "mosquiteiro-para-carrinho-de-bebe-05-como-funciona.jpg",
+  "layout": "lista",
+  "style": "num",
+  "side": "right",
+  "img": "_fontes/cena-05-elastico.png",
+  "crop": [
+   120,
+   0,
+   900,
+   1024
+  ],
+  "t1": "Como",
+  "t2": "usar",
+  "items": [
+   {
+    "t": "Lave antes",
+    "d": "Do primeiro uso e deixe secar"
+   },
+   {
+    "t": "Abra sobre o carrinho",
+    "d": "Ou sobre o moisés e o bebê conforto"
+   },
+   {
+    "t": "Encaixe o elástico",
+    "d": "Na capota ou na beirada, até ajustar"
+   }
+  ],
+  "alt": "Mão encaixando o elástico do mosquiteiro com elástico para carrinho na capota do carrinho"
+ },
+ {
+  "out": "mosquiteiro-para-carrinho-de-bebe-06-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/estudio-branco.png",
+  "white": true,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   40,
+   215,
+   944,
+   560
+  ],
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.25,
+    "y": 0.15,
+    "at": [
+     0.12,
+     0.33
+    ],
+    "zoom": 2.0,
+    "d": 200
+   },
+   {
+    "n": 2,
+    "x": 0.45,
+    "y": 0.3,
+    "at": [
+     0.88,
+     0.3
+    ],
+    "zoom": 2.4,
+    "d": 200
+   },
+   {
+    "n": 3,
+    "x": 0.72,
+    "y": 0.64,
+    "at": [
+     0.88,
+     0.6
+    ],
+    "zoom": 2.0,
+    "d": 200
+   }
+  ],
+  "items": [
+   {
+    "t": "Borda com elástico",
+    "d": "Abraça a capota"
+   },
+   {
+    "t": "Tule leve",
+    "d": "Dobra pequeno"
+   },
+   {
+    "t": "Sem arco e zíper",
+    "d": "Prende na beirada"
+   }
+  ],
+  "alt": "Detalhes em zoom da tela mosquiteira para carrinho de bebê: borda com elástico, tule leve e encaixe na beirada"
+ },
+ {
+  "out": "mosquiteiro-para-carrinho-de-bebe-07-duvidas.jpg",
+  "layout": "lista",
+  "img": "_fontes/estudio-bolsa.png",
+  "white": true,
+  "t1": "Serve no",
+  "t2": "meu carrinho?",
+  "items": [
+   {
+    "icon": "ruler",
+    "t": "Cerca de 1,00 x 1,50 m",
+    "d": "Cobre carrinho, moisés e bebê conforto"
+   },
+   {
+    "icon": "car",
+    "t": "Carrinho compacto?",
+    "d": "Confira a medida da capota"
+   },
+   {
+    "icon": "bag",
+    "t": "Vai na bolsa",
+    "d": "Dobra pequeno e é leve"
+   }
+  ],
+  "alt": "Mosquiteiro universal dobrado ao lado da bolsa do bebê: cerca de 1,00 x 1,50 m e leve para levar"
+ },
+ {
+  "out": "mosquiteiro-para-carrinho-de-bebe-08-onde-usar.jpg",
+  "layout": "card",
+  "img": "_fontes/cena-02-parque.png",
+  "crop": [
+   0,
+   180,
+   1024,
+   1000
+  ],
+  "t1": "Uma peça para",
+  "t2": "todo o passeio",
+  "sub": "O mesmo elástico prende em todos",
+  "chips": [
+   "Carrinho",
+   "Bebê conforto",
+   "Berço portátil"
+  ],
+  "chip_icons": [
+   "baby",
+   "car",
+   "bed"
+  ],
+  "alt": "Casal passeando no parque com o carrinho coberto pelo mosquiteiro universal para passeio de bebê"
+ },
+ {
+  "out": "mosquiteiro-para-carrinho-de-bebe-09-resumo.jpg",
+  "layout": "passos",
+  "img": "_fontes/estudio-branco.png",
+  "white": true,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "shield",
+    "t": "Sem picadas",
+    "d": "No passeio"
+   },
+   {
+    "icon": "check",
+    "t": "Elástico",
+    "d": "Em toda a borda"
+   },
+   {
+    "icon": "baby",
+    "t": "Universal",
+    "d": "Carrinho e conforto"
+   },
+   {
+    "icon": "bag",
+    "t": "Leve",
+    "d": "Vai na bolsa"
+   }
+  ],
+  "alt": "Resumo do mosquiteiro de carrinho: sem picadas no passeio, elástico em toda a borda, universal e leve"
+ },
+ {
+  "out": "mosquiteiro-para-carrinho-de-bebe-10-preto.jpg",
+  "layout": "capa",
+  "img": "_fontes/estudio-preto.png",
+  "alt": "Mosquiteiro para carrinho de bebê na cor preta cobrindo a capota e o assento do carrinho"
+ },
+ {
+  "out": "mosquiteiro-para-carrinho-de-bebe-11-rosa.jpg",
+  "layout": "capa",
+  "img": "_fontes/estudio-rosa.png",
+  "alt": "Mosquiteiro para carrinho de bebê na cor rosa com elástico cobrindo o carrinho inteiro"
+ },
+ {
+  "out": "mosquiteiro-para-carrinho-de-bebe-12-azul.jpg",
+  "layout": "capa",
+  "img": "_fontes/estudio-azul.png",
+  "alt": "Mosquiteiro para carrinho de bebê na cor azul claro com elástico na borda sobre o carrinho"
+ }
+]

@@ -1,0 +1,217 @@
+[
+ {
+  "out": "protetor-de-berco-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/estudio-kit.png",
+  "alt": "Protetor de berço acolchoado com 6 almofadas de algodão bege e creme com ursinho e laços de fita, em fundo branco"
+ },
+ {
+  "out": "protetor-de-berco-02-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/cena-02-quarto.png",
+  "t1": "Protetor de berço",
+  "t2": "acolchoado",
+  "sub": "Grades revestidas com almofadas\nmacias de algodão",
+  "icon": "bed",
+  "shield": true,
+  "alt": "Mãe amarrando os laços do protetor de berço acolchoado nas grades de um berço branco no quarto do bebê"
+ },
+ {
+  "out": "protetor-de-berco-03-problema.jpg",
+  "layout": "split",
+  "img": "_fontes/cena-03-grade.png",
+  "t1": "Grade dura",
+  "t2": "à mostra?",
+  "sub": "As almofadas deixam as laterais macias e bonitas",
+  "icon": "bed",
+  "alt": "Grades de madeira do berço sem protetor lateral de berço, com as ripas duras à mostra"
+ },
+ {
+  "out": "protetor-de-berco-04-beneficio.jpg",
+  "layout": "overlay",
+  "img": "_fontes/cena-04-berco.png",
+  "t1": "Cantinho mais",
+  "t2": "aconchegante",
+  "sub": "Peças soltas que você monta do seu jeito",
+  "shield": true,
+  "alt": "Berço branco com o kit protetor de berço amarrado nas grades e manta bege sobre o colchão"
+ },
+ {
+  "out": "protetor-de-berco-05-como-funciona.jpg",
+  "layout": "lista",
+  "style": "num",
+  "side": "right",
+  "img": "_fontes/cena-05-laco.png",
+  "crop": [
+   0,
+   60,
+   620,
+   1015
+  ],
+  "t1": "Como",
+  "t2": "instalar",
+  "items": [
+   {
+    "t": "Encoste a almofada",
+    "d": "Nas grades, no trecho que quiser"
+   },
+   {
+    "t": "Amarre os laços",
+    "d": "De fita, nos cantos de cada peça"
+   },
+   {
+    "t": "Ajuste quando quiser",
+    "d": "É só desamarrar e mudar"
+   }
+  ],
+  "alt": "Mãos amarrando o laço de fita do protetor de grades de berço listrado na grade de madeira"
+ },
+ {
+  "out": "protetor-de-berco-06-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/estudio-1peca.png",
+  "white": true,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   40,
+   225,
+   944,
+   510
+  ],
+  "legend_top": 790,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.6,
+    "y": 0.79,
+    "at": [
+     0.115,
+     0.62
+    ],
+    "zoom": 2.2,
+    "d": 200
+   },
+   {
+    "n": 2,
+    "x": 0.87,
+    "y": 0.15,
+    "at": [
+     0.885,
+     0.36
+    ],
+    "zoom": 2.0,
+    "d": 200
+   },
+   {
+    "n": 3,
+    "x": 0.3,
+    "y": 0.3,
+    "at": [
+     0.115,
+     0.33
+    ],
+    "zoom": 2.4,
+    "d": 200
+   }
+  ],
+  "items": [
+   {
+    "t": "Acolchoada",
+    "d": "30 x 30 cm cada peça"
+   },
+   {
+    "t": "Laços de fita",
+    "d": "Amarra sem ferramenta"
+   },
+   {
+    "t": "Algodão",
+    "d": "Macio ao toque"
+   }
+  ],
+  "alt": "Detalhes em zoom da almofada protetora de berço: acolchoado de 30 x 30 cm, laço de fita e tecido de algodão"
+ },
+ {
+  "out": "protetor-de-berco-07-duvidas.jpg",
+  "layout": "lista",
+  "img": "_fontes/estudio-kit.png",
+  "white": true,
+  "t1": "Quantas",
+  "t2": "peças vêm?",
+  "items": [
+   {
+    "icon": "material",
+    "t": "6 almofadas soltas",
+    "d": "Revestem parte das grades"
+   },
+   {
+    "icon": "ruler",
+    "t": "30 x 30 cm",
+    "d": "Cada peça (pode variar de 1 a 3 cm)"
+   },
+   {
+    "icon": "bed",
+    "t": "Berço todo?",
+    "d": "Para contornar, use 2 kits"
+   }
+  ],
+  "alt": "Kit protetor de berço com 6 almofadas soltas de 30 x 30 cm; para contornar o berço todo são 2 kits"
+ },
+ {
+  "out": "protetor-de-berco-08-onde-usar.jpg",
+  "layout": "card",
+  "img": "_fontes/cena-08-lavanderia.png",
+  "crop": [
+   0,
+   80,
+   1024,
+   860
+  ],
+  "t1": "Lava na",
+  "t2": "máquina",
+  "sub": "E as almofadas não perdem a forma",
+  "chips": [
+   "Peças soltas",
+   "Laços de fita",
+   "Algodão"
+  ],
+  "chip_icons": [
+   "check",
+   "heartless_star",
+   "material"
+  ],
+  "alt": "Seis almofadas do protetor de berço em algodão lavadas e empilhadas sobre a máquina de lavar"
+ },
+ {
+  "out": "protetor-de-berco-09-resumo.jpg",
+  "layout": "passos",
+  "img": "_fontes/estudio-1peca.png",
+  "white": true,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "bed",
+    "t": "Macio",
+    "d": "Acolchoado"
+   },
+   {
+    "icon": "heartless_star",
+    "t": "Laços",
+    "d": "Sem ferramenta"
+   },
+   {
+    "icon": "laundry",
+    "t": "Lava fácil",
+    "d": "Na máquina"
+   },
+   {
+    "icon": "material",
+    "t": "6 peças",
+    "d": "30 x 30 cm"
+   }
+  ],
+  "alt": "Resumo do protetor para berço em algodão: grades macias, laços sem ferramenta, lava na máquina e 6 peças"
+ }
+]

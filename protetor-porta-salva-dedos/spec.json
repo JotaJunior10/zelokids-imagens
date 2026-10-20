@@ -1,0 +1,218 @@
+[
+ {
+  "out": "protetor-de-porta-para-bebe-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/estudio-kit4.png",
+  "alt": "Protetor de porta para bebê salva dedos em espuma branca, kit com 4 peças em formato de C, em fundo branco"
+ },
+ {
+  "out": "protetor-de-porta-para-bebe-02-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/cena-02-corredor.png",
+  "t1": "Protetor de porta",
+  "t2": "para bebê",
+  "sub": "A porta não bate e não fecha\nsobre os dedinhos",
+  "icon": "door",
+  "shield": true,
+  "align": "left",
+  "alt": "Bebê brincando no chão perto da porta entreaberta com o protetor de porta para bebê encaixado na borda"
+ },
+ {
+  "out": "protetor-de-porta-para-bebe-03-problema.jpg",
+  "layout": "split",
+  "img": "_fontes/cena-03-mao.png",
+  "t1": "Porta batendo",
+  "t2": "com o vento?",
+  "sub": "A espuma segura uma fresta e a porta não fecha na mão",
+  "icon": "baby",
+  "alt": "Mãozinha de criança na porta com o protetor de dedos para porta mantendo uma fresta aberta no batente"
+ },
+ {
+  "out": "protetor-de-porta-para-bebe-04-beneficio.jpg",
+  "layout": "overlay",
+  "img": "_fontes/cena-04-close.png",
+  "t1": "Dedinhos sem susto",
+  "t2": "e sem obra",
+  "sub": "Encaixa em segundos, sem cola e sem furar",
+  "shield": true,
+  "alt": "Protetor de porta em espuma em formato de C encaixado na borda da porta branca, acima da maçaneta"
+ },
+ {
+  "out": "protetor-de-porta-para-bebe-05-como-funciona.jpg",
+  "layout": "lista",
+  "style": "num",
+  "side": "right",
+  "img": "_fontes/cena-05-banheiro.png",
+  "crop": [
+   290,
+   250,
+   710,
+   900
+  ],
+  "t1": "Como",
+  "t2": "usar",
+  "items": [
+   {
+    "t": "Escolha a porta",
+    "d": "A que mais bate, como a do quarto"
+   },
+   {
+    "t": "Encaixe na borda",
+    "d": "Com o C voltado para a porta"
+   },
+   {
+    "t": "Feche devagar",
+    "d": "A espuma segura uma fresta aberta"
+   }
+  ],
+  "alt": "Como usar o protetor de porta infantil: escolher a porta, encaixar o C na borda e fechar até a fresta"
+ },
+ {
+  "out": "protetor-de-porta-para-bebe-06-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/estudio-1peca.png",
+  "white": true,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   150,
+   225,
+   724,
+   510
+  ],
+  "legend_top": 790,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.5,
+    "y": 0.33,
+    "at": [
+     0.115,
+     0.33
+    ],
+    "zoom": 1.9,
+    "d": 200
+   },
+   {
+    "n": 2,
+    "x": 0.32,
+    "y": 0.82,
+    "at": [
+     0.115,
+     0.6
+    ],
+    "zoom": 2.2,
+    "d": 200
+   },
+   {
+    "n": 3,
+    "x": 0.93,
+    "y": 0.5,
+    "at": [
+     0.885,
+     0.4
+    ],
+    "zoom": 2.0,
+    "d": 200
+   }
+  ],
+  "items": [
+   {
+    "t": "Formato em C",
+    "d": "Abraça a borda da porta"
+   },
+   {
+    "t": "Espuma macia",
+    "d": "1,5 cm de espessura"
+   },
+   {
+    "t": "Se ajusta",
+    "d": "Estica até em porta larga"
+   }
+  ],
+  "alt": "Detalhes em zoom do protetor de dedos para porta: formato em C, espuma macia de 1,5 cm e borda que se ajusta"
+ },
+ {
+  "out": "protetor-de-porta-para-bebe-07-duvidas.jpg",
+  "layout": "lista",
+  "img": "_fontes/estudio-kit4.png",
+  "white": true,
+  "t1": "Ficou com",
+  "t2": "alguma dúvida?",
+  "items": [
+   {
+    "icon": "ruler",
+    "t": "9,5 x 9,5 cm",
+    "d": "Cada peça, com 1,5 cm de espessura"
+   },
+   {
+    "icon": "nodrill",
+    "t": "Sem cola e sem furo",
+    "d": "Encaixa e tira quando quiser"
+   },
+   {
+    "icon": "material",
+    "t": "Kit com 4 peças",
+    "d": "Espuma macia na cor branca"
+   }
+  ],
+  "alt": "Kit protetor de porta com 4 peças brancas de 9,5 x 9,5 cm e 1,5 cm, sem cola e sem furar a porta"
+ },
+ {
+  "out": "protetor-de-porta-para-bebe-08-onde-usar.jpg",
+  "layout": "card",
+  "img": "_fontes/cena-08-quarto.png",
+  "crop": [
+   0,
+   0,
+   1024,
+   760
+  ],
+  "t1": "Para a casa",
+  "t2": "toda",
+  "sub": "Onde o vento costuma bater a porta",
+  "chips": [
+   "Quarto",
+   "Banheiro",
+   "Janela"
+  ],
+  "chip_icons": [
+   "bed",
+   "bath",
+   "home"
+  ],
+  "alt": "Protetor de porta para quarto de bebê mantendo a porta entreaberta com a cortina balançando ao vento"
+ },
+ {
+  "out": "protetor-de-porta-para-bebe-09-resumo.jpg",
+  "layout": "passos",
+  "img": "_fontes/estudio-1peca.png",
+  "white": true,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "shield",
+    "t": "Salva dedos",
+    "d": "Não fecha na mão"
+   },
+   {
+    "icon": "door",
+    "t": "Sem batida",
+    "d": "Fresta aberta"
+   },
+   {
+    "icon": "nodrill",
+    "t": "Sem obra",
+    "d": "Só encaixar"
+   },
+   {
+    "icon": "home",
+    "t": "4 peças",
+    "d": "Várias portas"
+   }
+  ],
+  "alt": "Resumo do salva dedos para porta em espuma: não fecha na mão, sem batida, sem obra e kit com 4 peças"
+ }
+]

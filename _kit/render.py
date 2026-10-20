@@ -5,6 +5,8 @@ uso: python3 render.py spec.json [--out-dir pasta] [--only 01,06]
 spec.json = lista de imagens. Campos por imagem:
   out      nome do arquivo final (ex.: "trava-porta-bebe-macaneta-alavanca-01-capa.jpg")
   layout   "capa" | "hero" | "overlay" | "card" | "split" | "lista" | "passos" | "detalhe"
+           v3: "comparativo" (img+img2, labels) | "depoimento" (quote) | "numero" (num, legend) | "sequencia" (steps[{img,t,d}])
+               | "faixa" (band top|bottom) | "mosaico" (img + imgs[{img,label}]) | "pergunta" (q, a) | "cheia" (chips)
   img      caminho da foto (relativo ao spec.json). Se existir a mesma foto em `_fontes/pro-2k/`, ela é usada (2048 px).
   crop     [x0, y0, x1, y1] opcional: parte boa da foto (em px da foto de 1024)
   t1, t2   título: t1 = linha leve (Rubik 300), t2 = linha forte (Capriola)
@@ -337,6 +339,95 @@ def build(sp, work, base):
         legend_top = sp.get("legend_top", 790)
         body = (title_block(sp, 58) + pb + zooms_html(sp, im, work, geom) +
                 f'<div style="position:absolute;left:52px;top:{legend_top}px;width:920px;display:flex;gap:28px">{items_html(sp, column=True)}</div>')
+    # ---------- layouts v3 (criativo-zelokids, 20/10/2026): variedade de arranjo por produto ----------
+    elif lay == "comparativo":  # duas fotos lado a lado em cartões, chips "Sem" / "Com"
+        top = 232 if two else 160
+        ch = S - top - 60 - 80
+        im2 = load(source(base, sp["img2"]), sp.get("crop2"))
+        save(fit_box(im, 452, ch), work / "img.png"); save(fit_box(im2, 452, ch), work / "img2.png")
+        labels = sp.get("labels", ["Sem", "Com"]); icons = sp.get("label_icons", ["question", "check"])
+        def chip(t, i, x):
+            return f'<div class="chips" style="bottom:52px;left:{x}px;width:452px"><span class="chip">{svg(i, 28)}{esc(t)}</span></div>'
+        body = (title_block(sp, 58) +
+                f'<div class="card" style="left:40px;top:{top}px;width:452px;height:{ch}px"><img src="img.png"></div>'
+                f'<div class="card" style="left:532px;top:{top}px;width:452px;height:{ch}px"><img src="img2.png"></div>'
+                + chip(labels[0], icons[0], 40) + chip(labels[1], icons[1], 532))
+
+    elif lay == "depoimento":  # frase real de cliente + 5 estrelas verdes; foto em cartão em cima
+        save(fit_box(im, 924, 470), work / "img.png")
+        stars = "".join(f'<svg width="34" height="34" viewBox="0 0 24 24" fill="{VERDE}" stroke="{VERDE}" stroke-width="1.5" stroke-linejoin="round">{ICONS["heartless_star"]}</svg>' for _ in range(5))
+        body = (f'<div class="card" style="left:50px;top:50px;width:924px;height:470px"><img src="img.png"></div>'
+                f'<div style="position:absolute;left:80px;top:566px;width:864px;display:flex;gap:6px;justify-content:center">{stars}</div>'
+                f'<p style="position:absolute;left:80px;top:626px;width:864px;margin:0;text-align:center;font-family:Rubik;font-weight:400;font-size:{sp.get("quote_size", 40)}px;line-height:1.3;color:{ROXO}">“{esc(sp["quote"])}”</p>'
+                f'<p class="sub" style="position:absolute;left:0;bottom:56px;width:{S}px;margin:0;text-align:center;opacity:.8">{esc(sp.get("sub", "Avaliação de quem já usa"))}</p>')
+
+    elif lay == "numero":  # um dado gigante como herói + legenda; foto do produto ao lado
+        if w: im = whiten_trim(im, tol=sp.get("white_tol", 10))
+        save(im, work / "img.png")
+        pb, _ = product_box(im, 560, 150, 404, 740, "", "0" if w else "28px")
+        body = (title_block(sp, 58, left=60, width=480, bar=True, max_w=480) +
+                f'<div style="position:absolute;left:60px;top:300px;width:480px;font-family:Capriola;font-size:{sp.get("num_size", 190)}px;line-height:1;color:{ROXO};letter-spacing:-4px;white-space:nowrap">{esc(sp["num"])}</div>'
+                f'<p style="position:absolute;left:60px;top:{300 + int(sp.get("num_size", 190) * 1.05)}px;width:480px;margin:0;font-size:34px;font-weight:600;line-height:1.25;color:{ROXO}">{esc(sp.get("legend", ""))}</p>'
+                f'<p class="sub" style="position:absolute;left:60px;top:{300 + int(sp.get("num_size", 190) * 1.05) + 100}px;width:480px;margin:0">{esc(sp.get("sub", ""))}</p>'
+                + pb)
+
+    elif lay == "sequencia":  # 3 fotos em fila, numeradas, uma linha cada
+        top = 232 if two else 160
+        ph = 440; pw = 294; gap = 21
+        cards = ""
+        for k, st in enumerate(sp["steps"][:3]):
+            imk = load(source(base, st["img"]), st.get("crop"))
+            save(fit_box(imk, pw, ph), work / f"s{k}.png")
+            x = 40 + k * (pw + gap)
+            cards += (f'<div class="card" style="left:{x}px;top:{top}px;width:{pw}px;height:{ph}px"><img src="s{k}.png"></div>'
+                      f'<span class="mk" style="left:{x + 34}px;top:{top + 34}px">{k + 1}</span>'
+                      f'<p style="position:absolute;left:{x}px;top:{top + ph + 26}px;width:{pw}px;margin:0;text-align:center;font-size:28px;font-weight:600;line-height:1.25;color:{ROXO}">{esc(st["t"])}</p>'
+                      + (f'<p style="position:absolute;left:{x}px;top:{top + ph + 100}px;width:{pw}px;margin:0;text-align:center;font-size:22px;line-height:1.3;color:{ROXO};opacity:.9">{esc(st["d"])}</p>' if st.get("d") else ""))
+        body = title_block(sp, 58) + cards
+
+    elif lay == "faixa":  # foto sangrada + faixa branca sólida (em cima ou embaixo) para o texto
+        save(fit_box(im, S, S), work / "img.png")
+        bottom = sp.get("band", "bottom") == "bottom"
+        bh = sp.get("band_h", 330)
+        y0 = S - bh if bottom else 0
+        tt = y0 + 48
+        sub = f'<p class="sub" style="position:absolute;top:{tt + (172 if two else 90) + 14}px;left:60px;width:904px;margin:0;text-align:center">{esc(sp["sub"])}</p>' if sp.get("sub") else ""
+        body = (f'<img src="img.png" style="position:absolute;inset:0;width:{S}px;height:{S}px;object-fit:cover">'
+                f'<div style="position:absolute;left:0;top:{y0}px;width:{S}px;height:{bh}px;background:#fff"></div>'
+                + title_block(sp, tt) + sub + shield_html(sp, right=56, top=(56 if bottom else S - 140)))
+
+    elif lay == "mosaico":  # 1 foto grande + 2 pequenas empilhadas, chips opcionais
+        top = 232 if two else 160
+        H = S - top - 50
+        save(fit_box(im, 560, H), work / "img.png")
+        small = ""
+        for k, st in enumerate(sp.get("imgs", [])[:2]):
+            imk = load(source(base, st["img"]), st.get("crop"))
+            hh = (H - 20) // 2
+            save(fit_box(imk, 344, hh), work / f"m{k}.png")
+            y = top + k * (hh + 20)
+            small += f'<div class="card" style="left:630px;top:{y}px;width:344px;height:{hh}px"><img src="m{k}.png"></div>'
+            if st.get("label"):
+                small += f'<div class="chips" style="bottom:{S - y - hh + 18}px;left:630px;width:344px"><span class="chip" style="font-size:22px;padding:10px 20px">{svg(st.get("icon", "check"), 24)}{esc(st["label"])}</span></div>'
+        big_chip = chips_html(sp, 68, 50, 560) if sp.get("chips") else ""
+        body = (title_block(sp, 58) +
+                f'<div class="card" style="left:50px;top:{top}px;width:560px;height:{H}px"><img src="img.png"></div>' + big_chip + small)
+
+    elif lay == "pergunta":  # pergunta grande domina; resposta curta; foto pequena no canto
+        if w: im = whiten_trim(im, tol=sp.get("white_tol", 10))
+        save(im, work / "img.png")
+        pb, _ = product_box(im, 560, 540, 404, 424, "", "0" if w else "28px")
+        q = esc(sp["q"])  # quebra de linha com \n no JSON
+        body = (f'<div style="position:absolute;left:60px;top:90px;width:904px;font-family:Capriola;font-size:{sp.get("q_size", 86)}px;line-height:1.08;letter-spacing:-1px;color:{ROXO}">{q}</div>'
+                f'<span class="bar" style="position:absolute;left:60px;top:{sp.get("bar_top", 380)}px"></span>'
+                f'<p style="position:absolute;left:60px;top:{sp.get("a_top", 430)}px;width:470px;margin:0;font-size:31px;line-height:1.35;color:{ROXO}">{esc(sp["a"])}</p>'
+                + pb + shield_html(sp, left=60, bottom=60))
+
+    elif lay == "cheia":  # só a foto, um chip pequeno no canto
+        save(fit_box(im, S, S), work / "img.png")
+        chip = f'<div class="chips" style="bottom:48px;left:0;width:{S}px;justify-content:{sp.get("chip_align", "flex-start")};padding-left:48px;padding-right:48px;box-sizing:border-box">{"".join(f"<span class=chip>{svg(i, 28) if i else ""}{esc(t)}</span>" for t, i in zip(sp.get("chips", []), sp.get("chip_icons") or [None] * 9))}</div>' if sp.get("chips") else ""
+        body = f'<img src="img.png" style="position:absolute;inset:0;width:{S}px;height:{S}px;object-fit:cover">' + chip
+
     else:
         raise SystemExit(f"layout desconhecido: {lay}")
     return page(body)

@@ -18,59 +18,76 @@
  },
  {
   "out": "mosquiteiro-para-carrinho-de-bebe-03-problema.jpg",
-  "layout": "split",
+  "layout": "comparativo",
   "img": "_fontes/cena-03-pernilongo.png",
+  "img2": "_fontes/cena-04-bebe.png",
   "crop": [
-   250,
-   0,
-   1024,
-   1024
+   150,
+   100,
+   900,
+   850
   ],
-  "t1": "Voltou do",
-  "t2": "passeio picado?",
-  "sub": "Sem improvisar fralda ou paninho no carrinho",
-  "icon": "baby",
-  "alt": "Pernilongo pousado na capota do carrinho de bebê no parque ao entardecer, sem a tela mosquiteira"
+  "t1": "Com e sem",
+  "t2": "mosquiteiro",
+  "labels": [
+   "Sem",
+   "Com"
+  ],
+  "alt": "Comparação: pernilongo na capota do carrinho sem tela e bebê dormindo protegido pelo mosquiteiro para carrinho de bebê"
  },
  {
   "out": "mosquiteiro-para-carrinho-de-bebe-04-beneficio.jpg",
-  "layout": "overlay",
-  "img": "_fontes/cena-04-bebe.png",
-  "t1": "Passeio",
-  "t2": "tranquilo",
-  "sub": "Bebê sem picadas e a família com a cabeça leve",
+  "layout": "faixa",
+  "img": "_fontes/cena-04-dentro.png",
+  "band": "top",
+  "t1": "Pernilongo",
+  "t2": "do lado de fora",
+  "sub": "A tela de tule cobre o carrinho e o elástico mantém tudo no lugar",
   "shield": true,
-  "alt": "Bebê dormindo no carrinho sob o mosquiteiro de carrinho com elástico, no jardim"
+  "alt": "Vista de dentro do carrinho pelo tule do mosquiteiro, com o pernilongo pousado do lado de fora e o pai sorrindo"
  },
  {
   "out": "mosquiteiro-para-carrinho-de-bebe-05-como-funciona.jpg",
-  "layout": "lista",
-  "style": "num",
-  "side": "right",
-  "img": "_fontes/cena-05-elastico.png",
-  "crop": [
-   120,
-   0,
-   900,
-   1024
-  ],
+  "layout": "sequencia",
+  "img": "_fontes/estudio-bolsa.png",
   "t1": "Como",
   "t2": "usar",
-  "items": [
+  "steps": [
    {
-    "t": "Lave antes",
-    "d": "Do primeiro uso e deixe secar"
+    "img": "_fontes/estudio-bolsa.png",
+    "crop": [
+     100,
+     100,
+     924,
+     924
+    ],
+    "t": "Tire da bolsa",
+    "d": "Dobra pequeno e é leve"
    },
    {
-    "t": "Abra sobre o carrinho",
-    "d": "Ou sobre o moisés e o bebê conforto"
-   },
-   {
+    "img": "_fontes/cena-05-elastico.png",
+    "crop": [
+     120,
+     0,
+     900,
+     1024
+    ],
     "t": "Encaixe o elástico",
-    "d": "Na capota ou na beirada, até ajustar"
+    "d": "Na capota ou na beirada"
+   },
+   {
+    "img": "_fontes/cena-05-pai-ajusta.png",
+    "crop": [
+     300,
+     0,
+     1024,
+     1024
+    ],
+    "t": "Pronto para sair",
+    "d": "A tela fica no lugar"
    }
   ],
-  "alt": "Mão encaixando o elástico do mosquiteiro com elástico para carrinho na capota do carrinho"
+  "alt": "Como usar o mosquiteiro com elástico para carrinho em 3 passos: tirar da bolsa, encaixar o elástico e sair para o passeio"
  },
  {
   "out": "mosquiteiro-para-carrinho-de-bebe-06-diferenciais.jpg",
@@ -140,54 +157,24 @@
  },
  {
   "out": "mosquiteiro-para-carrinho-de-bebe-07-duvidas.jpg",
-  "layout": "lista",
+  "layout": "pergunta",
   "img": "_fontes/estudio-bolsa.png",
   "white": true,
-  "t1": "Serve no",
-  "t2": "meu carrinho?",
-  "items": [
-   {
-    "icon": "ruler",
-    "t": "Cerca de 1,00 x 1,50 m",
-    "d": "Cobre carrinho, moisés e bebê conforto"
-   },
-   {
-    "icon": "car",
-    "t": "Carrinho compacto?",
-    "d": "Confira a medida da capota"
-   },
-   {
-    "icon": "bag",
-    "t": "Vai na bolsa",
-    "d": "Dobra pequeno e é leve"
-   }
-  ],
-  "alt": "Mosquiteiro universal dobrado ao lado da bolsa do bebê: cerca de 1,00 x 1,50 m e leve para levar"
+  "q": "Serve no meu\ncarrinho?",
+  "a": "Cerca de 1,00 x 1,50 m, com elástico em toda a borda: carrinho, moisés, bebê conforto e berço portátil. Em carrinho compacto, confira a medida da capota.",
+  "alt": "Serve no meu carrinho? Mosquiteiro universal de cerca de 1,00 x 1,50 m para carrinho, moisés e bebê conforto"
  },
  {
   "out": "mosquiteiro-para-carrinho-de-bebe-08-onde-usar.jpg",
-  "layout": "card",
-  "img": "_fontes/cena-02-parque.png",
-  "crop": [
-   0,
-   180,
-   1024,
-   1000
-  ],
-  "t1": "Uma peça para",
-  "t2": "todo o passeio",
-  "sub": "O mesmo elástico prende em todos",
+  "layout": "cheia",
+  "img": "_fontes/cena-08-pai-passeio.png",
   "chips": [
-   "Carrinho",
-   "Bebê conforto",
-   "Berço portátil"
+   "Passeio no fim de tarde"
   ],
   "chip_icons": [
-   "baby",
-   "car",
-   "bed"
+   "baby"
   ],
-  "alt": "Casal passeando no parque com o carrinho coberto pelo mosquiteiro universal para passeio de bebê"
+  "alt": "Pai passeando no fim de tarde pela calçada do bairro com o carrinho coberto pelo mosquiteiro para passeio de bebê"
  },
  {
   "out": "mosquiteiro-para-carrinho-de-bebe-09-resumo.jpg",

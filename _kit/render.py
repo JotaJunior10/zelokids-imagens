@@ -77,19 +77,23 @@ def load(src, crop=None):
         im = im.crop(tuple(int(v * k) for v in crop))
     return im
 
-def whiten_trim(im, trim=True):
-    """Só o FUNDO (região clara ligada às bordas) vira branco puro; o produto não é tocado."""
+def whiten_trim(im, trim=True, tol=10):
+    """Só o FUNDO (região clara ligada às bordas) vira branco puro; o produto não é tocado.
+    tol: distância máxima à cor do fundo (spec "white_tol"; padrão 10). Acima de 10 só entram pixels neutros
+    (pouco saturados), para aguentar fundo do Gemini em degradê sem morder produto colorido."""
     import numpy as np
     from scipy import ndimage
     a = np.array(im).astype(int)
     corners = np.array([a[0, 0], a[0, -1], a[-1, 0], a[-1, -1]])
     bg = np.median(corners, axis=0)
     if bg.min() >= 215:
-        cand = (np.abs(a - bg).max(axis=2) <= 10)
+        cand = (np.abs(a - bg).max(axis=2) <= tol)
+        if tol > 10:
+            cand &= (a.max(axis=2) - a.min(axis=2)) <= 14
         lab, n = ndimage.label(cand)
         border = set(np.unique(np.concatenate([lab[0], lab[-1], lab[:, 0], lab[:, -1]]))) - {0}
         m = np.isin(lab, list(border))
-        m = ndimage.binary_erosion(m, iterations=1)
+        m = ndimage.binary_erosion(m, iterations=1, border_value=1)
         soft = ndimage.gaussian_filter(m.astype(float), 1.0 * (im.width / 1024))[..., None]
         out = a * (1 - soft) + 255 * soft
         im = Image.fromarray(out.clip(0, 255).astype("uint8"))
@@ -245,7 +249,7 @@ def build(sp, work, base):
     two = bool(sp.get("t1") and sp.get("t2"))
 
     if lay == "capa":
-        save(whiten_trim(im, trim=False), work / "img.png")
+        save(whiten_trim(im, trim=False, tol=sp.get("white_tol", 10)), work / "img.png")
         body = '<img src="img.png" style="position:absolute;left:62px;top:62px;width:900px;height:900px;object-fit:contain">'
 
     elif lay == "hero":  # foto inteira, título em cima sobre degradê branco
@@ -301,7 +305,7 @@ def build(sp, work, base):
 
     elif lay == "lista":  # foto de um lado, itens do outro
         top = 300 if two else 214
-        if w: im = whiten_trim(im)
+        if w: im = whiten_trim(im, tol=sp.get("white_tol", 10))
         save(im, work / "img.png")
         right = sp.get("side") == "right"
         bw, bh = 430, S - top - 60
@@ -312,7 +316,7 @@ def build(sp, work, base):
 
     elif lay == "passos":  # foto larga em cima, itens em colunas embaixo
         top = 300 if two else 214
-        if w: im = whiten_trim(im)
+        if w: im = whiten_trim(im, tol=sp.get("white_tol", 10))
         save(im if w else fit_box(im, 900, 400), work / "img.png")
         bh = 400 if two else 470
         pb, _ = product_box(im if w else Image.new("RGB", (900, 400)), 62, top, 900, bh, markers_html(sp), "0" if w else "28px")
@@ -321,7 +325,7 @@ def build(sp, work, base):
 
     elif lay == "detalhe":  # produto grande + lupas de zoom ligadas ao ponto + legenda numerada
         top = 232 if two else 160
-        if w: im = whiten_trim(im)
+        if w: im = whiten_trim(im, tol=sp.get("white_tol", 10))
         save(im, work / "img.png")
         pl, pt, pw, ph = sp.get("photo_box", [60, top, 904, 480])
         pb, geom = product_box(im, pl, pt, pw, ph, "", "0" if w else "28px")

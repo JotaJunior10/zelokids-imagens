@@ -1,0 +1,234 @@
+[
+ {
+  "out": "joelheira-para-bebe-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/capa-kit5.png",
+  "alt": "Joelheira para bebê de algodão, kit com 5 pares verde-água, rosa, bege, azul e amarelo com carinha em relevo, fundo branco",
+  "white_tol": 32
+ },
+ {
+  "out": "joelheira-para-bebe-02-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/cena-02-engatinhando.png",
+  "t1": "Joelheira para bebê",
+  "t2": "engatinhar",
+  "sub": "Malha de algodão entre\no joelhinho e o chão",
+  "icon": "baby",
+  "shield": true,
+  "align": "left",
+  "alt": "Bebê sorrindo engatinhando no piso de madeira da sala com joelheira para bebê azul nos dois joelhos"
+ },
+ {
+  "out": "joelheira-para-bebe-03-problema.jpg",
+  "layout": "split",
+  "img": "_fontes/cena-03-joelho.png",
+  "crop": [
+   235,
+   0,
+   655,
+   1024
+  ],
+  "t1": "Joelho",
+  "t2": "vermelhinho?",
+  "sub": "O atrito com o chão deixa o joelhinho vermelho e arranhado",
+  "icon": "baby",
+  "alt": "Joelho do bebê sem proteção encostado no piso de madeira ao engatinhar, antes de usar a joelheira infantil"
+ },
+ {
+  "out": "joelheira-para-bebe-04-beneficio.jpg",
+  "layout": "overlay",
+  "img": "_fontes/cena-04-tapete.png",
+  "t1": "Joelhinhos",
+  "t2": "protegidos",
+  "sub": "Sem vermelhidão e arranhões ao engatinhar",
+  "shield": true,
+  "alt": "Bebê engatinhando no tapete com joelheira bebê bege de algodão, carinha sorridente em relevo no joelho"
+ },
+ {
+  "out": "joelheira-para-bebe-05-como-funciona.jpg",
+  "layout": "lista",
+  "style": "num",
+  "side": "right",
+  "img": "_fontes/uso-rosa.png",
+  "crop": [
+   190,
+   0,
+   840,
+   1000
+  ],
+  "t1": "Como",
+  "t2": "usar",
+  "items": [
+   {
+    "t": "Vista como meia",
+    "d": "Passe a peça pela perninha do bebê"
+   },
+   {
+    "t": "Carinha na frente",
+    "d": "Posicione a carinha em relevo no joelho"
+   },
+   {
+    "t": "Lave e use de novo",
+    "d": "A malha de algodão lava fácil"
+   }
+  ],
+  "alt": "Como usar a joelheira para bebê engatinhar: vestir como meia, carinha na frente do joelho e lavar depois"
+ },
+ {
+  "out": "joelheira-para-bebe-06-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/estudio-rosa-branco.png",
+  "white": true,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   40,
+   235,
+   944,
+   440
+  ],
+  "legend_top": 790,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.27,
+    "y": 0.45,
+    "at": [
+     0.125,
+     0.4
+    ],
+    "zoom": 2.0,
+    "d": 220
+   },
+   {
+    "n": 2,
+    "x": 0.75,
+    "y": 0.2,
+    "at": [
+     0.875,
+     0.36
+    ],
+    "zoom": 2.2,
+    "d": 220
+   },
+   {
+    "n": 3,
+    "x": 0.7,
+    "y": 0.76,
+    "at": [
+     0.875,
+     0.615
+    ],
+    "zoom": 2.4,
+    "d": 220
+   }
+  ],
+  "items": [
+   {
+    "t": "Carinha em relevo",
+    "d": "Na frente do joelho"
+   },
+   {
+    "t": "Elástico canelado",
+    "d": "Nas duas pontas da peça"
+   },
+   {
+    "t": "Malha de algodão",
+    "d": "Macia na pele do bebê"
+   }
+  ],
+  "alt": "Detalhes em zoom da joelheira de bebê rosa: carinha em relevo, elástico canelado nas pontas e malha de algodão",
+  "white_tol": 32
+ },
+ {
+  "out": "joelheira-para-bebe-07-duvidas.jpg",
+  "layout": "lista",
+  "img": "_fontes/capa-kit5.png",
+  "crop": [
+   550,
+   520,
+   890,
+   860
+  ],
+  "white": true,
+  "t1": "Qual o",
+  "t2": "tamanho?",
+  "items": [
+   {
+    "icon": "ruler",
+    "t": "8 x 11 cm",
+    "d": "Justa como meia: compare com a perninha"
+   },
+   {
+    "icon": "material",
+    "t": "Algodão",
+    "d": "Malha macia com elástico canelado"
+   },
+   {
+    "icon": "bag",
+    "t": "1 par ou kit 5 pares",
+    "d": "Verde-água, rosa, azul, bege e amarelo"
+   }
+  ],
+  "alt": "Joelheira infantil amarela de algodão medindo 8 x 11 cm, vendida em 1 par ou kit com 5 pares coloridos",
+  "white_tol": 32
+ },
+ {
+  "out": "joelheira-para-bebe-08-onde-usar.jpg",
+  "layout": "card",
+  "img": "_fontes/cena-08-quarto.png",
+  "crop": [
+   0,
+   170,
+   1024,
+   862
+  ],
+  "t1": "Para engatinhar",
+  "t2": "pela casa",
+  "sub": "Sempre que o bebê explora o chão",
+  "chips": [
+   "Na sala",
+   "No quarto",
+   "No tapete"
+  ],
+  "chip_icons": [
+   "home",
+   "bed",
+   "baby"
+  ],
+  "alt": "Bebê engatinhando no tapete de EVA do quarto usando protetor de joelho para bebê verde-água"
+ },
+ {
+  "out": "joelheira-para-bebe-09-resumo.jpg",
+  "layout": "passos",
+  "img": "_fontes/capa-kit5.png",
+  "white": true,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "shield",
+    "t": "Menos atrito",
+    "d": "No joelhinho"
+   },
+   {
+    "icon": "material",
+    "t": "Algodão",
+    "d": "Malha macia"
+   },
+   {
+    "icon": "wash",
+    "t": "Lava fácil",
+    "d": "Pronta de novo"
+   },
+   {
+    "icon": "bag",
+    "t": "5 cores",
+    "d": "1 par ou kit"
+   }
+  ],
+  "alt": "Resumo da meia com joelheira para bebê: menos atrito, algodão macio, lava fácil e kit com 5 cores",
+  "white_tol": 32
+ }
+]

@@ -1,0 +1,224 @@
+[
+ {
+  "out": "suporte-para-bebe-andar-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/estudio-frente.png",
+  "alt": "Suporte para bebê andar com alças azuis, barra de mão laranja acolchoada e colete laranja, em fundo branco"
+ },
+ {
+  "out": "suporte-para-bebe-andar-02-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/cena-02-sala.png",
+  "t1": "Suporte para",
+  "t2": "bebê andar",
+  "sub": "Você acompanha os primeiros\npassos de pé, sem se curvar",
+  "icon": "baby",
+  "shield": true,
+  "align": "left",
+  "alt": "Mãe de pé segurando a barra do suporte para bebê andar enquanto o bebê dá os primeiros passos na sala"
+ },
+ {
+  "out": "suporte-para-bebe-andar-03-problema.jpg",
+  "layout": "split",
+  "img": "_fontes/cena-03-curvado.png",
+  "crop": [
+   180,
+   0,
+   1024,
+   1024
+  ],
+  "t1": "A tarde toda",
+  "t2": "curvado?",
+  "sub": "Segurando as mãozinhas a cada passo que ele dá",
+  "icon": "baby",
+  "alt": "Pai curvado segurando as mãos do bebê nos primeiros passos, sem o apoiador para bebê andar"
+ },
+ {
+  "out": "suporte-para-bebe-andar-04-beneficio.jpg",
+  "layout": "overlay",
+  "img": "_fontes/cena-04-parque.png",
+  "t1": "Mãos livres",
+  "t2": "para se equilibrar",
+  "sub": "Ele treina os passos no ritmo dele",
+  "shield": true,
+  "alt": "Bebê andando na grama do parque com as mãos livres usando o colete para bebê andar"
+ },
+ {
+  "out": "suporte-para-bebe-andar-05-como-funciona.jpg",
+  "layout": "lista",
+  "style": "num",
+  "side": "right",
+  "img": "_fontes/cena-05-vestido.png",
+  "crop": [
+   150,
+   0,
+   874,
+   1024
+  ],
+  "t1": "Como",
+  "t2": "vestir",
+  "items": [
+   {
+    "t": "Passe o painel",
+    "d": "Pelo tronco do bebê e entre as pernas"
+   },
+   {
+    "t": "Feche a fivela",
+    "d": "De clipe, na cintura"
+   },
+   {
+    "t": "Regule as alças",
+    "d": "Até a barra ficar na altura das suas mãos"
+   }
+  ],
+  "alt": "Como vestir o suporte para bebê aprender a andar: painel entre as pernas, fivela na cintura e alças reguladas"
+ },
+ {
+  "out": "suporte-para-bebe-andar-06-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/estudio-frente.png",
+  "white": true,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   40,
+   215,
+   944,
+   560
+  ],
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.5,
+    "y": 0.06,
+    "at": [
+     0.16,
+     0.33
+    ],
+    "zoom": 1.6,
+    "d": 210
+   },
+   {
+    "n": 2,
+    "x": 0.83,
+    "y": 0.32,
+    "at": [
+     0.85,
+     0.42
+    ],
+    "zoom": 2.2,
+    "d": 210
+   },
+   {
+    "n": 3,
+    "x": 0.5,
+    "y": 0.69,
+    "at": [
+     0.16,
+     0.6
+    ],
+    "zoom": 2.0,
+    "d": 210
+   }
+  ],
+  "items": [
+   {
+    "t": "Barra acolchoada",
+    "d": "30 cm, você segura de pé"
+   },
+   {
+    "t": "Alças reguláveis",
+    "d": "De 60 a 68 cm"
+   },
+   {
+    "t": "Fivela de clipe",
+    "d": "Fecha na cintura"
+   }
+  ],
+  "alt": "Detalhes em zoom do andador de mão para bebê: barra acolchoada de 30 cm, reguladores das alças e fivela de clipe"
+ },
+ {
+  "out": "suporte-para-bebe-andar-07-duvidas.jpg",
+  "layout": "lista",
+  "img": "_fontes/estudio-frente.png",
+  "white": true,
+  "t1": "Serve no",
+  "t2": "meu bebê?",
+  "items": [
+   {
+    "icon": "ruler",
+    "t": "Cintura até 62 cm",
+    "d": "Entre as pernas: 10 cm"
+   },
+   {
+    "icon": "rotate",
+    "t": "Alças de 60 a 68 cm",
+    "d": "Ajuste nos reguladores"
+   },
+   {
+    "icon": "question",
+    "t": "Sem rodinhas",
+    "d": "O bebê usa as próprias pernas"
+   }
+  ],
+  "alt": "Medidas do suporte para criança andar: cintura até 62 cm, 10 cm entre as pernas e alças de 60 a 68 cm"
+ },
+ {
+  "out": "suporte-para-bebe-andar-08-onde-usar.jpg",
+  "layout": "card",
+  "img": "_fontes/cena-08-avos.png",
+  "crop": [
+   0,
+   20,
+   1024,
+   710
+  ],
+  "t1": "Vai junto",
+  "t2": "no passeio",
+  "sub": "Leve na bolsa e use onde ele quiser andar",
+  "chips": [
+   "Em casa",
+   "No parque",
+   "Na casa dos avós"
+  ],
+  "chip_icons": [
+   "home",
+   "heartless_star",
+   "bag"
+  ],
+  "alt": "Avó de pé conduzindo o bebê no quintal com o colete para os primeiros passos do bebê"
+ },
+ {
+  "out": "suporte-para-bebe-andar-09-resumo.jpg",
+  "layout": "passos",
+  "img": "_fontes/estudio-frente.png",
+  "white": true,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "check",
+    "t": "De pé",
+    "d": "Sem se curvar"
+   },
+   {
+    "icon": "baby",
+    "t": "Mãos livres",
+    "d": "Para o equilíbrio"
+   },
+   {
+    "icon": "rotate",
+    "t": "Regulável",
+    "d": "Alças e cintura"
+   },
+   {
+    "icon": "bag",
+    "t": "Leve",
+    "d": "Vai na bolsa"
+   }
+  ],
+  "alt": "Resumo do apoiador para bebê andar: adulto de pé, bebê com mãos livres, alças reguláveis e fácil de levar"
+ }
+]

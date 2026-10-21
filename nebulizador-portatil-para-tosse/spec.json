@@ -1,0 +1,173 @@
+[
+ {
+  "out": "nebulizador-portatil-para-tosse-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "alt": "Nebulizador portátil branco para tosse com máscara transparente, copo laranja e mangueira em fundo branco"
+ },
+ {
+  "out": "nebulizador-portatil-para-tosse-02-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/p-02-uso.png",
+  "t1": "Nebulizador portátil",
+  "t2": "para casa e viagem",
+  "sub": "Leve, cabe na palma da mão\ncom máscara e bocal inclusos",
+  "alt": "Mão segurando a máscara do nebulizador portátil em mesa de cabeceira com luz de abajur"
+ },
+ {
+  "out": "nebulizador-portatil-para-tosse-03-viagem.jpg",
+  "layout": "split",
+  "img": "_fontes/p-03-viagem.png",
+  "t1": "Leva na mala",
+  "t2": "sem ocupar espaço",
+  "sub": "Cabe na palma da mão e vai\nonde você for",
+  "alt": "Nebulizador portátil dentro de bolsa cinza no porta-malas, pronto para a viagem"
+ },
+ {
+  "out": "nebulizador-portatil-para-tosse-04-silencioso.jpg",
+  "layout": "overlay",
+  "img": "_fontes/p-04-mesa.png",
+  "t1": "Silencioso",
+  "t2": "no dia a dia",
+  "sub": "Menos de 55 dB,\nmesmo durante o sono",
+  "alt": "Nebulizador portátil branco com máscara e copo laranja sobre a bancada da cozinha, com copo d'água ao lado"
+ },
+ {
+  "out": "nebulizador-portatil-para-tosse-05-como-usar.jpg",
+  "layout": "lista",
+  "style": "icon",
+  "side": "right",
+  "img": "_fontes/p-06-sala.png",
+  "t1": "Fácil de",
+  "t2": "usar",
+  "items": [
+   {
+    "icon": "check",
+    "t": "Intensidade ajustável",
+    "d": "Regule a nebulização"
+   },
+   {
+    "icon": "check",
+    "t": "Máscara e bocal",
+    "d": "Dois modos de uso incluídos"
+   },
+   {
+    "icon": "check",
+    "t": "Fácil de limpar",
+    "d": "Peças simples de lavar"
+   }
+  ],
+  "alt": "Nebulizador portátil sobre mesinha de madeira com manta dobrada ao lado e mangueira enrolada"
+ },
+ {
+  "out": "nebulizador-portatil-para-tosse-06-onde-usar.jpg",
+  "layout": "card",
+  "img": "_fontes/p-07-mala.png",
+  "crop": [
+   0,
+   150,
+   1024,
+   880
+  ],
+  "t1": "Para usar",
+  "t2": "em qualquer lugar",
+  "sub": "Em casa, no trabalho ou em viagens",
+  "chips": [
+   "Em casa",
+   "No trabalho",
+   "Em viagens"
+  ],
+  "chip_icons": [
+   "home",
+   "bag",
+   "car"
+  ],
+  "alt": "Nebulizador portátil com máscara transparente guardado em bolsa dentro da mala, pronto para viajar"
+ },
+ {
+  "out": "nebulizador-portatil-para-tosse-07-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/e-estudio-melhor.png",
+  "white": true,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   40,
+   215,
+   944,
+   560
+  ],
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.41,
+    "y": 0.66,
+    "at": [
+     0.14,
+     0.36
+    ],
+    "zoom": 2.0,
+    "d": 200
+   },
+   {
+    "n": 2,
+    "x": 0.74,
+    "y": 0.42,
+    "at": [
+     0.86,
+     0.36
+    ],
+    "zoom": 2.2,
+    "d": 200
+   },
+   {
+    "n": 3,
+    "x": 0.56,
+    "y": 0.2,
+    "at": [
+     0.14,
+     0.62
+    ],
+    "zoom": 2.0,
+    "d": 200
+   }
+  ],
+  "items": [
+   {
+    "t": "Botão verde",
+    "d": "Controle principal do aparelho"
+   },
+   {
+    "t": "Reservatório laranja",
+    "d": "Névoa de mícron para nebulizar"
+   },
+   {
+    "t": "Máscara transparente",
+    "d": "Inclusa, além do bocal"
+   }
+  ],
+  "alt": "Zoom no botão verde, no reservatório laranja e na máscara transparente do nebulizador portátil"
+ },
+ {
+  "out": "nebulizador-portatil-para-tosse-08-kit.jpg",
+  "layout": "cheia",
+  "img": "_fontes/e-kit-melhor.png",
+  "chips": [
+   "Máscara e bocal inclusos"
+  ],
+  "chip_icons": [
+   "check"
+  ],
+  "alt": "Kit do nebulizador portátil com aparelho branco, máscara transparente, copo laranja e bocal"
+ },
+ {
+  "out": "nebulizador-portatil-para-tosse-09-cor-branca.jpg",
+  "layout": "capa",
+  "img": "_fontes/p-05-branco.png",
+  "white": true,
+  "alt": "Nebulizador portátil branco com máscara e copo laranja em fundo branco, cor branca"
+ }
+]

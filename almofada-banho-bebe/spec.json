@@ -1,0 +1,334 @@
+[
+ {
+  "out": "almofada-de-banho-para-bebe-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/p-01-capa-v2.png",
+  "alt": "Almofada de banho para bebê acolchoada branca com estrelas, formato de ursinho e 3 alças com fivela de plástico"
+ },
+ {
+  "out": "almofada-de-banho-para-bebe-02-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/c-04-cima.png",
+  "t1": "Almofada de banho",
+  "t2": "macia para o bebê",
+  "shield": true,
+  "alt": "Bebê deitado na almofada de banho acolchoada presa na banheira, com a mão do adulto no peito durante o banho"
+ },
+ {
+  "out": "almofada-de-banho-para-bebe-03-problema.jpg",
+  "layout": "comparativo",
+  "img": "_fontes/c-03-sem.png",
+  "img2": "_fontes/c-02-pai.png",
+  "crop": [
+   0,
+   100,
+   1024,
+   1024
+  ],
+  "crop2": [
+   60,
+   120,
+   1000,
+   1024
+  ],
+  "t1": "Chega de banho",
+  "t2": "no improviso",
+  "labels": [
+   "Sem almofada",
+   "Com almofada"
+  ],
+  "alt": "Comparação: mãe curvada segurando o bebê na banheira dura e pai dando banho com o bebê deitado na almofada de banho"
+ },
+ {
+  "out": "almofada-de-banho-para-bebe-04-beneficio.jpg",
+  "layout": "split",
+  "img": "_fontes/c-02-pai.png",
+  "crop": [
+   180,
+   0,
+   900,
+   1024
+  ],
+  "side": "left",
+  "t1": "Banho calmo",
+  "t2": "para os dois",
+  "sub": "Bebê confortável do\ncomeço ao fim do banho",
+  "icon": "baby",
+  "alt": "Pai sorrindo enquanto dá banho no bebê deitado na almofada para banheira de bebê, à noite no banheiro de casa"
+ },
+ {
+  "out": "almofada-de-banho-para-bebe-05-como-funciona.jpg",
+  "layout": "sequencia",
+  "img": "_fontes/c-05-prende.png",
+  "t1": "Como",
+  "t2": "usar",
+  "steps": [
+   {
+    "img": "_fontes/c-05-prende.png",
+    "crop": [
+     200,
+     230,
+     900,
+     1000
+    ],
+    "t": "Coloque na banheira",
+    "d": "Almofada dentro"
+   },
+   {
+    "img": "_fontes/c-05-prende.png",
+    "crop": [
+     600,
+     470,
+     1024,
+     894
+    ],
+    "t": "Prenda as alças",
+    "d": "Fivela na borda"
+   },
+   {
+    "img": "_fontes/c-04-cima.png",
+    "crop": [
+     0,
+     280,
+     900,
+     1024
+    ],
+    "t": "Deite o bebê",
+    "d": "E comece o banho"
+   }
+  ],
+  "alt": "Como usar a almofada de banho com alças: colocar na banheira, prender as fivelas na borda e deitar o bebê"
+ },
+ {
+  "out": "almofada-de-banho-para-bebe-06-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/p-01-capa-v2.png",
+  "white": true,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   40,
+   215,
+   944,
+   560
+  ],
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.36,
+    "y": 0.48,
+    "at": [
+     0.13,
+     0.33
+    ],
+    "zoom": 2.0,
+    "d": 205
+   },
+   {
+    "n": 2,
+    "x": 0.94,
+    "y": 0.75,
+    "at": [
+     0.87,
+     0.33
+    ],
+    "zoom": 2.2,
+    "d": 205
+   },
+   {
+    "n": 3,
+    "x": 0.2,
+    "y": 0.52,
+    "at": [
+     0.13,
+     0.61
+    ],
+    "zoom": 2.0,
+    "d": 190
+   }
+  ],
+  "items": [
+   {
+    "t": "Acolchoado macio",
+    "d": "Bebê deitado"
+   },
+   {
+    "t": "Alças com fivela",
+    "d": "Presas na borda"
+   },
+   {
+    "t": "Tecido estampado",
+    "d": "Lava com água"
+   }
+  ],
+  "alt": "Detalhes em zoom da almofada de banho acolchoada: centro macio, fivela de plástico da alça e tecido com estrelas"
+ },
+ {
+  "out": "almofada-de-banho-para-bebe-07-medida.jpg",
+  "layout": "numero",
+  "img": "_fontes/v-14-azul.png",
+  "white": true,
+  "white_tol": 16,
+  "t1": "Tamanho",
+  "t2": "compacto",
+  "num": "43 cm",
+  "legend": "de comprimento por cerca de 28 cm de largura",
+  "sub": "Pensada para bebês pequenos",
+  "alt": "Almofada de banho para bebê azul de cerca de 43 x 28 cm, tamanho compacto pensado para bebês pequenos",
+  "num_size": 150
+ },
+ {
+  "out": "almofada-de-banho-para-bebe-08-vovo.jpg",
+  "layout": "overlay",
+  "img": "_fontes/c-10-avo.png",
+  "t1": "Na casa da vovó,",
+  "t2": "o mesmo aconchego",
+  "shield": true,
+  "alt": "Avó dando banho no neto deitado na almofada de banho azul presa à banheira no banheiro de azulejo verde"
+ },
+ {
+  "out": "almofada-de-banho-para-bebe-09-duvidas.jpg",
+  "layout": "pergunta",
+  "img": "_fontes/v-15-rosa.png",
+  "white": true,
+  "white_tol": 16,
+  "q": "A banheira\nvem junto?",
+  "a": "Não. Você recebe a almofada de banho com as alças de fixação. Confira a borda da sua banheira antes de comprar.",
+  "alt": "A banheira vem junto? Não: acompanha só a almofada de banho rosa com as alças de fixação com fivela"
+ },
+ {
+  "out": "almofada-de-banho-para-bebe-10-onde-usar.jpg",
+  "layout": "mosaico",
+  "img": "_fontes/c-08-mala.png",
+  "crop": [
+   40,
+   60,
+   900,
+   920
+  ],
+  "t1": "Do banho em casa",
+  "t2": "à viagem",
+  "chips": [
+   "Dobra e vai na mala"
+  ],
+  "chip_icons": [
+   "bag"
+  ],
+  "imgs": [
+   {
+    "img": "_fontes/c-02-pai.png",
+    "crop": [
+     100,
+     420,
+     1000,
+     1000
+    ],
+    "label": "Em casa",
+    "icon": "home"
+   },
+   {
+    "img": "_fontes/c-10-avo.png",
+    "crop": [
+     380,
+     200,
+     1024,
+     760
+    ],
+    "label": "Na casa da vó",
+    "icon": "check"
+   }
+  ],
+  "alt": "Almofada de banho dobrável na mala de viagem e em uso na banheira de casa e na casa da avó"
+ },
+ {
+  "out": "almofada-de-banho-para-bebe-11-hora-do-banho.jpg",
+  "layout": "cheia",
+  "img": "_fontes/c-11-rosa.png",
+  "chips": [
+   "Hora do banho"
+  ],
+  "chip_icons": [
+   "bath"
+  ],
+  "alt": "Bebê sorrindo deitado na almofada de banho rosa em formato de ursinho, segurando o dedo da mãe na banheira"
+ },
+ {
+  "out": "almofada-de-banho-para-bebe-12-cuidados.jpg",
+  "layout": "lista",
+  "img": "_fontes/c-12-varal.png",
+  "crop": [
+   180,
+   0,
+   1000,
+   1024
+  ],
+  "side": "right",
+  "t1": "Cuidar é",
+  "t2": "simples",
+  "items": [
+   {
+    "icon": "wash",
+    "t": "Lave com água",
+    "d": "E aperte o excesso"
+   },
+   {
+    "icon": "drop",
+    "t": "Seque à sombra",
+    "d": "Pendure e pronto"
+   },
+   {
+    "icon": "bag",
+    "t": "Dobre e guarde",
+    "d": "Leve, ocupa pouco"
+   }
+  ],
+  "alt": "Almofada de banho para bebê pendurada no varal secando à sombra depois de lavada com água"
+ },
+ {
+  "out": "almofada-de-banho-para-bebe-13-resumo.jpg",
+  "layout": "passos",
+  "img": "_fontes/p-01-capa-v2.png",
+  "white": true,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "baby",
+    "t": "Acolchoada",
+    "d": "Bebê deitado"
+   },
+   {
+    "icon": "check",
+    "t": "3 alças",
+    "d": "Com fivela"
+   },
+   {
+    "icon": "bag",
+    "t": "Dobrável",
+    "d": "Vai na viagem"
+   },
+   {
+    "icon": "wash",
+    "t": "Lavável",
+    "d": "Só com água"
+   }
+  ],
+  "alt": "Resumo da almofada para banheira de bebê: acolchoada, 3 alças com fivela, dobrável e lavável com água"
+ },
+ {
+  "out": "almofada-de-banho-para-bebe-14-azul.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-14-azul.png",
+  "white_tol": 16,
+  "alt": "Almofada de banho para bebê na cor azul, em formato de ursinho, com centro em tela e 3 alças com fivela"
+ },
+ {
+  "out": "almofada-de-banho-para-bebe-15-rosa.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-15-rosa.png",
+  "white_tol": 16,
+  "alt": "Almofada de banho para bebê na cor rosa, em formato de ursinho, com centro em tela e 3 alças com fivela"
+ }
+]

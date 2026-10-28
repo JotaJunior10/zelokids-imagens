@@ -1,0 +1,323 @@
+[
+ {
+  "out": "bomba-de-tirar-leite-eletrica-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/p-01-capa.png",
+  "alt": "Bomba de tirar leite elétrica rosa com painel digital, funil, frasco transparente de 180 ml e bico com tampa"
+ },
+ {
+  "out": "bomba-de-tirar-leite-eletrica-02-em-uso.jpg",
+  "layout": "card",
+  "img": "_fontes/c-casa.png",
+  "crop": [
+   0,
+   120,
+   1024,
+   1024
+  ],
+  "t1": "Bomba de tirar leite",
+  "t2": "elétrica e portátil",
+  "sub": "Motor, funil e frasco numa peça só",
+  "shield": true,
+  "alt": "Mãe sentada na poltrona segurando a bomba de tirar leite elétrica com leite no frasco, ao lado do bebê no moisés"
+ },
+ {
+  "out": "bomba-de-tirar-leite-eletrica-03-problema.jpg",
+  "layout": "comparativo",
+  "img": "_fontes/c-sem.png",
+  "crop": [
+   170,
+   160,
+   800,
+   1024
+  ],
+  "img2": "_fontes/c-trabalho.png",
+  "crop2": [
+   330,
+   250,
+   960,
+   1024
+  ],
+  "t1": "Tirar leite na mão",
+  "t2": "cansa e demora",
+  "labels": [
+   "Sem a bomba",
+   "Com a bomba"
+  ],
+  "alt": "Comparação: mãe cansada à noite na cozinha e mãe sorrindo com a bomba extratora de leite elétrica no trabalho"
+ },
+ {
+  "out": "bomba-de-tirar-leite-eletrica-04-beneficio.jpg",
+  "layout": "split",
+  "img": "_fontes/c-pai.png",
+  "crop": [
+   380,
+   0,
+   900,
+   1024
+  ],
+  "side": "right",
+  "t1": "O leite fica",
+  "t2": "guardado",
+  "sub": "E o pai ou a avó dão\na mamada no frasco",
+  "icon": "baby",
+  "alt": "Pai no sofá à noite dando ao bebê o leite materno no frasco da bomba com bico, com o motor rosa na mesinha"
+ },
+ {
+  "out": "bomba-de-tirar-leite-eletrica-05-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   40,
+   215,
+   944,
+   560
+  ],
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.76,
+    "y": 0.11,
+    "at": [
+     0.87,
+     0.33
+    ],
+    "zoom": 2.0,
+    "d": 205
+   },
+   {
+    "n": 2,
+    "x": 0.77,
+    "y": 0.26,
+    "at": [
+     0.87,
+     0.62
+    ],
+    "zoom": 2.4,
+    "d": 200
+   },
+   {
+    "n": 3,
+    "x": 0.18,
+    "y": 0.7,
+    "at": [
+     0.13,
+     0.4
+    ],
+    "zoom": 1.8,
+    "d": 205
+   }
+  ],
+  "items": [
+   {
+    "t": "Painel digital",
+    "d": "Botões + − e M"
+   },
+   {
+    "t": "Recarga USB",
+    "d": "Cabo incluso"
+   },
+   {
+    "t": "Bico incluso",
+    "d": "Frasco vira mamadeira"
+   }
+  ],
+  "alt": "Detalhes em zoom da bomba de leite elétrica: painel digital com botões, entrada de recarga USB e bico incluso"
+ },
+ {
+  "out": "bomba-de-tirar-leite-eletrica-06-como-funciona.jpg",
+  "layout": "sequencia",
+  "img": "_fontes/c-carrega.png",
+  "t1": "Como",
+  "t2": "usar",
+  "steps": [
+   {
+    "img": "_fontes/c-carrega.png",
+    "crop": [
+     150,
+     150,
+     750,
+     1024
+    ],
+    "t": "Carregue no USB",
+    "d": "Adaptador ou power bank"
+   },
+   {
+    "img": "_fontes/p-01-capa.png",
+    "crop": [
+     260,
+     20,
+     1000,
+     1024
+    ],
+    "t": "Encaixe as peças",
+    "d": "Motor sobre o funil"
+   },
+   {
+    "img": "_fontes/p-01-capa.png",
+    "crop": [
+     560,
+     0,
+     960,
+     600
+    ],
+    "t": "Escolha o modo",
+    "d": "Tecla M e + ou −"
+   }
+  ],
+  "alt": "Como usar a bomba de tirar leite: carregar pelo cabo USB, encaixar o motor no funil e escolher o modo no painel"
+ },
+ {
+  "out": "bomba-de-tirar-leite-eletrica-07-modos.jpg",
+  "layout": "numero",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "t1": "No seu",
+  "t2": "ritmo",
+  "num": "4",
+  "legend": "modos no painel digital",
+  "sub": "Amamentação, extração, massagem e extração profunda",
+  "alt": "Bomba de tirar leite elétrica com 4 modos no painel digital: amamentação, extração, massagem e extração profunda"
+ },
+ {
+  "out": "bomba-de-tirar-leite-eletrica-08-trabalho.jpg",
+  "layout": "hero",
+  "img": "_fontes/c-trabalho.png",
+  "align": "left",
+  "t1": "Na volta ao",
+  "t2": "trabalho também",
+  "alt": "Mãe no escritório guardando a bomba de tirar leite portátil com o frasco de leite na bolsa térmica, ao lado do notebook"
+ },
+ {
+  "out": "bomba-de-tirar-leite-eletrica-09-duvidas.jpg",
+  "layout": "pergunta",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "q": "É simples\nou dupla?",
+  "a": "Simples: extrai um seio por vez. Para os dois, use em um e depois no outro.",
+  "alt": "A bomba é simples ou dupla? Bombinha de tirar leite simples, que extrai um seio por vez"
+ },
+ {
+  "out": "bomba-de-tirar-leite-eletrica-10-limpeza.jpg",
+  "layout": "lista",
+  "img": "_fontes/c-limpeza.png",
+  "t1": "Limpeza",
+  "t2": "sem segredo",
+  "items": [
+   {
+    "icon": "material",
+    "t": "Desmonta",
+    "d": "Frasco e peças soltos"
+   },
+   {
+    "icon": "drop",
+    "t": "Ferve até 120 °C",
+    "d": "Só as peças e o frasco"
+   },
+   {
+    "icon": "check",
+    "t": "Motor seco",
+    "d": "Ele não vai na água"
+   }
+  ],
+  "alt": "Peças da bomba de leite materno desmontadas ao lado da panela de água fervendo, com o motor rosa separado e seco",
+  "crop": [
+   200,
+   40,
+   1024,
+   1000
+  ]
+ },
+ {
+  "out": "bomba-de-tirar-leite-eletrica-11-onde-usar.jpg",
+  "layout": "mosaico",
+  "img": "_fontes/c-casa.png",
+  "crop": [
+   60,
+   200,
+   700,
+   1024
+  ],
+  "t1": "Em casa, no trabalho",
+  "t2": "ou com quem cuida",
+  "chips": [
+   "Em casa"
+  ],
+  "chip_icons": [
+   "home"
+  ],
+  "imgs": [
+   {
+    "img": "_fontes/c-trabalho.png",
+    "crop": [
+     300,
+     350,
+     1024,
+     1024
+    ],
+    "label": "No trabalho",
+    "icon": "bag"
+   },
+   {
+    "img": "_fontes/c-pai.png",
+    "crop": [
+     300,
+     250,
+     900,
+     800
+    ],
+    "label": "Com o papai",
+    "icon": "baby"
+   }
+  ],
+  "alt": "Bomba de tirar leite elétrica em uso em casa, guardada na bolsa no trabalho e o leite dado pelo pai no frasco"
+ },
+ {
+  "out": "bomba-de-tirar-leite-eletrica-12-recarga.jpg",
+  "layout": "cheia",
+  "img": "_fontes/c-carrega.png",
+  "chips": [
+   "Recarrega por USB"
+  ],
+  "chip_icons": [
+   "check"
+  ],
+  "alt": "Bomba extratora de leite carregando na mesa de cabeceira com cabo USB ligado ao power bank, painel aceso à noite"
+ },
+ {
+  "out": "bomba-de-tirar-leite-eletrica-13-resumo.jpg",
+  "layout": "passos",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "check",
+    "t": "Elétrica",
+    "d": "Sem cansar a mão"
+   },
+   {
+    "icon": "button",
+    "t": "4 modos",
+    "d": "Painel digital"
+   },
+   {
+    "icon": "bag",
+    "t": "Portátil",
+    "d": "Recarga USB"
+   },
+   {
+    "icon": "baby",
+    "t": "Bico incluso",
+    "d": "Frasco de 180 ml"
+   }
+  ],
+  "alt": "Resumo da bomba de tirar leite elétrica: sucção sem cansar a mão, 4 modos, recarga USB e frasco de 180 ml com bico"
+ }
+]

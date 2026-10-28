@@ -1,0 +1,288 @@
+[
+ {
+  "out": "protetor-de-cabeca-para-bebe-abelhinha-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/p-01-capa.png",
+  "alt": "Protetor de cabeça para bebê em forma de abelhinha amarela de pelúcia com almofada redonda e alças brancas, fundo branco"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-abelhinha-02-em-uso.jpg",
+  "layout": "overlay",
+  "img": "_fontes/c-senta.png",
+  "t1": "Protetor de cabeça",
+  "t2": "abelhinha",
+  "sub": "Amortece a batida nas quedas para trás",
+  "alt": "Bebê sentado no tapete brincando com o pai, usando a mochila protetora de cabeça abelhinha nas costas"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-abelhinha-03-problema.jpg",
+  "layout": "split",
+  "img": "_fontes/c-sem.png",
+  "crop": [
+   260,
+   60,
+   900,
+   1024
+  ],
+  "side": "left",
+  "t1": "Senta e tomba",
+  "t2": "para trás?",
+  "sub": "O susto de toda\nfase de descobertas",
+  "icon": "baby",
+  "alt": "Bebê sentado no piso de madeira se desequilibrando para trás, com a mãe logo atrás pronta para segurar"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-abelhinha-04-beneficio.jpg",
+  "layout": "hero",
+  "img": "_fontes/c-tomba.png",
+  "t1": "A almofada",
+  "t2": "amortece a batida",
+  "sub": "Entre a nuca e o chão\nno tombo para trás",
+  "shield": true,
+  "alt": "Bebê deitado de costas no tapete, sorrindo, com a cabeça apoiada na almofada redonda do protetor de cabeça abelha"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-abelhinha-05-como-usar.jpg",
+  "layout": "sequencia",
+  "img": "_fontes/p-01-capa.png",
+  "t1": "Como",
+  "t2": "usar",
+  "steps": [
+   {
+    "img": "_fontes/p-01-capa.png",
+    "crop": [
+     100,
+     20,
+     924,
+     1004
+    ],
+    "t": "Nas costas",
+    "d": "Almofada atrás da cabeça"
+   },
+   {
+    "img": "_fontes/c-veste.png",
+    "crop": [
+     0,
+     100,
+     900,
+     1024
+    ],
+    "t": "Passe as alças",
+    "d": "E feche a fivela"
+   },
+   {
+    "img": "_fontes/c-senta.png",
+    "crop": [
+     150,
+     150,
+     800,
+     1000
+    ],
+    "t": "Deixe brincar",
+    "d": "No tapete ou na sala"
+   }
+  ],
+  "alt": "Como usar a mochila de proteção para bebê em 3 passos: colocar nas costas, passar as alças e deixar o bebê brincar"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-abelhinha-06-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   40,
+   215,
+   944,
+   560
+  ],
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.42,
+    "y": 0.25,
+    "at": [
+     0.14,
+     0.36
+    ],
+    "zoom": 2.0,
+    "d": 205
+   },
+   {
+    "n": 2,
+    "x": 0.62,
+    "y": 0.57,
+    "at": [
+     0.86,
+     0.36
+    ],
+    "zoom": 2.0,
+    "d": 205
+   },
+   {
+    "n": 3,
+    "x": 0.21,
+    "y": 0.8,
+    "at": [
+     0.14,
+     0.66
+    ],
+    "zoom": 2.4,
+    "d": 205
+   }
+  ],
+  "items": [
+   {
+    "t": "Almofada redonda",
+    "d": "Fica atrás da cabeça"
+   },
+   {
+    "t": "Pelúcia leve",
+    "d": "Macia como bichinho"
+   },
+   {
+    "t": "Alças com fivela",
+    "d": "Veste como mochila"
+   }
+  ],
+  "alt": "Detalhes em zoom do protetor de cabeça infantil: almofada redonda de microfibra, asas de pelúcia e alças elásticas com fivela"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-abelhinha-07-medidas.jpg",
+  "layout": "numero",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "t1": "Tamanho",
+  "t2": "compacto",
+  "num": "30 cm",
+  "legend": "de altura",
+  "sub": "Por 20 cm de largura. Para quem\nsenta, engatinha e começa a andar",
+  "num_size": 150,
+  "alt": "Medidas da mochila protetora de cabeça abelhinha: 30 cm de altura por 20 cm de largura"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-abelhinha-08-depoimento.jpg",
+  "layout": "depoimento",
+  "img": "_fontes/c-engatinha.png",
+  "crop": [
+   0,
+   100,
+   1024,
+   800
+  ],
+  "quote": "Foi muito útil para a criança quando ela cai para trás",
+  "sub": "Avaliação de quem já comprou",
+  "alt": "Bebê engatinhando no tapete da sala com o protetor de cabeça para bebê engatinhar em forma de abelha"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-abelhinha-09-duvidas.jpg",
+  "layout": "pergunta",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "q": "Pode usar\npara dormir?",
+  "a": "Não. Ela é para os momentos de brincar e explorar no chão.",
+  "alt": "Dúvida frequente sobre o protetor para cabeça de bebê: não é para dormir, é para brincar e explorar no chão"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-abelhinha-10-onde-usar.jpg",
+  "layout": "mosaico",
+  "img": "_fontes/c-engatinha.png",
+  "crop": [
+   80,
+   180,
+   1024,
+   1000
+  ],
+  "t1": "Do sentar aos",
+  "t2": "primeiros passos",
+  "chips": [
+   "Engatinhar"
+  ],
+  "chip_icons": [
+   "baby"
+  ],
+  "imgs": [
+   {
+    "img": "_fontes/c-senta.png",
+    "crop": [
+     150,
+     150,
+     1000,
+     800
+    ],
+    "label": "Sentar",
+    "icon": "home"
+   },
+   {
+    "img": "_fontes/c-passos.png",
+    "crop": [
+     250,
+     280,
+     950,
+     1000
+    ],
+    "label": "Primeiros passos",
+    "icon": "check"
+   }
+  ],
+  "alt": "Proteção para cabeça de bebê em três fases: engatinhando, sentado no tapete e dando os primeiros passos no sofá"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-abelhinha-11-primeiros-passos.jpg",
+  "layout": "faixa",
+  "band": "top",
+  "img": "_fontes/c-passos.png",
+  "t1": "Ele explora,",
+  "t2": "você respira",
+  "sub": "Na sala, com a vovó por perto",
+  "alt": "Bebê dando os primeiros passos apoiado no sofá com o protetor de cabeça para bebê andar, avó sentada ao lado"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-abelhinha-12-brincar.jpg",
+  "layout": "cheia",
+  "img": "_fontes/c-irma.png",
+  "chips": [
+   "Leve como pelúcia"
+  ],
+  "chip_icons": [
+   "baby"
+  ],
+  "alt": "Irmã mais velha lendo um livrinho para o bebê sentado de costas com a mochila anti queda bebê abelhinha"
+ },
+ {
+  "out": "protetor-de-cabeca-para-bebe-abelhinha-13-resumo.jpg",
+  "layout": "lista",
+  "style": "icon",
+  "side": "right",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "shield",
+    "t": "Almofada redonda",
+    "d": "Amortece a batida da cabeça"
+   },
+   {
+    "icon": "baby",
+    "t": "Abelhinha de pelúcia",
+    "d": "O bebê aceita bem"
+   },
+   {
+    "icon": "bag",
+    "t": "Veste como mochila",
+    "d": "Alças elásticas com fivela"
+   },
+   {
+    "icon": "material",
+    "t": "Capa macia",
+    "d": "Algodão e poliéster"
+   }
+  ],
+  "alt": "Resumo do protetor de cabeça para criança abelhinha: almofada redonda, pelúcia leve, veste como mochila e capa macia"
+ }
+]

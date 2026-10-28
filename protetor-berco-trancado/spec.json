@@ -1,0 +1,321 @@
+[
+ {
+  "out": "protetor-de-berco-trancado-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/p-01-capa.png",
+  "alt": "Protetor de berço trançado cinza em pelúcia encaracolada, trança de 3 fios enrolada em espiral sobre fundo branco"
+ },
+ {
+  "out": "protetor-de-berco-trancado-02-em-uso.jpg",
+  "layout": "faixa",
+  "band": "top",
+  "img": "_fontes/c-arruma.png",
+  "t1": "Protetor de berço",
+  "t2": "trançado",
+  "sub": "Trança de pelúcia que decora o berço",
+  "alt": "Mãe ajeitando o protetor de berço trançado cinza sobre o colchão, encostado nas grades por dentro do berço vazio"
+ },
+ {
+  "out": "protetor-de-berco-trancado-03-problema.jpg",
+  "layout": "comparativo",
+  "img": "_fontes/c-sem.png",
+  "crop": [
+   150,
+   250,
+   1000,
+   1024
+  ],
+  "img2": "_fontes/c-quarto.png",
+  "crop2": [
+   160,
+   250,
+   1000,
+   1024
+  ],
+  "t1": "Grade dura e",
+  "t2": "berço sem graça?",
+  "labels": [
+   "Sem a trança",
+   "Com a trança"
+  ],
+  "alt": "Comparação do berço com grades sem nada e do mesmo tipo de berço contornado pela trança de berço de pelúcia cinza"
+ },
+ {
+  "out": "protetor-de-berco-trancado-04-beneficio.jpg",
+  "layout": "hero",
+  "img": "_fontes/c-colo.png",
+  "align": "right",
+  "t1": "Contorno macio",
+  "t2": "por dentro",
+  "sub": "E o quarto do bebê\nfica mais bonito",
+  "alt": "Mãe com o bebê no colo olhando o berço contornado pela trança protetora de berço cinza, ao entardecer"
+ },
+ {
+  "out": "protetor-de-berco-trancado-05-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "t1": "O que faz a",
+  "t2": "diferença",
+  "photo_box": [
+   40,
+   215,
+   944,
+   560
+  ],
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.7,
+    "y": 0.3,
+    "at": [
+     0.86,
+     0.36
+    ],
+    "zoom": 2.2,
+    "d": 205
+   },
+   {
+    "n": 2,
+    "x": 0.62,
+    "y": 0.66,
+    "at": [
+     0.86,
+     0.66
+    ],
+    "zoom": 1.8,
+    "d": 205
+   },
+   {
+    "n": 3,
+    "x": 0.34,
+    "y": 0.8,
+    "at": [
+     0.14,
+     0.6
+    ],
+    "zoom": 1.8,
+    "d": 205
+   }
+  ],
+  "items": [
+   {
+    "t": "Pelúcia bouclé",
+    "d": "Toque fofo e macio"
+   },
+   {
+    "t": "Trançada à mão",
+    "d": "3 tranças uniformes"
+   },
+   {
+    "t": "Fio de ~5 cm",
+    "d": "Largura de 10 a 12 cm"
+   }
+  ],
+  "alt": "Detalhes em zoom do protetor de berço de pelúcia: tecido encaracolado, trançado à mão em 3 tranças e fio de 5 cm"
+ },
+ {
+  "out": "protetor-de-berco-trancado-06-como-usar.jpg",
+  "layout": "sequencia",
+  "img": "_fontes/p-01-capa.png",
+  "t1": "Como",
+  "t2": "usar",
+  "steps": [
+   {
+    "img": "_fontes/p-01-capa.png",
+    "crop": [
+     60,
+     40,
+     1000,
+     1000
+    ],
+    "t": "Estenda a trança",
+    "d": "e escolha o início"
+   },
+   {
+    "img": "_fontes/c-arruma.png",
+    "crop": [
+     300,
+     300,
+     1000,
+     1024
+    ],
+    "t": "Apoie no colchão",
+    "d": "encostada nas grades"
+   },
+   {
+    "img": "_fontes/c-quarto.png",
+    "crop": [
+     250,
+     380,
+     900,
+     1024
+    ],
+    "t": "Contorne o berço",
+    "d": "de ponta a ponta"
+   }
+  ],
+  "alt": "Como usar a trança de berço: estender, apoiar sobre o colchão encostada nas grades e contornar o berço por dentro"
+ },
+ {
+  "out": "protetor-de-berco-trancado-07-medidas.jpg",
+  "layout": "numero",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "t1": "Peça",
+  "t2": "única",
+  "num": "2 m",
+  "legend": "numa peça só",
+  "sub": "Largura de 10 a 12 cm,\nfio de cerca de 5 cm",
+  "alt": "Protetor de berço trançado em peça única de 2 m, com 10 a 12 cm de largura e fio de cerca de 5 cm"
+ },
+ {
+  "out": "protetor-de-berco-trancado-08-depoimento.jpg",
+  "layout": "depoimento",
+  "img": "_fontes/c-toque.png",
+  "crop": [
+   0,
+   100,
+   1024,
+   800
+  ],
+  "quote": "O tecido estilo pelúcia é realmente fofo",
+  "sub": "Avaliação de quem já comprou",
+  "alt": "Mão apertando a trança de pelúcia encaracolada no berço, com a avaliação de cliente sobre o tecido fofo"
+ },
+ {
+  "out": "protetor-de-berco-trancado-09-duvidas.jpg",
+  "layout": "pergunta",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "q": "É uma cerca\nde cama?",
+  "a": "Não. É uma trança macia de pelúcia que contorna o berço por dentro e decora o quarto.",
+  "alt": "Dúvida: o protetor de berço trançado não é cerca de cama, é uma trança de pelúcia que contorna e decora o berço"
+ },
+ {
+  "out": "protetor-de-berco-trancado-10-cores.jpg",
+  "layout": "mosaico",
+  "img": "_fontes/v-rosa-branco.png",
+  "crop": [
+   40,
+   60,
+   990,
+   1000
+  ],
+  "t1": "Para o quarto de",
+  "t2": "menina ou menino",
+  "chips": [
+   "Rosa e Branco"
+  ],
+  "chip_icons": [
+   "check"
+  ],
+  "imgs": [
+   {
+    "img": "_fontes/v-branco-azul.png",
+    "crop": [
+     60,
+     80,
+     990,
+     1000
+    ],
+    "label": "Branco e Azul",
+    "icon": "check"
+   },
+   {
+    "img": "_fontes/v-branco.png",
+    "crop": [
+     60,
+     80,
+     990,
+     1000
+    ],
+    "label": "Branco",
+    "icon": "check"
+   }
+  ],
+  "alt": "Cores do protetor de berço de pelúcia: rosa e branco, branco e azul e branco, para quarto de menina ou menino"
+ },
+ {
+  "out": "protetor-de-berco-trancado-11-aconchego.jpg",
+  "layout": "split",
+  "img": "_fontes/c-noite.png",
+  "crop": [
+   0,
+   120,
+   620,
+   1024
+  ],
+  "side": "left",
+  "t1": "Protetor e",
+  "t2": "enfeite",
+  "sub": "Na mesma peça,\nsem kit de várias partes",
+  "icon": "bed",
+  "alt": "Avó com o neto no colo na poltrona ao lado do berço decorado com a trança de berço cinza, à luz do abajur"
+ },
+ {
+  "out": "protetor-de-berco-trancado-12-quarto.jpg",
+  "layout": "cheia",
+  "img": "_fontes/c-quarto.png",
+  "chips": [
+   "Berço com cara de pronto"
+  ],
+  "chip_icons": [
+   "home"
+  ],
+  "alt": "Quarto de bebê com berço branco contornado pelo protetor de berço trançado cinza e luz de fim de tarde"
+ },
+ {
+  "out": "protetor-de-berco-trancado-13-resumo.jpg",
+  "layout": "lista",
+  "style": "icon",
+  "side": "right",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "check",
+    "t": "Pelúcia bouclé",
+    "d": "Macia ao toque"
+   },
+   {
+    "icon": "check",
+    "t": "Trançada à mão",
+    "d": "Acabamento bonito"
+   },
+   {
+    "icon": "ruler",
+    "t": "Peça única de 2 m",
+    "d": "Contorna o berço"
+   },
+   {
+    "icon": "home",
+    "t": "Decora o quarto",
+    "d": "6 combinações de cores"
+   }
+  ],
+  "alt": "Resumo do protetor de berço trançado: pelúcia bouclé macia, trançado à mão, peça única de 2 m e decoração do quarto"
+ },
+ {
+  "out": "protetor-de-berco-trancado-14-branco.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-branco.png",
+  "alt": "Protetor de berço trançado branco em pelúcia encaracolada, trança enrolada em espiral sobre fundo branco"
+ },
+ {
+  "out": "protetor-de-berco-trancado-15-rosa-e-branco.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-rosa-branco.png",
+  "alt": "Protetor de berço trançado rosa e branco, trança de pelúcia de 3 fios em dois tons de rosa e branco"
+ },
+ {
+  "out": "protetor-de-berco-trancado-16-branco-e-azul.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-branco-azul.png",
+  "alt": "Protetor de berço trançado branco e azul, trança de pelúcia encaracolada com dois fios azuis e um branco"
+ }
+]

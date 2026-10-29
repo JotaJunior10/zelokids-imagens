@@ -1,0 +1,314 @@
+[
+ {
+  "out": "limpador-de-nariz-para-bebe-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/p-01-capa.png",
+  "alt": "Limpador de nariz para bebê laranja com ponta dupla, anel e colher translúcidos e cabecinhas de leão, fundo branco"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-02-em-uso.jpg",
+  "layout": "faixa",
+  "band": "bottom",
+  "img": "_fontes/c-pai-nariz.png",
+  "t1": "Limpador de nariz",
+  "t2": "ponta dupla",
+  "sub": "A meleca da entrada do narizinho sai num giro leve",
+  "alt": "Pai com o bebê no colo depois do banho encostando a ponta em anel do limpador de nariz na entrada do narizinho"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-03-problema.jpg",
+  "layout": "split",
+  "side": "left",
+  "img": "_fontes/c-cotonete.png",
+  "crop": [
+   400,
+   0,
+   912,
+   1024
+  ],
+  "t1": "O cotonete",
+  "t2": "é grosso?",
+  "sub": "E a meleca seca segue\ngrudada no narizinho",
+  "icon": "baby",
+  "alt": "Bebê no trocador virando o rosto enquanto o pai segura um cotonete comum, sem conseguir limpar o nariz"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-04-beneficio.jpg",
+  "layout": "comparativo",
+  "img": "_fontes/c-cotonete.png",
+  "crop": [
+   300,
+   80,
+   1024,
+   1024
+  ],
+  "img2": "_fontes/c-pai-nariz.png",
+  "crop2": [
+   200,
+   250,
+   1024,
+   1024
+  ],
+  "t1": "Sem cotonete,",
+  "t2": "sem sucção",
+  "labels": [
+   "Cotonete",
+   "Ponta em anel"
+  ],
+  "label_icons": [
+   "question",
+   "check"
+  ],
+  "alt": "Comparação entre o cotonete comum e a ponta em anel do limpador nasal bebê na entrada do nariz"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-05-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "t1": "Duas pontas,",
+  "t2": "duas funções",
+  "photo_box": [
+   40,
+   215,
+   944,
+   560
+  ],
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.9,
+    "y": 0.07,
+    "at": [
+     0.87,
+     0.33
+    ],
+    "zoom": 2.0,
+    "d": 205
+   },
+   {
+    "n": 2,
+    "x": 0.25,
+    "y": 0.6,
+    "at": [
+     0.56,
+     0.56
+    ],
+    "zoom": 1.8,
+    "d": 205
+   },
+   {
+    "n": 3,
+    "x": 0.07,
+    "y": 0.83,
+    "at": [
+     0.14,
+     0.36
+    ],
+    "zoom": 2.2,
+    "d": 205
+   }
+  ],
+  "items": [
+   {
+    "t": "Ponta em anel",
+    "d": "Pega a meleca grudada"
+   },
+   {
+    "t": "Cabeça de leão",
+    "d": "Firmeza para os dedos"
+   },
+   {
+    "t": "Ponta em colher",
+    "d": "Tira a sujeirinha seca"
+   }
+  ],
+  "alt": "Detalhes em zoom do limpador de nariz e ouvido para bebê: ponta em anel, cabecinha de leão e ponta em colher"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-06-como-usar.jpg",
+  "layout": "passos",
+  "style": "num",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "t1": "Como limpar o",
+  "t2": "nariz do bebê",
+  "items": [
+   {
+    "t": "Bebê calmo",
+    "d": "Cabecinha apoiada"
+   },
+   {
+    "t": "Só na entrada",
+    "d": "Encoste o anel de leve"
+   },
+   {
+    "t": "Um giro leve",
+    "d": "E retire a meleca"
+   }
+  ],
+  "alt": "Como limpar o nariz do bebê com o limpador em 3 passos: bebê calmo, anel só na entrada do nariz e um giro leve"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-07-medidas.jpg",
+  "layout": "numero",
+  "img": "_fontes/c-maos.png",
+  "crop": [
+   150,
+   150,
+   1024,
+   1000
+  ],
+  "t1": "Pequeno",
+  "t2": "na mão",
+  "num": "9 cm",
+  "legend": "de ponta a ponta",
+  "sub": "Pontas finas de 5 mm e\ncabecinhas de 1,2 cm",
+  "num_size": 170,
+  "alt": "Mão de adulto segurando o limpador nasal infantil de 9 cm com pontas finas de 5 mm e cabecinhas de leão"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-08-orelha.jpg",
+  "layout": "pergunta",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "q": "Serve para\na orelha?",
+  "a": "Só na parte de fora. A colherzinha tira a sujeirinha visível, nunca dentro do canal.",
+  "alt": "Dúvida sobre o limpador de ouvido bebê: a ponta em colher é só para a parte de fora da orelha, nunca dentro do canal"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-09-onde-usar.jpg",
+  "layout": "mosaico",
+  "img": "_fontes/c-bolsa.png",
+  "crop": [
+   150,
+   100,
+   1024,
+   1024
+  ],
+  "t1": "Na troca, no colo",
+  "t2": "e no passeio",
+  "chips": [
+   "Cabe na bolsa"
+  ],
+  "chip_icons": [
+   "bag"
+  ],
+  "imgs": [
+   {
+    "img": "_fontes/c-trocador.png",
+    "crop": [
+     150,
+     150,
+     900,
+     900
+    ],
+    "label": "No trocador",
+    "icon": "home"
+   },
+   {
+    "img": "_fontes/c-avo.png",
+    "crop": [
+     100,
+     250,
+     1000,
+     950
+    ],
+    "label": "No colo",
+    "icon": "baby"
+   }
+  ],
+  "alt": "Limpador de nariz bebê guardado na bolsa de passeio, no trocador junto da fralda e na mão da avó com o bebê no colo"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-10-depoimento.jpg",
+  "layout": "depoimento",
+  "img": "_fontes/c-trocador.png",
+  "crop": [
+   0,
+   200,
+   1024,
+   760
+  ],
+  "quote": "Realmente excelente, remove sujeira e resíduos!",
+  "sub": "Avaliação de quem já comprou",
+  "alt": "Colher de limpeza para bebê laranja sobre o trocador ao lado da fralda, escovinha e roupinha do bebê"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-11-depois-do-banho.jpg",
+  "layout": "hero",
+  "img": "_fontes/c-avo.png",
+  "t1": "Um cuidado",
+  "t2": "de todo dia",
+  "alt": "Avó sorrindo com o bebê no colo no sofá da sala, segurando o limpador de nariz para bebê de cabecinhas de leão"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-12-cores.jpg",
+  "layout": "card",
+  "img": "_fontes/k-cores.png",
+  "t1": "Escolha",
+  "t2": "a sua cor",
+  "chips": [
+   "Laranja",
+   "Azul",
+   "Rosa",
+   "Roxo"
+  ],
+  "alt": "Limpador de nariz para bebê ponta dupla nas quatro cores: laranja, azul, rosa e roxo"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-13-resumo.jpg",
+  "layout": "lista",
+  "style": "icon",
+  "side": "right",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "t1": "Por que",
+  "t2": "escolher",
+  "items": [
+   {
+    "icon": "check",
+    "t": "Ponta em anel",
+    "d": "Meleca grudada num giro leve"
+   },
+   {
+    "icon": "check",
+    "t": "Ponta em colher",
+    "d": "Sujeirinha seca e parte de fora da orelha"
+   },
+   {
+    "icon": "ruler",
+    "t": "Só 9 cm",
+    "d": "Pontas finas de 5 mm"
+   },
+   {
+    "icon": "drop",
+    "t": "Higiene simples",
+    "d": "Água e sabão neutro"
+   }
+  ],
+  "alt": "Resumo do limpador de nariz para bebê 2 em 1: ponta em anel, ponta em colher, 9 cm e fácil de lavar"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-14-azul.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-azul.png",
+  "alt": "Limpador de nariz para bebê ponta dupla na cor azul, com cabecinhas de leão e pontas translúcidas"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-15-rosa.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-rosa.png",
+  "white_tol": 14,
+  "alt": "Limpador de nariz para bebê ponta dupla na cor rosa, com anel e colher translúcidos nas pontas"
+ },
+ {
+  "out": "limpador-de-nariz-para-bebe-16-roxo.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-roxo.png",
+  "white_tol": 14,
+  "alt": "Limpador de nariz para bebê ponta dupla na cor roxa lilás, com cabecinhas de leão nas duas pontas"
+ }
+]

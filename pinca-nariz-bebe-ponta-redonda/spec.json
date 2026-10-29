@@ -1,0 +1,343 @@
+[
+ {
+  "out": "pinca-para-nariz-de-bebe-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/p-01-capa.png",
+  "alt": "Pinça para nariz de bebê rosa com ponta redonda em bolinha e capa transparente ao lado, fundo branco"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-02-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/c-noite.png",
+  "t1": "Pinça para nariz",
+  "t2": "de bebê",
+  "sub": "A meleca seca sai numa pinçada leve,\naté com o bebê dormindo",
+  "alt": "Mãe usando a pinça nasal bebê rosa na entrada do narizinho do bebê dormindo no berço, à luz do abajur"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-03-problema.jpg",
+  "layout": "split",
+  "side": "left",
+  "img": "_fontes/c-unha.png",
+  "crop": [
+   130,
+   100,
+   630,
+   1024
+  ],
+  "t1": "Improvisar",
+  "t2": "com a unha?",
+  "sub": "A casquinha seca\npede outro jeito",
+  "icon": "baby",
+  "alt": "Mãe tentando tirar a meleca seca do nariz do bebê dormindo com a ponta do dedo, sem pinça"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-04-beneficio.jpg",
+  "layout": "comparativo",
+  "img": "_fontes/c-unha.png",
+  "crop": [
+   150,
+   150,
+   750,
+   850
+  ],
+  "img2": "_fontes/c-noite.png",
+  "crop2": [
+   180,
+   480,
+   720,
+   980
+  ],
+  "t1": "Chega de",
+  "t2": "improvisar",
+  "labels": [
+   "Unha",
+   "Ponta redonda"
+  ],
+  "label_icons": [
+   "question",
+   "check"
+  ],
+  "alt": "Comparação entre tirar a meleca com a unha e com a pinça para tirar meleca de ponta redonda"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-05-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "t1": "Feita para o",
+  "t2": "narizinho",
+  "photo_box": [
+   40,
+   215,
+   944,
+   560
+  ],
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.8,
+    "y": 0.07,
+    "at": [
+     0.87,
+     0.3
+    ],
+    "zoom": 2.2,
+    "d": 205
+   },
+   {
+    "n": 2,
+    "x": 0.52,
+    "y": 0.25,
+    "at": [
+     0.15,
+     0.32
+    ],
+    "zoom": 1.9,
+    "d": 205
+   },
+   {
+    "n": 3,
+    "x": 0.56,
+    "y": 0.8,
+    "at": [
+     0.86,
+     0.62
+    ],
+    "zoom": 1.6,
+    "d": 205
+   }
+  ],
+  "items": [
+   {
+    "t": "Ponta redonda",
+    "d": "Bolinha que segura a meleca"
+   },
+   {
+    "t": "Cabo com ranhuras",
+    "d": "Firme entre os dedos"
+   },
+   {
+    "t": "Capa transparente",
+    "d": "Ponta longe da poeira"
+   }
+  ],
+  "alt": "Detalhes em zoom da pinça nasal bebê: ponta redonda em bolinha, cabo com ranhuras e capa transparente"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-06-como-usar.jpg",
+  "layout": "sequencia",
+  "img": "_fontes/c-trocador.png",
+  "t1": "Como limpar o",
+  "t2": "nariz do bebê",
+  "steps": [
+   {
+    "img": "_fontes/c-gaveta.png",
+    "crop": [
+     230,
+     380,
+     580,
+     900
+    ],
+    "t": "Tire a capa",
+    "d": "Segure pelo cabo"
+   },
+   {
+    "img": "_fontes/c-trocador.png",
+    "crop": [
+     150,
+     220,
+     550,
+     820
+    ],
+    "t": "Só na entrada",
+    "d": "Pinçada leve e retire"
+   },
+   {
+    "img": "_fontes/c-bolsa.png",
+    "crop": [
+     300,
+     280,
+     700,
+     880
+    ],
+    "t": "Lave e guarde",
+    "d": "Água, sabão e capa"
+   }
+  ],
+  "alt": "Como tirar meleca do nariz do bebê com a pinça: tirar a capa, pinçar só na entrada do nariz e guardar na capa"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-07-medidas.jpg",
+  "layout": "numero",
+  "img": "_fontes/c-maos.png",
+  "crop": [
+   250,
+   150,
+   1024,
+   1000
+  ],
+  "t1": "Leve e",
+  "t2": "na medida",
+  "num": "9 cm",
+  "legend": "de comprimento",
+  "sub": "Fica firme entre o polegar\ne o indicador",
+  "num_size": 170,
+  "alt": "Mão de adulto segurando a pinça para nariz de bebê de 9 cm, com cabo de ranhuras e pontas em bolinha"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-08-pinca-ou-aspirador.jpg",
+  "layout": "pergunta",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "q": "Pinça ou\naspirador?",
+  "a": "A pinça é para a meleca seca da entrada do nariz. Catarro líquido pede um aspirador nasal.",
+  "alt": "Dúvida sobre limpeza nasal bebê: pinça para a meleca seca da entrada do nariz e aspirador para catarro líquido"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-09-onde-usar.jpg",
+  "layout": "mosaico",
+  "img": "_fontes/c-bolsa.png",
+  "crop": [
+   200,
+   200,
+   950,
+   950
+  ],
+  "t1": "Na bolsa, no berço",
+  "t2": "e no trocador",
+  "chips": [
+   "Vai na bolsa"
+  ],
+  "chip_icons": [
+   "bag"
+  ],
+  "imgs": [
+   {
+    "img": "_fontes/c-noite.png",
+    "crop": [
+     150,
+     520,
+     750,
+     980
+    ],
+    "label": "No berço",
+    "icon": "bed"
+   },
+   {
+    "img": "_fontes/c-trocador.png",
+    "crop": [
+     100,
+     250,
+     700,
+     720
+    ],
+    "label": "No trocador",
+    "icon": "home"
+   }
+  ],
+  "alt": "Pinça higiênica bebê com capa no bolso da bolsa de passeio, no berço à noite e no trocador depois do banho"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-10-depoimento.jpg",
+  "layout": "depoimento",
+  "img": "_fontes/c-gaveta.png",
+  "crop": [
+   100,
+   250,
+   1000,
+   820
+  ],
+  "quote": "Muito prático para pequenas secreções nasais secas, fácil de usar.",
+  "sub": "Avaliação de quem já comprou",
+  "alt": "Pinça de limpeza para bebê rosa e capa transparente na gaveta do quarto, ao lado da escovinha e do babador"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-11-depois-do-banho.jpg",
+  "layout": "faixa",
+  "band": "bottom",
+  "img": "_fontes/c-trocador.png",
+  "t1": "Depois do banho,",
+  "t2": "sem improviso",
+  "sub": "Uma pinçada leve na pontinha do nariz",
+  "alt": "Pai limpando o nariz do bebê enrolado na toalha no trocador com a pinça para nariz de bebê de ponta redonda"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-12-cores.jpg",
+  "layout": "card",
+  "img": "_fontes/k-cores.png",
+  "t1": "Escolha",
+  "t2": "a sua cor",
+  "chips": [
+   "Rosa",
+   "Branco",
+   "Verde",
+   "Azul",
+   "Laranja"
+  ],
+  "alt": "Pinça nasal bebê nas cinco cores, rosa, branco, verde, azul e laranja, cada uma com capa transparente"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-13-resumo.jpg",
+  "layout": "lista",
+  "style": "icon",
+  "side": "right",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "t1": "Por que",
+  "t2": "ter em casa",
+  "items": [
+   {
+    "icon": "check",
+    "t": "Ponta redonda",
+    "d": "Meleca seca numa pinçada leve"
+   },
+   {
+    "icon": "check",
+    "t": "Sem cotonete",
+    "d": "E sem improvisar com a unha"
+   },
+   {
+    "icon": "bag",
+    "t": "Capa transparente",
+    "d": "Pronta na bolsa ou na gaveta"
+   },
+   {
+    "icon": "drop",
+    "t": "Reutilizável",
+    "d": "Lava com água e sabão neutro"
+   }
+  ],
+  "alt": "Resumo da pinça para tirar meleca: ponta redonda, sem cotonete, capa transparente e reutilizável"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-14-branco.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-branco.png",
+  "white_tol": 16,
+  "alt": "Pinça para nariz de bebê na cor branca creme dentro da capa transparente, com ponta em bolinha"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-15-verde.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-verde.png",
+  "white_tol": 14,
+  "alt": "Pinça para nariz de bebê verde dentro da capa protetora transparente, vista de frente"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-16-azul.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-azul.png",
+  "white_tol": 14,
+  "alt": "Pinça para nariz de bebê azul com cabo de ranhuras guardada na capa transparente"
+ },
+ {
+  "out": "pinca-para-nariz-de-bebe-17-laranja.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-laranja.png",
+  "white_tol": 14,
+  "alt": "Pinça para nariz de bebê laranja com as duas pontas redondas aparecendo pela capa transparente"
+ }
+]

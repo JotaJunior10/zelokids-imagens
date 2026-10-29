@@ -1,0 +1,338 @@
+[
+ {
+  "out": "termometro-infantil-de-bichinho-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/p-01-capa.png",
+  "white_tol": 22,
+  "alt": "Termômetro infantil de bichinho: quatro termômetros digitais com cão, pato, macaco e urso no cabo, fundo branco"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-02-em-uso.jpg",
+  "layout": "faixa",
+  "band": "top",
+  "band_h": 385,
+  "img": "_fontes/c-axila-v2.png",
+  "t1": "Termômetro infantil",
+  "t2": "de bichinho",
+  "sub": "Pato, macaco, cão ou urso no cabo",
+  "alt": "Pai medindo a temperatura do filho no colo com o termômetro para bebê de ursinho junto ao braço, no sofá"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-03-problema.jpg",
+  "layout": "overlay",
+  "img": "_fontes/c-briga.png",
+  "t1": "Ele não deixa",
+  "t2": "medir?",
+  "sub": "Quentinho, agitado e sem\nquerer ficar parado",
+  "alt": "Criança pequena de pijama recusando o termômetro comum sem bichinho no colo da mãe, à noite"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-04-beneficio.jpg",
+  "layout": "comparativo",
+  "img": "_fontes/c-briga.png",
+  "crop": [
+   330,
+   100,
+   960,
+   1000
+  ],
+  "img2": "_fontes/c-axila.png",
+  "crop2": [
+   40,
+   200,
+   620,
+   1024
+  ],
+  "t1": "A briga vira",
+  "t2": "brincadeira",
+  "labels": [
+   "Sem bichinho",
+   "Com bichinho"
+  ],
+  "label_icons": [
+   "question",
+   "check"
+  ],
+  "alt": "Comparação: criança recusa termômetro comum e sorri com o termômetro de bichinho de urso"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-05-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/p-urso-h.png",
+  "crop": [
+   120,
+   420,
+   870,
+   560
+  ],
+  "white": true,
+  "t1": "Feito para",
+  "t2": "a criança",
+  "photo_box": [
+   40,
+   250,
+   944,
+   330
+  ],
+  "legend_top": 835,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.2,
+    "y": 0.78,
+    "at": [
+     0.18,
+     0.645
+    ],
+    "zoom": 2.0,
+    "d": 205
+   },
+   {
+    "n": 2,
+    "x": 0.66,
+    "y": 0.55,
+    "at": [
+     0.5,
+     0.645
+    ],
+    "zoom": 2.0,
+    "d": 205
+   },
+   {
+    "n": 3,
+    "x": 0.92,
+    "y": 0.42,
+    "at": [
+     0.82,
+     0.645
+    ],
+    "zoom": 2.0,
+    "d": 205
+   }
+  ],
+  "items": [
+   {
+    "t": "Ponta flexível",
+    "d": "Acompanha o corpinho"
+   },
+   {
+    "t": "Visor e botão",
+    "d": "Leitura em 0,1 °C"
+   },
+   {
+    "t": "Bichinho no cabo",
+    "d": "Distrai na medição"
+   }
+  ],
+  "alt": "Detalhes em zoom do termômetro digital infantil: cabeça de urso no cabo, visor LCD com botão e ponta flexível"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-06-como-usar.jpg",
+  "layout": "sequencia",
+  "img": "_fontes/c-mesinha.png",
+  "t1": "Como usar o",
+  "t2": "termômetro",
+  "steps": [
+   {
+    "img": "_fontes/c-mesinha.png",
+    "crop": [
+     380,
+     380,
+     880,
+     1000
+    ],
+    "t": "Algodão com álcool",
+    "d": "Na ponta, e deixe secar"
+   },
+   {
+    "img": "_fontes/c-axila-v2.png",
+    "crop": [
+     200,
+     460,
+     700,
+     1024
+    ],
+    "t": "Axila ou boca",
+    "d": "Braço junto ao corpo"
+   },
+   {
+    "img": "_fontes/c-visor.png",
+    "crop": [
+     300,
+     300,
+     1000,
+     1000
+    ],
+    "t": "Espere o bipe",
+    "d": "E leia o visor"
+   }
+  ],
+  "alt": "Como usar o termômetro de axila: algodão com álcool na ponta, medir na axila ou na boca e ler o visor após o bipe"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-07-precisao.jpg",
+  "layout": "numero",
+  "img": "_fontes/c-visor.png",
+  "crop": [
+   120,
+   280,
+   1000,
+   1024
+  ],
+  "t1": "Leitura em",
+  "t2": "décimos",
+  "num": "0,1 °C",
+  "num_size": 150,
+  "legend": "de precisão entre\n35,5 e 42 °C",
+  "sub": "Memória da última\nmedição ao ligar",
+  "alt": "Mão segurando o termômetro clínico digital de pato com o visor LCD mostrando 36,4 °C"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-08-quanto-tempo.jpg",
+  "layout": "pergunta",
+  "img": "_fontes/v-macaco.png",
+  "white": true,
+  "q": "Quanto tempo\nleva para medir?",
+  "a": "Cerca de 1 minuto na boca e 1 min 40 s na axila. O bipe avisa a hora de ler.",
+  "alt": "Termômetro digital de bichinho com macaco no cabo e ponta flexível marrom, ao lado da pergunta sobre o tempo"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-09-na-boca.jpg",
+  "layout": "hero",
+  "img": "_fontes/c-boca.png",
+  "t1": "Na boca ou",
+  "t2": "na axila",
+  "alt": "Menino de pijama na cama medindo a temperatura na boca com o termômetro para criança de macaquinho"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-10-depoimento.jpg",
+  "layout": "depoimento",
+  "img": "_fontes/c-avo.png",
+  "crop": [
+   0,
+   180,
+   1024,
+   800
+  ],
+  "quote": "Minha filha deixa medir a temperatura com ele e não quer saber mais dos outros sem bichinho.",
+  "quote_size": 38,
+  "alt": "Avó com a neta no colo rindo do termômetro de bichinho de cachorrinho, com avaliação de cliente"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-11-onde-usar.jpg",
+  "layout": "mosaico",
+  "img": "_fontes/c-avo.png",
+  "crop": [
+   300,
+   380,
+   1000,
+   1024
+  ],
+  "chips": [
+   "Na casa da avó"
+  ],
+  "chip_icons": [
+   "home"
+  ],
+  "t1": "Para o bebê e",
+  "t2": "a família toda",
+  "imgs": [
+   {
+    "img": "_fontes/c-mesinha.png",
+    "crop": [
+     150,
+     250,
+     1000,
+     1000
+    ],
+    "label": "No quarto",
+    "icon": "bed"
+   },
+   {
+    "img": "_fontes/c-axila.png",
+    "crop": [
+     0,
+     250,
+     800,
+     1024
+    ],
+    "label": "No sofá",
+    "icon": "home"
+   }
+  ],
+  "alt": "Termômetro infantil de bichinho em casa: no colo da avó, na mesinha do quarto e no sofá com o pai"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-12-bichinhos.jpg",
+  "layout": "card",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "white_tol": 22,
+  "t1": "Escolha o",
+  "t2": "bichinho",
+  "chips": [
+   "Pato",
+   "Macaco",
+   "Cão",
+   "Urso"
+  ],
+  "alt": "Os quatro modelos do termômetro de bichinho: cão, pato, macaco e urso, cada um com a ponta flexível da sua cor"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-13-resumo.jpg",
+  "layout": "lista",
+  "side": "right",
+  "img": "_fontes/v-cao.png",
+  "white": true,
+  "t1": "Termômetro de",
+  "t2": "bichinho",
+  "items": [
+   {
+    "t": "Bichinho no cabo",
+    "d": "A criança deixa medir"
+   },
+   {
+    "t": "Ponta flexível e bipe",
+    "d": "Avisa quando terminou"
+   },
+   {
+    "t": "Memória e visor LCD",
+    "d": "Mostra a última leitura"
+   },
+   {
+    "t": "Pilha LR41 inclusa",
+    "d": "Chega pronto para usar"
+   }
+  ],
+  "alt": "Resumo do termômetro digital bebê com cão no cabo: bichinho, ponta flexível, bipe, memória e pilha inclusa"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-14-pato.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-pato.png",
+  "white_tol": 22,
+  "alt": "Termômetro infantil de bichinho modelo Pato, cabo de patinho amarelo e ponta flexível amarela, fundo branco"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-15-macaco.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-macaco.png",
+  "white_tol": 22,
+  "alt": "Termômetro infantil de bichinho modelo Macaco, cabo de macaquinho e ponta flexível marrom, fundo branco"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-16-cao.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-cao.png",
+  "white_tol": 22,
+  "alt": "Termômetro infantil de bichinho modelo Cão, cabo de cachorrinho de orelhas caídas e ponta laranja, fundo branco"
+ },
+ {
+  "out": "termometro-infantil-de-bichinho-17-urso.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-urso.png",
+  "white_tol": 22,
+  "alt": "Termômetro infantil de bichinho modelo Urso, cabo de ursinho caramelo e ponta flexível laranja, fundo branco"
+ }
+]

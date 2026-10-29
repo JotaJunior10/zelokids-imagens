@@ -1,0 +1,310 @@
+[
+ {
+  "out": "ninho-com-mosquiteiro-para-bebe-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/p-01-capa.png",
+  "white_tol": 14,
+  "alt": "Ninho com mosquiteiro para bebê azul com estampa de ursinho, tenda em arco e tela branca, vista 3/4 em fundo branco"
+ },
+ {
+  "out": "ninho-com-mosquiteiro-para-bebe-02-em-uso.jpg",
+  "layout": "card",
+  "img": "_fontes/c-uso.png",
+  "crop": [
+   0,
+   90,
+   1024,
+   1000
+  ],
+  "t1": "Ninho com mosquiteiro",
+  "t2": "para bebê",
+  "chips": [
+   "Soneca coberta pela tela"
+  ],
+  "chip_icons": [
+   "baby"
+  ],
+  "alt": "Avó sentada na cama da pousada ao lado do bebê deitado no ninho com mosquiteiro azul, com a tela cobrindo"
+ },
+ {
+  "out": "ninho-com-mosquiteiro-para-bebe-03-problema.jpg",
+  "layout": "split",
+  "side": "left",
+  "img": "_fontes/c-problema.png",
+  "crop": [
+   120,
+   0,
+   900,
+   1024
+  ],
+  "t1": "Onde deitar",
+  "t2": "o bebê?",
+  "sub": "Na pousada, sem\npernilongo por perto",
+  "icon": "bed",
+  "alt": "Mãe com o bebê no ombro olhando a cama vazia do quarto de pousada à noite, sem lugar para a soneca do bebê"
+ },
+ {
+  "out": "ninho-com-mosquiteiro-para-bebe-04-beneficio.jpg",
+  "layout": "comparativo",
+  "img": "_fontes/c-problema.png",
+  "crop": [
+   100,
+   100,
+   900,
+   1024
+  ],
+  "img2": "_fontes/c-uso.png",
+  "crop2": [
+   150,
+   250,
+   1000,
+   1024
+  ],
+  "t1": "O cantinho da soneca",
+  "t2": "vai junto",
+  "labels": [
+   "Improviso",
+   "Ninho"
+  ],
+  "label_icons": [
+   "question",
+   "check"
+  ],
+  "alt": "Comparação: quarto de pousada sem lugar para o bebê e o bebê deitado no ninho com tela mosquiteira sobre a cama"
+ },
+ {
+  "out": "ninho-com-mosquiteiro-para-bebe-05-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "white_tol": 14,
+  "t1": "Ninho de bebê",
+  "t2": "com tenda de tela",
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.45,
+    "y": 0.1,
+    "at": [
+     0.14,
+     0.47
+    ],
+    "zoom": 2.0,
+    "d": 205
+   },
+   {
+    "n": 2,
+    "x": 0.84,
+    "y": 0.3,
+    "at": [
+     0.87,
+     0.37
+    ],
+    "zoom": 2.2,
+    "d": 205
+   },
+   {
+    "n": 3,
+    "x": 0.62,
+    "y": 0.72,
+    "at": [
+     0.87,
+     0.6
+    ],
+    "zoom": 1.9,
+    "d": 205
+   }
+  ],
+  "items": [
+   {
+    "t": "Tenda em arco",
+    "d": "Hastes forradas"
+   },
+   {
+    "t": "Tela branca",
+    "d": "Cobre o bebê deitado"
+   },
+   {
+    "t": "Base acolchoada",
+    "d": "Estampa de ursinho"
+   }
+  ],
+  "alt": "Detalhes em zoom do ninho de bebê com mosquiteiro: hastes em arco forradas, tela branca e base acolchoada estampada"
+ },
+ {
+  "out": "ninho-com-mosquiteiro-para-bebe-06-como-usar.jpg",
+  "layout": "passos",
+  "style": "num",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "white_tol": 14,
+  "t1": "Pronto em",
+  "t2": "4 passos",
+  "items": [
+   {
+    "t": "Apoie",
+    "d": "Na cama ou no chão"
+   },
+   {
+    "t": "Abra a tenda",
+    "d": "Até a tela cobrir"
+   },
+   {
+    "t": "Deite o bebê",
+    "d": "Com a tela por cima"
+   },
+   {
+    "t": "Dobre",
+    "d": "E guarde na bolsa"
+   }
+  ],
+  "alt": "Como usar o ninho com mosquiteiro: apoiar na cama, abrir a tenda em arco, deitar o bebê e dobrar na bolsa"
+ },
+ {
+  "out": "ninho-com-mosquiteiro-para-bebe-07-tem-pes.jpg",
+  "layout": "pergunta",
+  "img": "_fontes/v-rosa.png",
+  "white": true,
+  "white_tol": 14,
+  "q": "Tem pés ou\nestrutura de berço?",
+  "a": "Não. É um ninho acolchoado com tenda de tela, apoiado sobre a cama ou o chão.",
+  "alt": "Ninho com mosquiteiro rosa sem pés nem estrutura de berço, só base acolchoada e tenda de tela em arco"
+ },
+ {
+  "out": "ninho-com-mosquiteiro-para-bebe-08-vai-na-bolsa.jpg",
+  "layout": "faixa",
+  "band": "top",
+  "band_h": 330,
+  "img": "_fontes/c-bolsa.png",
+  "crop": [
+   100,
+   250,
+   924,
+   1024
+  ],
+  "t1": "Dobra e vai",
+  "t2": "na bolsa com alça",
+  "sub": "O berço portátil que viaja com a família",
+  "alt": "Pai segurando o ninho com mosquiteiro dobrado dentro da bolsa transparente com alça, ao lado do porta-malas do carro"
+ },
+ {
+  "out": "ninho-com-mosquiteiro-para-bebe-09-onde-usar.jpg",
+  "layout": "mosaico",
+  "img": "_fontes/c-avos.png",
+  "crop": [
+   0,
+   300,
+   800,
+   1024
+  ],
+  "chips": [
+   "Na casa dos avós"
+  ],
+  "chip_icons": [
+   "home"
+  ],
+  "t1": "Em casa e",
+  "t2": "na viagem",
+  "imgs": [
+   {
+    "img": "_fontes/c-uso.png",
+    "crop": [
+     100,
+     250,
+     1024,
+     1024
+    ],
+    "label": "Na pousada",
+    "icon": "bed"
+   },
+   {
+    "img": "_fontes/c-cheia.png",
+    "crop": [
+     100,
+     150,
+     1024,
+     950
+    ],
+    "label": "Na casa de praia",
+    "icon": "bag"
+   }
+  ],
+  "alt": "Ninho portátil com mosquiteiro na casa dos avós sobre o tapete, na cama da pousada e na casa de praia"
+ },
+ {
+  "out": "ninho-com-mosquiteiro-para-bebe-10-idade.jpg",
+  "layout": "numero",
+  "img": "_fontes/c-cheia.png",
+  "crop": [
+   150,
+   150,
+   950,
+   1024
+  ],
+  "t1": "Feito para a",
+  "t2": "fase deitado",
+  "num": "0 a 1",
+  "num_size": 150,
+  "legend": "ano de idade",
+  "sub": "A fase em que o bebê\nfica deitado na soneca",
+  "alt": "Bebê sorrindo deitado no ninho com tela mosquiteira, indicado de 0 a 1 ano de idade"
+ },
+ {
+  "out": "ninho-com-mosquiteiro-para-bebe-11-soneca.jpg",
+  "layout": "cheia",
+  "img": "_fontes/c-cheia.png",
+  "chips": [
+   "A soneca coberta pela tela"
+  ],
+  "chip_icons": [
+   "baby"
+  ],
+  "alt": "Bebê acordado sorrindo dentro do ninho com mosquiteiro azul, visto de perto pela tela branca, com a mão da mãe ao lado"
+ },
+ {
+  "out": "ninho-com-mosquiteiro-para-bebe-12-resumo.jpg",
+  "layout": "lista",
+  "side": "right",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "white_tol": 14,
+  "t1": "Ninho com",
+  "t2": "mosquiteiro",
+  "items": [
+   {
+    "t": "Tenda com tela",
+    "d": "Cobre o bebê deitado"
+   },
+   {
+    "t": "Dobrável",
+    "d": "Vai na bolsa com alça"
+   },
+   {
+    "t": "Base acolchoada",
+    "d": "Poliéster e algodão"
+   },
+   {
+    "t": "Azul ou rosa",
+    "d": "Estampa de ursinho"
+   }
+  ],
+  "alt": "Resumo do ninho com mosquiteiro para bebê: tenda com tela, dobrável na bolsa, base acolchoada, azul ou rosa"
+ },
+ {
+  "out": "ninho-com-mosquiteiro-para-bebe-13-rosa-em-uso.jpg",
+  "layout": "hero",
+  "img": "_fontes/c-rosa.png",
+  "t1": "Também na cor",
+  "t2": "rosa",
+  "alt": "Mãe sentada na cama sorrindo para a bebê deitada no ninho com mosquiteiro rosa, com a tela cobrindo"
+ },
+ {
+  "out": "ninho-com-mosquiteiro-para-bebe-14-rosa.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-rosa.png",
+  "white_tol": 14,
+  "alt": "Ninho com mosquiteiro para bebê rosa com estampa de ursinho e tenda de tela branca, em fundo branco"
+ }
+]

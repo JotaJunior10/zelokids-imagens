@@ -1,0 +1,330 @@
+[
+ {
+  "out": "camera-para-bebe-no-carro-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/p-01-capa.png",
+  "white_tol": 12,
+  "alt": "Câmera para bebê no carro: monitor de 4,3 polegadas com ventosa e câmera com LEDs infravermelhos, em fundo branco"
+ },
+ {
+  "out": "camera-para-bebe-no-carro-02-em-uso.jpg",
+  "layout": "faixa",
+  "band": "bottom",
+  "band_h": 330,
+  "img": "_fontes/c-noite.png",
+  "t1": "Câmera para bebê",
+  "t2": "no carro",
+  "sub": "Veja o bebê pela tela do painel, até à noite",
+  "alt": "Pai dirigindo à noite e olhando a câmera para bebê no carro: o monitor no para-brisa mostra o bebê dormindo"
+ },
+ {
+  "out": "camera-para-bebe-no-carro-03-problema.jpg",
+  "layout": "split",
+  "side": "left",
+  "img": "_fontes/c-problema.png",
+  "crop": [
+   330,
+   0,
+   870,
+   1024
+  ],
+  "t1": "Virar para trás",
+  "t2": "no semáforo?",
+  "sub": "De costas, você só\nvê a cadeirinha",
+  "icon": "baby",
+  "alt": "Mãe parada no semáforo virando o corpo para olhar o bebê conforto de costas no banco de trás, sem conseguir ver o bebê"
+ },
+ {
+  "out": "camera-para-bebe-no-carro-04-beneficio.jpg",
+  "layout": "comparativo",
+  "img": "_fontes/c-problema.png",
+  "crop": [
+   360,
+   60,
+   980,
+   940
+  ],
+  "img2": "_fontes/c-mae.png",
+  "crop2": [
+   380,
+   0,
+   1024,
+   910
+  ],
+  "t1": "Sem virar o corpo,",
+  "t2": "só um olhar",
+  "labels": [
+   "Sem câmera",
+   "Com câmera"
+  ],
+  "label_icons": [
+   "question",
+   "check"
+  ],
+  "alt": "Comparação: mãe virada para trás sem ver o bebê e mãe dirigindo que vê o bebê sorrindo no monitor da câmera"
+ },
+ {
+  "out": "camera-para-bebe-no-carro-05-como-funciona.jpg",
+  "layout": "sequencia",
+  "img": "_fontes/c-instala.png",
+  "t1": "Instala em",
+  "t2": "3 passos",
+  "steps": [
+   {
+    "img": "_fontes/c-instala.png",
+    "crop": [
+     120,
+     80,
+     900,
+     1024
+    ],
+    "t": "Cintas no encosto",
+    "d": "câmera virada ao bebê"
+   },
+   {
+    "img": "_fontes/c-mae.png",
+    "crop": [
+     640,
+     20,
+     1010,
+     470
+    ],
+    "t": "Ventosa no vidro",
+    "d": "ou no painel"
+   },
+   {
+    "img": "_fontes/c-isqueiro.png",
+    "crop": [
+     230,
+     80,
+     900,
+     1000
+    ],
+    "t": "Plugue no isqueiro",
+    "d": "a tela acende com o carro"
+   }
+  ],
+  "alt": "Como instalar a câmera para bebê no carro: cintas no encosto de cabeça, monitor na ventosa e plugue no isqueiro"
+ },
+ {
+  "out": "camera-para-bebe-no-carro-06-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "white_tol": 12,
+  "t1": "Detalhes que",
+  "t2": "fazem diferença",
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.55,
+    "y": 0.3,
+    "at": [
+     0.87,
+     0.62
+    ],
+    "zoom": 2.2,
+    "d": 205
+   },
+   {
+    "n": 2,
+    "x": 0.13,
+    "y": 0.17,
+    "at": [
+     0.13,
+     0.36
+    ],
+    "zoom": 1.8,
+    "d": 205
+   },
+   {
+    "n": 3,
+    "x": 0.86,
+    "y": 0.28,
+    "at": [
+     0.87,
+     0.31
+    ],
+    "zoom": 2.0,
+    "d": 205
+   }
+  ],
+  "items": [
+   {
+    "t": "8 LEDs infravermelhos",
+    "d": "Imagem no escuro"
+   },
+   {
+    "t": "Ventosa",
+    "d": "Vidro ou painel"
+   },
+   {
+    "t": "Suporte da câmera",
+    "d": "Preso pelas cintas"
+   }
+  ],
+  "alt": "Detalhes em zoom da câmera para bebê no carro: 8 LEDs infravermelhos, ventosa do monitor e suporte da câmera"
+ },
+ {
+  "out": "camera-para-bebe-no-carro-07-tela.jpg",
+  "layout": "numero",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "white_tol": 12,
+  "t1": "No seu campo",
+  "t2": "de visão",
+  "num": "4,3\"",
+  "num_size": 170,
+  "legend": "de tela IPS no painel",
+  "sub": "Um olhar rápido basta\npara ver o bebê",
+  "alt": "Monitor de bebê para carro com tela IPS de 4,3 polegadas mostrando o bebê sorrindo na cadeirinha"
+ },
+ {
+  "out": "camera-para-bebe-no-carro-08-duvidas.jpg",
+  "layout": "pergunta",
+  "img": "_fontes/c-isqueiro.png",
+  "crop": [
+   200,
+   40,
+   960,
+   1024
+  ],
+  "q": "Funciona no\nmeu carro?",
+  "q_size": 86,
+  "bar_top": 330,
+  "a_top": 380,
+  "a": "Liga na tomada do isqueiro (12V), com o plugue que vem no kit. Não é USB: o carro precisa ter isqueiro.",
+  "alt": "Mão encaixando o plugue de isqueiro 12V da câmera para bebê no carro na tomada do console"
+ },
+ {
+  "out": "camera-para-bebe-no-carro-09-onde-usar.jpg",
+  "layout": "mosaico",
+  "img": "_fontes/c-mae.png",
+  "crop": [
+   0,
+   0,
+   1024,
+   1024
+  ],
+  "chips": [
+   "Caminho da escola"
+  ],
+  "chip_icons": [
+   "car"
+  ],
+  "t1": "Escola, mercado",
+  "t2": "e viagem à noite",
+  "imgs": [
+   {
+    "img": "_fontes/c-pai.png",
+    "crop": [
+     0,
+     80,
+     560,
+     640
+    ],
+    "label": "No mercado",
+    "icon": "bag"
+   },
+   {
+    "img": "_fontes/c-noite.png",
+    "crop": [
+     440,
+     120,
+     1024,
+     704
+    ],
+    "label": "À noite",
+    "icon": "car"
+   }
+  ],
+  "alt": "Câmera para bebê no carro no caminho da escola, no estacionamento do mercado e numa viagem à noite"
+ },
+ {
+  "out": "camera-para-bebe-no-carro-10-visao-noturna.jpg",
+  "layout": "cheia",
+  "img": "_fontes/c-noite-pov.png",
+  "chips": [
+   "Visão noturna"
+  ],
+  "chip_icons": [
+   "baby"
+  ],
+  "alt": "Câmera com visão noturna: monitor no para-brisa mostra o bebê dormindo no bebê conforto em imagem infravermelha"
+ },
+ {
+  "out": "camera-para-bebe-no-carro-11-kit.jpg",
+  "layout": "lista",
+  "side": "right",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "white_tol": 12,
+  "t1": "O que vem",
+  "t2": "no kit",
+  "items": [
+   {
+    "icon": "baby",
+    "t": "Câmera",
+    "d": "8 LEDs infravermelhos"
+   },
+   {
+    "icon": "car",
+    "t": "Monitor 4,3\"",
+    "d": "Com ventosa"
+   },
+   {
+    "icon": "ruler",
+    "t": "Cabo de 5 m",
+    "d": "Da câmera ao painel"
+   },
+   {
+    "icon": "button",
+    "t": "Plugue de isqueiro",
+    "d": "12V, não é USB"
+   }
+  ],
+  "alt": "Kit da câmera para bebê no carro: câmera infravermelha, monitor de 4,3 com ventosa, cabo de 5 m e plugue de isqueiro"
+ },
+ {
+  "out": "camera-para-bebe-no-carro-12-resumo.jpg",
+  "layout": "passos",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "white_tol": 12,
+  "t1": "O bebê à vista,",
+  "t2": "dia e noite",
+  "items": [
+   {
+    "icon": "baby",
+    "t": "Tela 4,3\"",
+    "d": "IPS no painel"
+   },
+   {
+    "icon": "check",
+    "t": "Visão noturna",
+    "d": "8 LEDs IR"
+   },
+   {
+    "icon": "nodrill",
+    "t": "Sem ferramentas",
+    "d": "Cintas e ventosa"
+   },
+   {
+    "icon": "car",
+    "t": "No isqueiro",
+    "d": "Acende com o carro"
+   }
+  ],
+  "alt": "Resumo da câmera para bebê no carro: tela de 4,3, visão noturna, instala sem ferramentas e liga no isqueiro"
+ },
+ {
+  "out": "camera-para-bebe-no-carro-13-mercado.jpg",
+  "layout": "overlay",
+  "img": "_fontes/c-pai.png",
+  "t1": "Uma olhada antes",
+  "t2": "de seguir viagem",
+  "alt": "Pai no estacionamento do mercado olhando o bebê acordado no monitor da câmera para bebê presa no para-brisa"
+ }
+]

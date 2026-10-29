@@ -1,0 +1,305 @@
+[
+ {
+  "out": "termometro-chupeta-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/p-01-capa.png",
+  "white_tol": 14,
+  "alt": "Termômetro chupeta digital azul com visor LCD, botão ON/OFF e escudo de ursinho, vista de frente em fundo branco"
+ },
+ {
+  "out": "termometro-chupeta-02-em-uso.jpg",
+  "layout": "faixa",
+  "band": "bottom",
+  "band_h": 330,
+  "img": "_fontes/c-uso.png",
+  "t1": "Termômetro chupeta",
+  "t2": "digital para bebê",
+  "sub": "Ele chupa a chupeta e você lê o visor",
+  "alt": "Bebê no colo do pai no sofá chupando o termômetro chupeta azul com o visor LCD virado para a frente"
+ },
+ {
+  "out": "termometro-chupeta-03-problema.jpg",
+  "layout": "overlay",
+  "img": "_fontes/c-problema.png",
+  "t1": "Medir a temperatura",
+  "t2": "virou briga?",
+  "sub": "Ele vira o rosto e não aceita a vareta",
+  "alt": "Bebê no colo da mãe à noite virando o rosto para um termômetro comum de vareta, antes do termômetro de chupeta"
+ },
+ {
+  "out": "termometro-chupeta-04-beneficio.jpg",
+  "layout": "comparativo",
+  "img": "_fontes/c-problema.png",
+  "crop": [
+   220,
+   80,
+   860,
+   980
+  ],
+  "img2": "_fontes/c-uso.png",
+  "crop2": [
+   380,
+   200,
+   1024,
+   1024
+  ],
+  "t1": "Ele chupa,",
+  "t2": "você lê",
+  "labels": [
+   "Vareta",
+   "Chupeta"
+  ],
+  "label_icons": [
+   "question",
+   "check"
+  ],
+  "alt": "Comparação: bebê recusa o termômetro de vareta e chupa tranquilo a chupeta com termômetro"
+ },
+ {
+  "out": "termometro-chupeta-05-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/p-34.png",
+  "white": true,
+  "t1": "Tudo numa",
+  "t2": "chupeta",
+  "legend_top": 835,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.2,
+    "y": 0.43,
+    "at": [
+     0.2,
+     0.685
+    ],
+    "zoom": 1.9,
+    "d": 205
+   },
+   {
+    "n": 2,
+    "x": 0.15,
+    "y": 0.61,
+    "at": [
+     0.5,
+     0.685
+    ],
+    "zoom": 2.2,
+    "d": 205
+   },
+   {
+    "n": 3,
+    "x": 0.8,
+    "y": 0.53,
+    "at": [
+     0.8,
+     0.685
+    ],
+    "zoom": 1.6,
+    "d": 205
+   }
+  ],
+  "items": [
+   {
+    "t": "Visor LCD",
+    "d": "Temperatura em °C"
+   },
+   {
+    "t": "Botão ON/OFF",
+    "d": "Liga e desliga"
+   },
+   {
+    "t": "Bico de chupeta",
+    "d": "Formato que ele conhece"
+   }
+  ],
+  "alt": "Detalhes em zoom do termômetro chupeta digital: visor LCD em °C, botão ON/OFF e bico de chupeta atrás do escudo",
+  "photo_box": [
+   40,
+   235,
+   944,
+   350
+  ]
+ },
+ {
+  "out": "termometro-chupeta-06-como-usar.jpg",
+  "layout": "sequencia",
+  "img": "_fontes/c-uso.png",
+  "t1": "Como usar a",
+  "t2": "chupeta termômetro",
+  "steps": [
+   {
+    "img": "_fontes/p-34.png",
+    "crop": [
+     60,
+     120,
+     700,
+     760
+    ],
+    "t": "Aperte ON/OFF",
+    "d": "O visor acende"
+   },
+   {
+    "img": "_fontes/c-uso.png",
+    "crop": [
+     480,
+     280,
+     920,
+     720
+    ],
+    "t": "Ofereça a chupeta",
+    "d": "Ele chupa como sempre"
+   },
+   {
+    "img": "_fontes/c-visor.png",
+    "crop": [
+     330,
+     330,
+     730,
+     730
+    ],
+    "t": "Leia o visor",
+    "d": "A temperatura em °C"
+   }
+  ],
+  "alt": "Como usar a chupeta com termômetro: apertar o botão ON/OFF, oferecer a chupeta ao bebê e ler o visor"
+ },
+ {
+  "out": "termometro-chupeta-07-visor.jpg",
+  "layout": "hero",
+  "img": "_fontes/c-visor.png",
+  "t1": "Você só olha",
+  "t2": "o visor",
+  "alt": "Bebê deitado no trocador com o termômetro de chupeta rosa na boca e o visor mostrando 36,8 °C"
+ },
+ {
+  "out": "termometro-chupeta-08-duvida-lo.jpg",
+  "layout": "pergunta",
+  "img": "_fontes/v-rosa.png",
+  "white": true,
+  "white_tol": 14,
+  "q": "O que é o LO\nno visor?",
+  "a": "Aparece quando a leitura fica abaixo de 32 °C. Acima disso, o visor mostra a temperatura.",
+  "alt": "Termômetro chupeta rosa em fundo branco ao lado da explicação do aviso LO no visor abaixo de 32 °C"
+ },
+ {
+  "out": "termometro-chupeta-09-depoimento.jpg",
+  "layout": "depoimento",
+  "img": "_fontes/c-colo.png",
+  "crop": [
+   0,
+   120,
+   1024,
+   700
+  ],
+  "quote": "Minha filha gostou muito.",
+  "quote_size": 46,
+  "sub": "Avaliação de quem já comprou",
+  "alt": "Mãe sentada no tapete com a filha no colo usando a chupeta termômetro rosa, com avaliação de cliente"
+ },
+ {
+  "out": "termometro-chupeta-10-onde-usar.jpg",
+  "layout": "mosaico",
+  "img": "_fontes/c-visor.png",
+  "crop": [
+   150,
+   200,
+   1000,
+   1000
+  ],
+  "t1": "No sofá, no colo",
+  "t2": "e no trocador",
+  "chips": [
+   "No trocador"
+  ],
+  "chip_icons": [
+   "baby"
+  ],
+  "imgs": [
+   {
+    "img": "_fontes/c-uso.png",
+    "crop": [
+     300,
+     150,
+     1024,
+     850
+    ],
+    "label": "No sofá",
+    "icon": "home"
+   },
+   {
+    "img": "_fontes/c-colo.png",
+    "crop": [
+     250,
+     150,
+     950,
+     850
+    ],
+    "label": "No colo",
+    "icon": "bed"
+   }
+  ],
+  "alt": "Termômetro para bebê em casa: no trocador, no sofá com o pai e no colo da mãe no quarto"
+ },
+ {
+  "out": "termometro-chupeta-11-cores.jpg",
+  "layout": "card",
+  "img": "_fontes/k-cores.png",
+  "white": true,
+  "t1": "Azul ou",
+  "t2": "rosa",
+  "chips": [
+   "Azul",
+   "Rosa"
+  ],
+  "alt": "As duas cores do termômetro de chupeta: azul e rosa, com escudo branco de ursinho e visor LCD"
+ },
+ {
+  "out": "termometro-chupeta-12-resumo.jpg",
+  "layout": "lista",
+  "side": "right",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "white_tol": 14,
+  "t1": "Termômetro",
+  "t2": "chupeta",
+  "items": [
+   {
+    "t": "Bico de chupeta",
+    "d": "Ele chupa como sempre"
+   },
+   {
+    "t": "Visor LCD em °C",
+    "d": "Leitura na frente"
+   },
+   {
+    "t": "Botão ON/OFF",
+    "d": "Liga com um toque"
+   },
+   {
+    "t": "Aviso LO",
+    "d": "Abaixo de 32 °C"
+   }
+  ],
+  "alt": "Resumo do termômetro digital bebê em formato de chupeta: bico, visor LCD em °C, botão ON/OFF e aviso LO"
+ },
+ {
+  "out": "termometro-chupeta-13-sem-briga.jpg",
+  "layout": "cheia",
+  "img": "_fontes/c-fim.png",
+  "chips": [
+   "Medir sem briga"
+  ],
+  "chip_icons": [
+   "baby"
+  ],
+  "alt": "Avó beijando a testa do neto que segura a chupeta termômetro azul no colo, numa sala aconchegante"
+ },
+ {
+  "out": "termometro-chupeta-14-rosa.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-rosa.png",
+  "white_tol": 14,
+  "alt": "Termômetro chupeta digital na cor rosa com escudo branco de ursinho e visor LCD, fundo branco"
+ }
+]

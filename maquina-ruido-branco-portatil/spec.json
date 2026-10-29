@@ -1,0 +1,324 @@
+[
+ {
+  "out": "ruido-branco-portatil-para-bebe-01-capa.jpg",
+  "layout": "capa",
+  "img": "_fontes/p-01-capa.png",
+  "white_tol": 12,
+  "alt": "Ruído branco portátil para bebê em formato de raposa laranja com alça de silicone e botões na barriga, em fundo branco"
+ },
+ {
+  "out": "ruido-branco-portatil-para-bebe-02-em-uso.jpg",
+  "layout": "split",
+  "side": "right",
+  "img": "_fontes/c-uso.png",
+  "crop": [
+   120,
+   0,
+   640,
+   1024
+  ],
+  "t1": "Ruído branco",
+  "t2": "portátil",
+  "sub": "Pendura no berço e\ntoca o som do soninho",
+  "icon": "bed",
+  "alt": "Pai pendurando a máquina de ruído branco de raposa pela alça na grade do berço, do lado de fora, à noite"
+ },
+ {
+  "out": "ruido-branco-portatil-para-bebe-03-problema.jpg",
+  "layout": "card",
+  "img": "_fontes/c-problema.png",
+  "crop": [
+   0,
+   50,
+   1024,
+   832
+  ],
+  "t1": "Celular tocando",
+  "t2": "com a tela acesa?",
+  "alt": "Mãe cansada segurando o celular com a tela acesa sobre o berço à noite, iluminando o bebê no escuro"
+ },
+ {
+  "out": "ruido-branco-portatil-para-bebe-04-beneficio.jpg",
+  "layout": "comparativo",
+  "img": "_fontes/c-problema.png",
+  "crop": [
+   380,
+   0,
+   1004,
+   880
+  ],
+  "img2": "_fontes/c-uso.png",
+  "crop2": [
+   240,
+   250,
+   860,
+   1024
+  ],
+  "t1": "O som de sempre,",
+  "t2": "sem tela acesa",
+  "labels": [
+   "Celular",
+   "Bichinho"
+  ],
+  "label_icons": [
+   "question",
+   "check"
+  ],
+  "alt": "Comparação: celular aceso sobre o berço à noite e a caixinha de música de raposa pendurada fora da grade"
+ },
+ {
+  "out": "ruido-branco-portatil-para-bebe-05-diferenciais.jpg",
+  "layout": "detalhe",
+  "style": "num",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "white_tol": 12,
+  "t1": "Pequena, com",
+  "t2": "tudo à mão",
+  "legend_top": 805,
+  "zooms": [
+   {
+    "n": 1,
+    "x": 0.57,
+    "y": 0.12,
+    "at": [
+     0.18,
+     0.36
+    ],
+    "zoom": 2.0,
+    "d": 205
+   },
+   {
+    "n": 2,
+    "x": 0.89,
+    "y": 0.556,
+    "at": [
+     0.84,
+     0.38
+    ],
+    "zoom": 2.6,
+    "d": 205
+   },
+   {
+    "n": 3,
+    "x": 0.57,
+    "y": 0.76,
+    "at": [
+     0.18,
+     0.63
+    ],
+    "zoom": 1.9,
+    "d": 205
+   }
+  ],
+  "items": [
+   {
+    "t": "Alça de silicone",
+    "d": "Pendura no berço"
+   },
+   {
+    "t": "Chave de timer",
+    "d": "15, 30 ou 60 min"
+   },
+   {
+    "t": "Botões na frente",
+    "d": "Faixa e volume"
+   }
+  ],
+  "alt": "Detalhes em zoom da máquina de ruído branco de raposa: alça de silicone, chave lateral do timer e botões de faixa e volume",
+  "photo_box": [
+   40,
+   250,
+   944,
+   530
+  ]
+ },
+ {
+  "out": "ruido-branco-portatil-para-bebe-06-sons.jpg",
+  "layout": "numero",
+  "img": "_fontes/v-coala.png",
+  "white": true,
+  "white_tol": 12,
+  "t1": "Para o ritual",
+  "t2": "de dormir",
+  "num": "5",
+  "num_size": 190,
+  "legend": "sons para escolher",
+  "sub": "Ruído branco, canções de\nninar e sons da natureza",
+  "alt": "Máquina de ruído branco para bebê de coala cinza com 5 sons: ruído branco, canções de ninar e natureza"
+ },
+ {
+  "out": "ruido-branco-portatil-para-bebe-07-como-usar.jpg",
+  "layout": "passos",
+  "style": "num",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "white_tol": 12,
+  "t1": "Pronta em",
+  "t2": "4 passos",
+  "items": [
+   {
+    "t": "Pilhas",
+    "d": "3 AAA, à parte"
+   },
+   {
+    "t": "Escolha",
+    "d": "O som pelas setas"
+   },
+   {
+    "t": "Timer",
+    "d": "Chave na lateral"
+   },
+   {
+    "t": "Pendure",
+    "d": "Berço ou carrinho"
+   }
+  ],
+  "alt": "Como usar o ruído branco portátil: colocar 3 pilhas AAA, escolher o som, ajustar o timer e pendurar no berço"
+ },
+ {
+  "out": "ruido-branco-portatil-para-bebe-08-timer.jpg",
+  "layout": "pergunta",
+  "img": "_fontes/v-coala.png",
+  "white": true,
+  "white_tol": 12,
+  "q": "Precisa voltar\nao quarto para\ndesligar?",
+  "q_size": 78,
+  "bar_top": 400,
+  "a_top": 450,
+  "a": "Não. A chave lateral programa 15, 30 ou 60 minutos e o som desliga sozinho.",
+  "alt": "Caixinha de música para bebê de coala com timer de 15, 30 ou 60 minutos que desliga o som sozinho"
+ },
+ {
+  "out": "ruido-branco-portatil-para-bebe-09-passeio.jpg",
+  "layout": "faixa",
+  "band": "bottom",
+  "band_h": 330,
+  "img": "_fontes/c-carrinho.png",
+  "t1": "O ritual vai junto",
+  "t2": "no passeio",
+  "sub": "Alça de silicone para pendurar no carrinho",
+  "alt": "Mãe empurrando o carrinho na praça ao fim da tarde com a máquina de ruído branco de coala pendurada na barra"
+ },
+ {
+  "out": "ruido-branco-portatil-para-bebe-10-onde-usar.jpg",
+  "layout": "mosaico",
+  "img": "_fontes/c-avos.png",
+  "crop": [
+   190,
+   0,
+   963,
+   1024
+  ],
+  "chips": [
+   "Na casa da vó"
+  ],
+  "chip_icons": [
+   "home"
+  ],
+  "t1": "Berço, carrinho",
+  "t2": "e casa da vó",
+  "imgs": [
+   {
+    "img": "_fontes/c-uso.png",
+    "crop": [
+     300,
+     480,
+     860,
+     1024
+    ],
+    "label": "No berço",
+    "icon": "bed"
+   },
+   {
+    "img": "_fontes/c-carrinho.png",
+    "crop": [
+     200,
+     260,
+     740,
+     800
+    ],
+    "label": "No carrinho",
+    "icon": "bag"
+   }
+  ],
+  "alt": "Avó com o neto no colo ligando o ruído branco de coala no criado-mudo, e o aparelho no berço e no carrinho"
+ },
+ {
+  "out": "ruido-branco-portatil-para-bebe-11-duvidas.jpg",
+  "layout": "lista",
+  "side": "left",
+  "img": "_fontes/p-01-capa.png",
+  "white": true,
+  "white_tol": 12,
+  "t1": "Antes de",
+  "t2": "comprar",
+  "items": [
+   {
+    "icon": "material",
+    "t": "3 pilhas AAA",
+    "d": "Não acompanham"
+   },
+   {
+    "icon": "nodrill",
+    "t": "Sem fio",
+    "d": "Sem cabo nem recarga"
+   },
+   {
+    "icon": "ruler",
+    "t": "10,5 x 5,5 x 18 cm",
+    "d": "Medida da raposa"
+   },
+   {
+    "icon": "check",
+    "t": "ABS e silicone",
+    "d": "Corpo e alça"
+   }
+  ],
+  "alt": "Dúvidas da máquina de ruído branco portátil: 3 pilhas AAA à parte, sem fio, 10,5 x 5,5 x 18 cm, ABS e silicone"
+ },
+ {
+  "out": "ruido-branco-portatil-para-bebe-12-coala-em-uso.jpg",
+  "layout": "overlay",
+  "img": "_fontes/c-coala.png",
+  "t1": "Também na versão",
+  "t2": "coala",
+  "alt": "Mão da mãe apertando o botão da máquina de ruído branco de coala no criado-mudo, com o berço ao fundo à noite"
+ },
+ {
+  "out": "ruido-branco-portatil-para-bebe-13-resumo.jpg",
+  "layout": "lista",
+  "side": "right",
+  "img": "_fontes/v-coala.png",
+  "white": true,
+  "white_tol": 12,
+  "t1": "Ruído branco",
+  "t2": "portátil",
+  "items": [
+   {
+    "t": "5 sons",
+    "d": "Ruído branco e ninar"
+   },
+   {
+    "t": "Timer 15/30/60",
+    "d": "Desliga sozinho"
+   },
+   {
+    "t": "Alça de silicone",
+    "d": "Berço ou carrinho"
+   },
+   {
+    "t": "Raposa ou coala",
+    "d": "A pilhas, sem fio"
+   }
+  ],
+  "alt": "Resumo do ruído branco para bebê de coala: 5 sons, timer 15/30/60, alça de silicone, raposa ou coala"
+ },
+ {
+  "out": "ruido-branco-portatil-para-bebe-14-coala.jpg",
+  "layout": "capa",
+  "img": "_fontes/v-coala.png",
+  "white_tol": 12,
+  "alt": "Máquina de ruído branco portátil para bebê em formato de coala cinza com alça e botões, em fundo branco"
+ }
+]
